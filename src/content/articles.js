@@ -199,5 +199,59 @@ articles.push(
   },
 );
 
+articles.push(
+  {
+    slug: 'merch-and-heavy-faces',
+    title: 'Merch and the heavy faces',
+    deck: 'Blackletter, slab, spikes and shards. Raquens, Nuega, Haveron, Silver Shard and Dh Alista Aghni, and the one neutral that keeps a shirt from becoming a poster.',
+    date: '2026-09-10',
+    author: site.owner,
+    face: 'raquens/regular',
+    faces: ['raquens/regular', 'nuega/regular', 'haveron/regular', 'silver-shard/regular', 'dh-alista-aghni/bold', 'helvetica/bold', 'helvetica/compressed', 'helvetica/regular', 'evo-rinnox/regular'],
+    blocks: [
+      { t: 'p', text: 'Heavy display faces are built to be seen from across a room. On merch they get one word and a great deal of empty cotton. Everything else is set in a neutral, and the neutral is usually Helvetica.' },
+      { t: 'look', id: 'raquens-merch' },
+      { t: 'rule', n: '01', title: 'Blackletter and Helvetica', text: 'The oldest letterforms and the most neutral, on one shirt. No colour, wide-tracked capitals under the gothic, and nothing else.' },
+      { t: 'look', id: 'nuega-roast' },
+      { t: 'rule', n: '02', title: 'Slab for the shout', text: 'Nuega takes the name, Helvetica Compressed the tasting notes, Helvetica Regular the facts. Three sans-ish voices at three widths, all upright.' },
+      { t: 'look', id: 'haveron-metal' },
+      { t: 'rule', n: '03', title: 'Spikes need black', text: 'Haveron on anything but black looks like a costume. One blood red and a compressed grotesk for the second line.' },
+      { t: 'look', id: 'shard-esports' },
+      { t: 'rule', n: '04', title: 'Shards need ice', text: 'Silver Shard on navy with ice blue. The grotesk with a full character set carries the schedule, because the display face has no accents.' },
+      { t: 'look', id: 'alista-poster' },
+      { t: 'rule', n: '05', title: 'One word when the cut is letters only', text: 'Dh Alista Aghni is letters only in the demo. That is not a limitation on a poster. It is the brief.' },
+      { t: 'pull', text: 'One heavy word, a lot of empty cotton, and Helvetica for everything the word does not say.' },
+    ],
+  },
+  {
+    slug: 'the-neutral-body-face',
+    title: 'The neutral body face',
+    deck: 'Why Helvetica Light carries a third of the lookbook, when Evo Rinnox takes over, and when a serif body is the better neutral.',
+    date: '2026-09-10',
+    author: site.owner,
+    face: 'helvetica/light',
+    faces: ['helvetica/light', 'helvetica/regular', 'helvetica/rounded-bold', 'evo-rinnox/regular', 'maroes/regular', 'welorac/regular', 'hidda/regular'],
+    blocks: [
+      { t: 'p', text: 'Every look in this library has a face that speaks and a face that explains. The explaining face is chosen last and matters most, because it is the one people actually read.' },
+      { t: 'h', text: 'Helvetica Light, the default' },
+      { t: 'specimen', face: 'helvetica/light', text: 'Nine rooms above the harbour, breakfast until noon.', size: 34 },
+      { t: 'rule', n: '01', title: 'Thin enough to disappear', text: 'Under an elegant serif or a hairline script, Light matches the stroke and gets out of the way. Regular would compete; Bold would win.' },
+      { t: 'look', id: 'quiet-luxury' },
+      { t: 'h', text: 'Evo Rinnox, when the body needs a full character set' },
+      { t: 'specimen', face: 'evo-rinnox/regular', text: 'Made in small numbers from European linen. Wash cold, hang dry.', size: 34 },
+      { t: 'rule', n: '02', title: 'A grotesk with more room', text: 'Evo Rinnox has accents, digits and two stylistic sets, and a slightly warmer construction. It takes over when the display face is a demo with letters only and the body has to carry everything.' },
+      { t: 'look', id: 'biora-tag' },
+      { t: 'h', text: 'Rounded Bold, for playful pages' },
+      { t: 'rule', n: '03', title: 'Match the softness', text: 'Under Bhelmora, Mochi Pop or Moot Jungle, a rounded sans is the neutral. Regular Helvetica would look like a tax form next to a bubble face.' },
+      { t: 'look', id: 'moot-jungle' },
+      { t: 'h', text: 'When the neutral is a serif' },
+      { t: 'specimen', face: 'maroes/regular', text: 'Set a paragraph at the size you will actually use, then read it aloud.', size: 34 },
+      { t: 'rule', n: '04', title: 'Editorial pages want a text serif', text: 'Maroes, Welorac and Hidda are the serif neutrals. Under a display serif they read as the same voice at reading volume. Under a sans they add warmth.' },
+      { t: 'look', id: 'letters-before-sounds' },
+      { t: 'pull', text: 'Choose the explaining face last. It is the one people read.' },
+    ],
+  },
+);
+
 export const bySlug = Object.fromEntries(articles.map(a => [a.slug, a]));
 export const articlesUsingFamily = famId => articles.filter(a => a.faces.some(f => f.startsWith(famId + '/')));

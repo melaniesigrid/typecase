@@ -32,10 +32,13 @@ the right section. Dates are absolute.
 ## Content
 
 - [x] 2026-09-10 Eleven more looks; five use-case articles (elegant, playful, scripts, posters, weddings).
-- [ ] A look for every family that does not have one yet (check the Specimen page's "In the lookbook" section).
-- [ ] Article: scripts and where they stop working (Bellique, Paperline, Royal scripts).
-- [ ] Article: condensed display faces and measure (Further, Saneoz, Degolan).
-- [ ] Article: the neutral body face. Why Helvetica Light carries half the lookbook.
+- [x] 2026-09-10 A look for every family except Degolan (its demo watermarks every vowel).
+- [ ] Degolan look once a full cut replaces the demo.
+- [x] 2026-09-10 Article: signature scripts and what to put under them.
+- [x] 2026-09-10 Article: posters and the condensed face.
+- [x] 2026-09-10 Article: the neutral body face. Article: merch and the heavy faces.
+- [ ] Article: colour and type. How each look's palette was chosen.
+- [ ] Article: what a demo cut can and cannot do (coverage, watermarks, ligature traps).
 
 ## Housekeeping
 
