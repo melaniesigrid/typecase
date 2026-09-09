@@ -198,8 +198,8 @@
     "tags": ["Grotesk", "Modern", "Neutral", "Branding", "Typeface"],
     "bestFor": ["body text", "interfaces", "branding"],
     "designer": "Gracetype Studios", "licenseKind": "personal", "license": "Demo. Personal use only.", "demo": true,
-    "added": "2026-09-09T14:00", "staffPick": true,
-    "description": "A modern grotesk with a complete Latin set and two stylistic sets. The second true text sans in the library after Helvetica.",
+    "added": "2026-09-09T14:00", "staffPick": true, "noLiga": true,
+    "description": "A modern grotesk with a complete Latin set and two stylistic sets. The demo hides a watermark in some ligatures, so ligatures are switched off here. The second true text sans in the library after Helvetica.",
     "sample": "A grotesk for everyday work",
     "faces": { "EvoRinnox-Demo-Regular.otf": { "style": "Regular", "weight": 400 } }
   },

@@ -16,6 +16,8 @@ the right section. Dates are absolute.
 
 ## Next
 
+- [x] 2026-09-10 Companion sets previewed together (Lookbook Sets, Specimen Together, Library rows).
+
 - [ ] Link the lookbook from melaniesigrid.com (decide: nav item, or a "Type" page that embeds a few looks).
 - [ ] Open Graph image per look so shared links preview the composition.
 - [ ] Export a look as PNG from the browser (canvas render of the composed piece).
@@ -29,6 +31,7 @@ the right section. Dates are absolute.
 
 ## Content
 
+- [x] 2026-09-10 Eleven more looks; five use-case articles (elegant, playful, scripts, posters, weddings).
 - [ ] A look for every family that does not have one yet (check the Specimen page's "In the lookbook" section).
 - [ ] Article: scripts and where they stop working (Bellique, Paperline, Royal scripts).
 - [ ] Article: condensed display faces and measure (Further, Saneoz, Degolan).

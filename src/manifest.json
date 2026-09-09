@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T17:03:28.427Z",
+  "generatedAt": "2026-09-09T17:05:14.445Z",
   "families": [
     {
       "id": "achilo",
@@ -1648,7 +1648,7 @@
       "formats": [
         "otf"
       ],
-      "description": "A modern grotesk with a complete Latin set and two stylistic sets. The second true text sans in the library after Helvetica.",
+      "description": "A modern grotesk with a complete Latin set and two stylistic sets. The demo hides a watermark in some ligatures, so ligatures are switched off here. The second true text sans in the library after Helvetica.",
       "designer": "Gracetype Studios",
       "source": null,
       "license": "Demo. Personal use only.",
@@ -1666,7 +1666,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
-          "noLiga": false,
+          "noLiga": true,
           "cssFamily": "tc-evo-rinnox-regular",
           "unitsPerEm": 1000,
           "ascent": 890,

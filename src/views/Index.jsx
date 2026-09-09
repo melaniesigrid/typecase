@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { families, primaryFace, applyCase, facets, collectionsOf, LICENSE_LABEL, COLLECTION_LABEL } from '../lib/fonts.js';
-import { looksUsingFamily } from '../content/looks.js';
+import { looks, looksUsingFamily } from '../content/looks.js';
+import { articles } from '../content/articles.js';
 import { href } from '../lib/router.js';
 import { Sample, Seg, Range, Badge } from '../components/ui.jsx';
 
@@ -76,6 +77,12 @@ export default function Index({ prefs, set }) {
         <p className="hero-sub">
           Type below and every row follows. Narrow the case by category, tag, collection, format or license.
         </p>
+        <nav className="start">
+          <a href={href('/looks')}><b>Lookbook</b><span>{looks.length} pairings composed as real pieces</span></a>
+          <a href={href('/journal')}><b>Journal</b><span>{articles.length} articles on what to use each face for</span></a>
+          <a href={href('/compare')}><b>Compare</b><span>Up to four cuts on the same words</span></a>
+          <a href={href('/play')}><b>Play</b><span>Pair a headline and a body on a page</span></a>
+        </nav>
       </header>
 
       <div className="toolbar">
