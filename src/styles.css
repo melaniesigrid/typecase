@@ -99,6 +99,16 @@ em { font-style: italic; }
 .nav a.on kbd { color: var(--accent-ink); opacity: 0.6; }
 [data-theme="dark"] .nav a.on { color: var(--paper); }
 .top-right { display: flex; justify-content: flex-end; align-items: center; gap: 18px; }
+@media (max-width: 760px) {
+  .top { grid-template-columns: 1fr auto; row-gap: 8px; padding: 10px var(--gutter); }
+  .nav { grid-column: 1 / -1; grid-row: 2; overflow-x: auto; scrollbar-width: none; margin: 0 calc(var(--gutter) * -1); padding: 0 var(--gutter); }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a { flex: 0 0 auto; padding: 6px 12px; font-size: 14px; }
+  .nav a kbd { display: none; }
+  .wordmark { font-size: 22px; }
+  .toolbar { top: 92px; }
+  .rail { top: 0; }
+}
 .count { display: none; }
 @media (min-width: 720px) { .count { display: inline; } }
 .theme { display: inline-flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 12px; padding: 6px 10px; border: 1px solid var(--rule-2); border-radius: 999px; }

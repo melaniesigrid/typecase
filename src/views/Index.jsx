@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { families, primaryFace, applyCase, facets, collectionsOf, LICENSE_LABEL, COLLECTION_LABEL } from '../lib/fonts.js';
 import { looks, looksUsingFamily } from '../content/looks.js';
 import { articles } from '../content/articles.js';
@@ -38,6 +38,28 @@ function FacetGroup({ title, options, selected, onToggle, labels, max = 12 }) {
 export default function Index({ prefs, set }) {
   const { text, size, caps, query, facets: sel, orderBy, sortDir, favs } = prefs;
   const [railOpen, setRailOpen] = useState(false);
+  const [cursor, setCursor] = useState(-1);
+
+  // j / k move through rows, enter opens, f favourites. Ignored while typing.
+  useEffect(() => {
+    const on = e => {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      if (e.target.closest('input, textarea, select, [contenteditable]')) return;
+      const rows = document.querySelectorAll('.results .row-link');
+      if (!rows.length) return;
+      if (e.key === 'j' || e.key === 'k') {
+        e.preventDefault();
+        setCursor(c => {
+          const n = e.key === 'j' ? Math.min(rows.length - 1, c + 1) : Math.max(0, c - 1);
+          rows[n]?.scrollIntoView({ block: 'center', behavior: 'smooth' });
+          return n;
+        });
+      } else if (e.key === 'Enter' && cursor >= 0) rows[cursor]?.click();
+      else if (e.key === 'f' && cursor >= 0) rows[cursor]?.querySelector('.fav')?.click();
+    };
+    window.addEventListener('keydown', on);
+    return () => window.removeEventListener('keydown', on);
+  }, [cursor]);
 
   const toggle = (group, v) => set('facets', f => ({ ...f, [group]: f[group].includes(v) ? f[group].filter(x => x !== v) : [...f[group], v] }));
   const clear = () => { set('facets', { categories: [], tags: [], collections: [], formats: [], license: [] }); set('query', ''); };
@@ -137,8 +159,8 @@ export default function Index({ prefs, set }) {
               const t = applyCase(text.trim() || f.sample || f.name, caps);
               const fav = favs.includes(f.id);
               return (
-                <li key={f.id} className="row" style={{ '--i': Math.min(i, 12) }}>
-                  <a href={href(`/f/${f.id}`)} className="row-link">
+                <li key={f.id} className={`row ${i === cursor ? 'is-cursor' : ''}`} style={{ '--i': Math.min(i, 12) }}>
+                  <a href={href(`/f/${f.id}`)} className="row-link" onMouseEnter={() => setCursor(i)}>
                     <span className="row-num mono">{String(i + 1).padStart(2, '0')}</span>
                     <span className="row-samples">
                       <Sample face={face} text={t} className="row-sample" style={{ fontSize: size }} />

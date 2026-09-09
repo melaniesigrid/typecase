@@ -27,7 +27,7 @@ the right section. Dates are absolute.
 - [ ] Per-face download buttons, gated by license kind.
 - [x] 2026-09-10 Copy CSS on looks and in Play: @font-face, fallback stacks, CSS variables for roles and palette.
 - [x] 2026-09-10 WCAG contrast badge and swatches on each open look.
-- [ ] Keyboard navigation through library rows (j/k, enter to open).
+- [x] 2026-09-10 Keyboard navigation through library rows (j/k, enter, f). Mobile header fixed.
 
 ## Content
 

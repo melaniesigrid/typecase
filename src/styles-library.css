@@ -29,6 +29,10 @@
 .facet-more:hover { text-decoration: underline; }
 .results { min-width: 0; }
 .results-count { padding: 8px 0 0; }
+.results-count::after { content: "  ·  j k to move, enter to open, f to favourite"; }
+@media (max-width: 900px) { .results-count::after { content: none; } }
+.row.is-cursor .row-num { color: var(--accent); }
+.row.is-cursor .row-sample { color: var(--accent); }
 .results .rows { margin-top: 4px; }
 .results .row-link { grid-template-columns: 44px 1fr auto 36px; margin: 0; padding-left: 0; padding-right: 0; }
 .results .row-link:hover { background: transparent; }
