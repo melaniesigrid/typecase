@@ -1,0 +1,104 @@
+{
+  "annyra": {
+    "name": "Annyra",
+    "category": "sans",
+    "tags": ["luxury", "geometric", "wide", "caps"],
+    "designer": "Flawless & Co",
+    "license": "Personal use (check vendor)",
+    "description": "A wide, geometric luxury sans with confident round bowls. Built for logotypes, fashion labels and anything that wants to whisper expensive.",
+    "sample": "Quiet luxury never shouts",
+    "faces": { "Annyra-Regular.ttf": { "style": "Regular", "weight": 400 } }
+  },
+  "helvetica": {
+    "name": "Helvetica",
+    "category": "sans",
+    "tags": ["grotesk", "neutral", "swiss", "workhorse"],
+    "designer": "Max Miedinger, Eduard Hoffmann (Haas, 1957)",
+    "license": "Proprietary (Linotype). Not redistributable.",
+    "description": "The neutral. Swiss modernism's most famous grotesk, here in seven cuts from a compressed display face to the rounded bold.",
+    "sample": "The quick brown fox jumps over the lazy dog",
+    "faces": {
+      "Helvetica-Light.ttf": { "style": "Light", "weight": 300 },
+      "Helvetica-Regular.ttf": { "style": "Regular", "weight": 400 },
+      "Helvetica-Oblique.ttf": { "style": "Oblique", "weight": 400, "italic": true },
+      "Helvetica-Bold.ttf": { "style": "Bold", "weight": 700 },
+      "Helvetica-BoldOblique.ttf": { "style": "Bold Oblique", "weight": 700, "italic": true },
+      "Helvetica-Compressed.otf": { "style": "Compressed", "weight": 500, "variant": true },
+      "Helvetica-RoundedBold.otf": { "style": "Rounded Bold", "weight": 700, "variant": true }
+    }
+  },
+  "kavorie": {
+    "name": "Kavorie",
+    "category": "serif",
+    "tags": ["display", "high-contrast", "editorial", "ligatures"],
+    "designer": "Ragamkata Studio",
+    "source": "https://sayfont.com/product/kavorie/",
+    "license": "Demo. Personal use only, limited character set.",
+    "demo": true,
+    "description": "A sharp editorial display serif with discretionary ligatures. Letters only in this demo cut.",
+    "sample": "Chic bold shape",
+    "faces": { "Kavorie-Demo-Regular.otf": { "style": "Regular", "weight": 400 } }
+  },
+  "maison-celeste": {
+    "name": "Maison Celeste",
+    "category": "serif",
+    "tags": ["elegant", "fashion", "high-contrast"],
+    "designer": "Sixtype Foundry",
+    "license": "Demo. Personal use only, limited character set.",
+    "demo": true,
+    "description": "Refined fashion serif with hairline joins and long, elegant extenders. Digits and accents included in the demo.",
+    "sample": "Maison of light and shadow",
+    "faces": { "MaisonCeleste-Demo-Regular.ttf": { "style": "Regular", "weight": 400 } }
+  },
+  "maroes": {
+    "name": "Maroes",
+    "category": "serif",
+    "tags": ["modern", "editorial", "full-charset", "opentype"],
+    "designer": "Aiqui Type",
+    "license": "Personal use (check vendor)",
+    "description": "A modern serif with a complete Latin character set, case-sensitive forms, ordinals and standard ligatures. The most complete text face in the library.",
+    "sample": "Modern serifs, quietly confident",
+    "faces": { "Maroes-Regular.otf": { "style": "Regular", "weight": 400 } }
+  },
+  "mofela": {
+    "name": "Mofela",
+    "category": "serif",
+    "tags": ["ligatures", "display", "flared"],
+    "designer": "Font Liner",
+    "source": "https://fontliner.com/mofela/",
+    "license": "Demo. Personal use only, limited character set.",
+    "demo": true,
+    "description": "A ligature-led display serif. Its pairs and flourishes are the whole point. Letters only in this demo cut.",
+    "sample": "Little effect flourish",
+    "faces": { "Mofela-Demo-Regular.ttf": { "style": "Regular", "weight": 400 } }
+  },
+  "royal-fortune": {
+    "name": "Royal Fortune",
+    "primary": "RoyalFortune-Serif-Demo.ttf",
+    "category": "duo",
+    "tags": ["luxury", "serif + script", "wedding", "branding"],
+    "designer": "Letterhend Studio",
+    "license": "Demo. Personal use only.",
+    "demo": true,
+    "description": "A luxury duo. A high-contrast serif and a matching script designed to sit on the same line.",
+    "sample": "Fortune favours the bold",
+    "faces": {
+      "RoyalFortune-Serif-Demo.ttf": { "style": "Serif", "weight": 400, "variant": true },
+      "RoyalFortune-Script-Demo.ttf": { "style": "Script", "weight": 400, "variant": true }
+    }
+  },
+  "royal-maison": {
+    "name": "Royal Maison",
+    "primary": "RoyalMaison-Serif.ttf",
+    "category": "duo",
+    "tags": ["luxury", "serif + script", "branding"],
+    "designer": "Honestype",
+    "license": "Personal use (check vendor)",
+    "description": "Serif and script companions with an old-world hotel feel. Made to pair with itself.",
+    "sample": "Rooms with a view",
+    "faces": {
+      "RoyalMaison-Serif.ttf": { "style": "Serif", "weight": 400, "variant": true },
+      "RoyalMaison-Script.ttf": { "style": "Script", "weight": 400, "variant": true }
+    }
+  }
+}
