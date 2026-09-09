@@ -8,7 +8,7 @@ export function cx(...a) { return a.filter(Boolean).join(' '); }
 export function Sample({ face, text, style, className, as: Tag = 'div', ...rest }) {
   const segs = segments(face, text);
   return (
-    <Tag className={cx('sample', className)} style={{ fontFamily: ff(face), ...style }} {...rest}>
+    <Tag className={cx('sample', className)} style={{ fontFamily: ff(face), ...(face.noLiga ? { fontVariantLigatures: 'none' } : null), ...style }} {...rest}>
       {segs.map((s, i) => (s.missing
         ? <span key={i} className="miss" title="Not in this cut">{s.text}</span>
         : <span key={i}>{s.text}</span>))}

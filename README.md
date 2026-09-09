@@ -8,8 +8,11 @@ Live: https://melaniesigrid.github.io/typecase/
 
 ## What it does
 
-- **Library** sets every family on one line. Type once and every row follows. Filter by
-  structure (sans, serif, script, display), by mood (elegant, playful, vintage…) or by search.
+- **Library** sets every family on one line. Type once and every row follows. A facet rail
+  narrows the case by category (Serif, Sans Serif, Script, Display, Slab Serif, Decorative…),
+  tag (Elegant, Modern, Wedding, Logo, Handwritten…), collection (staff picks, favourites,
+  font families, in the lookbook, demo cuts), format and license, with search and ordering by
+  date or title. Favourites persist in the browser.
 - **Lookbook** composes each curated pairing as a small designed piece in its own palette,
   with notes on why it works. Duos and trios that ship together are shown together. Open a
   look to jump into Play or Compare with those faces loaded. Looks live in
@@ -59,5 +62,9 @@ npm run build
 
 ## Licensing
 
-See `fonts/README.md`. The fonts are here for personal comparison and are not offered for
-download or reuse.
+See `fonts/LICENSES.md`, generated from `meta.json` on every build. The fonts are here for
+personal comparison and are not offered for download or reuse.
+
+## Roadmap
+
+`TODO.md` is the working list. Check items off as they ship.

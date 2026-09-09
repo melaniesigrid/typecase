@@ -9,11 +9,36 @@ export const byFace = Object.fromEntries(faces.map(x => [x.id, x]));
 export const primaryFace = fam => byFace[fam.primary];
 export const ff = face => `"${face.cssFamily}"`;
 
-export const classifications = ['all', 'sans', 'serif', 'script', 'display'].filter(c => c === 'all' || families.some(f => f.classification === c));
-// Moods ordered by how many families carry them, so the useful chips come first.
-export const moods = [...families.flatMap(f => f.moods).reduce((m, t) => m.set(t, (m.get(t) || 0) + 1), new Map())]
-  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-  .map(([t]) => t);
+// Facets. Each option is [value, count]; counts are over the whole library.
+const counted = (items, order) => {
+  const m = new Map();
+  for (const t of items) m.set(t, (m.get(t) || 0) + 1);
+  const arr = [...m];
+  if (order) arr.sort((a, b) => order.indexOf(a[0]) - order.indexOf(b[0]));
+  else arr.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  return arr;
+};
+const CATEGORY_ORDER = ['Serif', 'Sans Serif', 'Script', 'Display', 'Slab Serif', 'Decorative', 'Blackletter', 'Colorful', 'Dingbats', 'Free'];
+const FORMAT_ORDER = ['otf', 'ttf', 'woff', 'woff2', 'eot'];
+export const LICENSE_LABEL = { personal: 'Personal use', commercial: 'Commercial', proprietary: 'Proprietary' };
+export const COLLECTION_LABEL = { family: 'Font family', picks: 'Staff picks', favs: 'Favourites', looks: 'In the lookbook', demo: 'Demo cuts' };
+
+export function collectionsOf(f, favs = [], inLooks = false) {
+  const c = [];
+  if (f.faces.length > 1) c.push('family');
+  if (f.staffPick) c.push('picks');
+  if (favs.includes(f.id)) c.push('favs');
+  if (inLooks) c.push('looks');
+  if (f.demo) c.push('demo');
+  return c;
+}
+
+export const facets = {
+  categories: counted(families.flatMap(f => f.categories), CATEGORY_ORDER),
+  tags: counted(families.flatMap(f => f.tags)),
+  formats: counted(families.flatMap(f => f.formats), FORMAT_ORDER),
+  license: counted(families.map(f => f.licenseKind), ['personal', 'commercial', 'proprietary']),
+};
 
 // Split text into runs the face can and cannot render (Latin block only).
 export function segments(face, text) {

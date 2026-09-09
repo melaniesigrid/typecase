@@ -249,6 +249,103 @@ export const looks = [
   },
 ];
 
+looks.push(
+  {
+    id: 'sophia-oliver',
+    title: 'Sophia & Oliver',
+    mood: 'Wedding signature',
+    layout: 'card',
+    faces: { display: 'sophia-oliver/regular', body: 'auleriz/regular' },
+    palette: { paper: '#f6f1ea', ink: '#2b2622', accent: '#b5875a' },
+    tweak: { display: { fontSize: '15cqw' } },
+    copy: {
+      kicker: 'SAVE THE DATE · JUNE 2027',
+      headline: 'Sophia & Oliver',
+      body: 'Request the pleasure of your company',
+    },
+    notes: 'A signature script over a tall elegant serif. Auleriz has the long ascenders to match the script energy without adding a second flourish.',
+  },
+  {
+    id: 'nuega-roast',
+    title: 'Heavy Roast',
+    mood: 'Coffee bag',
+    layout: 'label',
+    faces: { display: 'nuega/regular', accent: 'helvetica/compressed', body: 'helvetica/regular' },
+    palette: { paper: '#2b1d14', ink: '#f2e6d3', accent: '#e0a458' },
+    copy: {
+      kicker: 'SINGLE ORIGIN · 250 G',
+      headline: 'HEAVY ROAST',
+      accent: 'DARK CHOCOLATE, FIG, SMOKE',
+      body: 'Roasted on Tuesdays in a shed behind the bakery',
+    },
+    notes: 'Slab for the shout, compressed grotesk for the tasting notes, plain Helvetica for the facts. Three sans-ish voices at three widths, all upright.',
+  },
+  {
+    id: 'neuropolitical',
+    title: 'Neuropolitical',
+    mood: 'Tech launch',
+    layout: 'poster',
+    faces: { display: 'neuropolitical/regular', accent: 'evo-rinnox/regular', body: 'evo-rinnox/regular' },
+    palette: { paper: '#0c0f14', ink: '#e8f0ff', accent: '#4fd1ff' },
+    tweak: { display: { fontSize: '7.2cqw', letterSpacing: '0.06em', whiteSpace: 'nowrap' }, accent: { fontSize: '3.2cqw', fontVariantLigatures: 'none' }, body: { fontVariantLigatures: 'none' } },
+    copy: {
+      kicker: 'SERIES 2 · SHIPPING 2027',
+      headline: 'NEUROPOLITICAL',
+      accent: 'A geometric future beside a grotesk present',
+      body: 'The body face keeps the launch page readable long after the headline has done its glowing.',
+    },
+    notes: 'Futuristic display faces date fast. Pair them with a plain grotesk so the page can be re-skinned later without a rewrite.',
+  },
+  {
+    id: 'femhitary',
+    title: 'Written fast',
+    mood: 'Street food',
+    layout: 'poster',
+    faces: { display: 'femhitary/regular', accent: 'femhitary/regular', body: 'helvetica/bold' },
+    palette: { paper: '#e63b2e', ink: '#fff4e6', accent: '#ffd84d' },
+    copy: {
+      kicker: 'FRIDAY NIGHT MARKET',
+      headline: 'Hot & Fast',
+      accent: 'no reservations',
+      body: 'Twelve stalls, one queue, cash only. Bring napkins.',
+    },
+    notes: 'A brush script wants a bold, plain neighbour and one colour that argues back. Helvetica Bold in small caps keeps the poster legible from across the street.',
+  },
+  {
+    id: 'saneoz-match',
+    title: 'Saneoz',
+    mood: 'Match poster',
+    layout: 'poster',
+    faces: { display: 'saneoz/regular', accent: 'saneoz/regular', body: 'evo-rinnox/regular' },
+    palette: { paper: '#f4f1ea', ink: '#111111', accent: '#1f5fff' },
+    tweak: { display: { fontSize: '30cqw', lineHeight: 0.85 }, accent: { fontSize: '10cqw' } },
+    copy: {
+      kicker: 'HOME · SATURDAY 15.00',
+      headline: 'DERBY',
+      accent: 'NORTH vs SOUTH',
+      body: 'Gates open at one. Tickets at the ground and online.',
+    },
+    notes: 'Condensed faces earn their keep on a poster with one word. Saneoz has accents and digits, so the details can stay in the same family if needed.',
+  },
+  {
+    id: 'auleriz-issue',
+    title: 'Auleriz',
+    mood: 'Beauty editorial',
+    layout: 'editorial',
+    faces: { display: 'auleriz/regular', accent: 'welorac/regular', body: 'welorac/regular' },
+    palette: { paper: '#efe9e3', ink: '#231f1d', accent: '#9c6b5a' },
+    tweak: { display: { fontSize: '12cqw' } },
+    copy: {
+      kicker: 'BEAUTY · THE SKIN ISSUE',
+      headline: 'Slow mornings',
+      accent: 'Four routines that take longer than they need to, on purpose',
+      body: 'Auleriz and Welorac come from the same studio and share a stroke, so the contrast is in proportion alone: one is tall and narrow, the other is set to read.',
+      body2: 'Keep the deck in the body face. Two display serifs on one page is one too many.',
+    },
+    notes: 'Same-foundry pairing. When two faces share a designer, they usually share a rhythm, and the eye reads them as one voice at two volumes.',
+  },
+);
+
 export const byLook = Object.fromEntries(looks.map(l => [l.id, l]));
 export const looksUsing = faceId => looks.filter(l => Object.values(l.faces).includes(faceId));
 export const looksUsingFamily = famId => looks.filter(l => Object.values(l.faces).some(f => f.startsWith(famId + '/')));

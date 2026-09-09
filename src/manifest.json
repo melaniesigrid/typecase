@@ -1,6 +1,153 @@
 {
-  "generatedAt": "2026-09-09T16:34:35.263Z",
+  "generatedAt": "2026-09-09T16:53:50.086Z",
   "families": [
+    {
+      "id": "achilo",
+      "name": "Achilo",
+      "cssFamily": "tc-achilo-regular",
+      "primary": "achilo/regular",
+      "classification": "serif",
+      "kind": "single",
+      "categories": [
+        "Serif",
+        "Display"
+      ],
+      "tags": [
+        "Modern",
+        "Elegant",
+        "Classy",
+        "Branding",
+        "Logo"
+      ],
+      "bestFor": [
+        "logos",
+        "fashion",
+        "editorial"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "A modern classy serif with tapered joins. Letters, digits and basic punctuation, no accents.",
+      "designer": "Ermedia Studio",
+      "source": "https://ermediastudio.com/",
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Classy without trying",
+      "faces": [
+        {
+          "id": "achilo/regular",
+          "file": "fonts/achilo/Achilo-Regular.otf",
+          "format": "otf",
+          "bytes": 15508,
+          "postscriptName": "Achilo-Regular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-achilo-regular",
+          "unitsPerEm": 2048,
+          "ascent": 1676,
+          "descent": -775,
+          "lineGap": 205,
+          "capHeight": 1407,
+          "xHeight": 972,
+          "glyphs": 107,
+          "characters": 110,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 0
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}¢¥¨­´",
+          "features": [],
+          "copyright": "Typeface © ErmediaStudio 2025. All Rights Reserved",
+          "version": "Version 1.00;June 23, 2026;FontCreator 13.0.0.2683 64-bit"
+        }
+      ]
+    },
+    {
+      "id": "amoen",
+      "name": "Amoen",
+      "cssFamily": "tc-amoen-regular",
+      "primary": "amoen/regular",
+      "classification": "display",
+      "kind": "single",
+      "categories": [
+        "Display",
+        "Decorative"
+      ],
+      "tags": [
+        "Modern",
+        "Fusion",
+        "Display",
+        "Branding",
+        "Alternates"
+      ],
+      "bestFor": [
+        "posters",
+        "logos",
+        "album art"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "ttf"
+      ],
+      "description": "A fusion display face that mixes serif and sans construction in one alphabet, with stylistic alternates and case-sensitive forms. Digits are placeholders.",
+      "designer": "Achmad Aprilia Pratama",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "One alphabet two minds",
+      "faces": [
+        {
+          "id": "amoen/regular",
+          "file": "fonts/amoen/Amoen-Regular.ttf",
+          "format": "ttf",
+          "bytes": 90440,
+          "postscriptName": "Amoen-Regular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-amoen-regular",
+          "unitsPerEm": 1000,
+          "ascent": 761,
+          "descent": -249,
+          "lineGap": 0,
+          "capHeight": 700,
+          "xHeight": 700,
+          "glyphs": 243,
+          "characters": 238,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 0,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¥§¨©ª«®°²³´·¸¹º»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÕÖ×ØÙÚÛÜÝßàáâãäåæçèéêëìíîïñòóôõöøùúûüýÿıŒœŠšŸŽž",
+          "features": [
+            "aalt",
+            "case",
+            "ordn",
+            "salt",
+            "ss01",
+            "sups"
+          ],
+          "copyright": "Copyright (c) 2026 by Achmad Aprilia Pratama. All rights reserved.",
+          "version": "Version 1.001;Fontself Maker 3.6.11"
+        }
+      ]
+    },
     {
       "id": "annyra",
       "name": "Annyra",
@@ -8,20 +155,27 @@
       "primary": "annyra/regular",
       "classification": "sans",
       "kind": "single",
-      "moods": [
-        "luxury",
-        "elegant",
-        "geometric",
-        "fashion"
+      "categories": [
+        "Sans Serif",
+        "Display"
       ],
       "tags": [
-        "wide",
-        "caps"
+        "Luxury",
+        "Elegant",
+        "Geometric",
+        "Fashion",
+        "Logo"
       ],
       "bestFor": [
         "logotypes",
         "fashion labels",
         "packaging"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T10:00",
+      "staffPick": true,
+      "formats": [
+        "ttf"
       ],
       "description": "A wide, geometric luxury sans with confident round bowls. Built for logotypes, fashion labels and anything that wants to whisper expensive. Letters only in this cut.",
       "designer": "Flawless & Co",
@@ -40,6 +194,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-annyra-regular",
           "unitsPerEm": 1000,
           "ascent": 714,
@@ -64,25 +219,275 @@
       ]
     },
     {
+      "id": "aspera",
+      "name": "Aspera",
+      "cssFamily": "tc-aspera-regular",
+      "primary": "aspera/regular",
+      "classification": "display",
+      "kind": "single",
+      "categories": [
+        "Display",
+        "Sans Serif"
+      ],
+      "tags": [
+        "Modern",
+        "Bold",
+        "Geometric",
+        "Logo",
+        "Branding"
+      ],
+      "bestFor": [
+        "logos",
+        "headlines",
+        "sport"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "A bold display sans with squared counters and flat terminals. Letters and digits, partial punctuation.",
+      "designer": "Vroz Studio",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Built for the big line",
+      "faces": [
+        {
+          "id": "aspera/regular",
+          "file": "fonts/aspera/Aspera-Regular.otf",
+          "format": "otf",
+          "bytes": 11668,
+          "postscriptName": "Aspera",
+          "style": "Regular",
+          "weight": 700,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-aspera-regular",
+          "unitsPerEm": 1000,
+          "ascent": 1047,
+          "descent": -134,
+          "lineGap": 90,
+          "capHeight": 800,
+          "xHeight": 800,
+          "glyphs": 91,
+          "characters": 91,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.5555555555555556,
+            "accents": 0
+          },
+          "latin": " !\"$&()+,-./0123456789?ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz",
+          "features": [],
+          "copyright": "Copyright (c) 2026, Vroz Studio ",
+          "version": "Version 001.000"
+        }
+      ]
+    },
+    {
+      "id": "auleriz",
+      "name": "Auleriz",
+      "cssFamily": "tc-auleriz-regular",
+      "primary": "auleriz/regular",
+      "classification": "serif",
+      "kind": "single",
+      "categories": [
+        "Serif",
+        "Display"
+      ],
+      "tags": [
+        "Modern",
+        "Elegant",
+        "Fashion",
+        "Luxury",
+        "Editorial"
+      ],
+      "bestFor": [
+        "magazines",
+        "fashion",
+        "beauty"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": true,
+      "formats": [
+        "otf"
+      ],
+      "description": "A modern elegant serif with a very low x-height and long ascenders. Full Latin set with accents even in the demo.",
+      "designer": "Ermedia Studio",
+      "source": "https://ermediastudio.com/product/auleriz-modern-elegant-serif-font/",
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Tall letters, long evenings",
+      "faces": [
+        {
+          "id": "auleriz/regular",
+          "file": "fonts/auleriz/Auleriz-Regular.otf",
+          "format": "otf",
+          "bytes": 31768,
+          "postscriptName": "Auleriz",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-auleriz-regular",
+          "unitsPerEm": 2048,
+          "ascent": 1716,
+          "descent": -418,
+          "lineGap": 222,
+          "capHeight": 1500,
+          "xHeight": 700,
+          "glyphs": 238,
+          "characters": 243,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿıŒœŠšŸŽž",
+          "features": [],
+          "copyright": "Typeface © ErmediaStudio2026. All Rights Reserved",
+          "version": "Version 1.00;June 26, 2026;FontCreator 13.0.0.2683 64-bit"
+        }
+      ]
+    },
+    {
+      "id": "barking-at-stars",
+      "name": "Barking at Stars",
+      "cssFamily": "tc-barking-at-stars-regular",
+      "primary": "barking-at-stars/regular",
+      "classification": "display",
+      "kind": "duo",
+      "categories": [
+        "Display",
+        "Sans Serif"
+      ],
+      "tags": [
+        "Playful",
+        "Handwritten",
+        "Rounded",
+        "Font Family",
+        "Casual"
+      ],
+      "bestFor": [
+        "kids",
+        "games",
+        "stickers"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T15:00",
+      "staffPick": false,
+      "formats": [
+        "ttf"
+      ],
+      "description": "A playful rounded display face in two cuts, regular and straight. Full Latin set with accents and digits.",
+      "designer": "Chequered Ink",
+      "source": null,
+      "license": "Free for personal use (Chequered Ink).",
+      "demo": false,
+      "sample": "Barking at the stars",
+      "faces": [
+        {
+          "id": "barking-at-stars/regular",
+          "file": "fonts/barking-at-stars/BarkingAtStars-Regular.ttf",
+          "format": "ttf",
+          "bytes": 31640,
+          "postscriptName": "BarkingatStars",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-barking-at-stars-regular",
+          "unitsPerEm": 2048,
+          "ascent": 1716,
+          "descent": -418,
+          "lineGap": 222,
+          "capHeight": 1434,
+          "xHeight": 1024,
+          "glyphs": 207,
+          "characters": 211,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©«¬­®¯°±´¶·¸»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿıŒœ",
+          "features": [],
+          "copyright": "Typeface by Chequered Ink. 2022. All Rights Reserved",
+          "version": "Version 1.00;January 30, 2023;FontCreator 11.5.0.2430 64-bit"
+        },
+        {
+          "id": "barking-at-stars/straight",
+          "file": "fonts/barking-at-stars/BarkingAtStars-Straight.ttf",
+          "format": "ttf",
+          "bytes": 31560,
+          "postscriptName": "BarkingatStarsStraight",
+          "style": "Straight",
+          "weight": 400,
+          "italic": false,
+          "variant": true,
+          "noLiga": false,
+          "cssFamily": "tc-barking-at-stars-straight",
+          "unitsPerEm": 2048,
+          "ascent": 1716,
+          "descent": -418,
+          "lineGap": 222,
+          "capHeight": 1434,
+          "xHeight": 1024,
+          "glyphs": 207,
+          "characters": 211,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©«¬­®¯°±´¶·¸»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿıŒœ",
+          "features": [],
+          "copyright": "Typeface by Chequered Ink. 2022. All Rights Reserved",
+          "version": "Version 1.00;January 30, 2023;FontCreator 11.5.0.2430 64-bit"
+        }
+      ]
+    },
+    {
       "id": "bellique",
       "name": "Bellique",
       "cssFamily": "tc-bellique-regular",
       "primary": "bellique/regular",
       "classification": "script",
       "kind": "single",
-      "moods": [
-        "signature",
-        "bold",
-        "retro",
-        "confident"
+      "categories": [
+        "Script"
       ],
       "tags": [
-        "ligatures"
+        "Signature",
+        "Logo",
+        "Script",
+        "Bold",
+        "Retro",
+        "Branding"
       ],
       "bestFor": [
         "logos",
         "signatures",
         "packaging"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T12:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
       ],
       "description": "A logo script with a steady hand. Full character set, digits and accents, plus discretionary ligatures for the letter pairs that tend to clash.",
       "designer": "Shanaf Studio",
@@ -101,6 +506,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-bellique-regular",
           "unitsPerEm": 1000,
           "ascent": 900,
@@ -133,19 +539,27 @@
       "primary": "bhelmora/regular",
       "classification": "display",
       "kind": "single",
-      "moods": [
-        "playful",
-        "whimsical",
-        "handmade",
-        "retro"
+      "categories": [
+        "Display",
+        "Decorative"
       ],
       "tags": [
-        "full-charset"
+        "Playful",
+        "Whimsical",
+        "Handmade",
+        "Retro",
+        "Display"
       ],
       "bestFor": [
         "posters",
         "packaging",
         "children's books"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T12:00",
+      "staffPick": true,
+      "formats": [
+        "otf"
       ],
       "description": "A whimsical display face with bouncing baselines and soft, hand-cut curves. Complete Latin set for posters, packaging and anything that should feel handmade.",
       "designer": "Figuree Studio",
@@ -164,6 +578,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-bhelmora-regular",
           "unitsPerEm": 1000,
           "ascent": 800,
@@ -188,26 +603,172 @@
       ]
     },
     {
+      "id": "biora",
+      "name": "Biora",
+      "cssFamily": "tc-biora-regular",
+      "primary": "biora/regular",
+      "classification": "serif",
+      "kind": "single",
+      "categories": [
+        "Serif",
+        "Display"
+      ],
+      "tags": [
+        "Elegant",
+        "Display",
+        "Fashion",
+        "Luxury",
+        "Logo"
+      ],
+      "bestFor": [
+        "logos",
+        "titles",
+        "fashion"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "ttf"
+      ],
+      "description": "An elegant serif display face with flared stems. Letters only in this cut.",
+      "designer": "Flawless & Co",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Elegance in the stem",
+      "faces": [
+        {
+          "id": "biora/regular",
+          "file": "fonts/biora/Biora-Regular.ttf",
+          "format": "ttf",
+          "bytes": 19488,
+          "postscriptName": "BIORA-Regular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-biora-regular",
+          "unitsPerEm": 1000,
+          "ascent": 753,
+          "descent": -330,
+          "lineGap": 117,
+          "capHeight": 750,
+          "xHeight": 565,
+          "glyphs": 57,
+          "characters": 57,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 0,
+            "punct": 0.05555555555555555,
+            "accents": 0
+          },
+          "latin": " .ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+          "features": [],
+          "copyright": "FLAWLESSANDCO",
+          "version": "Version 1.000"
+        }
+      ]
+    },
+    {
+      "id": "cakra",
+      "name": "Cakra",
+      "cssFamily": "tc-cakra-regular",
+      "primary": "cakra/regular",
+      "classification": "display",
+      "kind": "single",
+      "categories": [
+        "Display",
+        "Sans Serif"
+      ],
+      "tags": [
+        "Modern",
+        "Geometric",
+        "Bold",
+        "Tech",
+        "Branding"
+      ],
+      "bestFor": [
+        "tech",
+        "sport",
+        "gaming"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "A geometric display sans with a full Latin set and accents. Squared and even, ready for a tech wordmark.",
+      "designer": "Unknown",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Straight lines, sharp turns",
+      "faces": [
+        {
+          "id": "cakra/regular",
+          "file": "fonts/cakra/Cakra-Regular.otf",
+          "format": "otf",
+          "bytes": 16416,
+          "postscriptName": "Cakra-Regular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-cakra-regular",
+          "unitsPerEm": 1000,
+          "ascent": 700,
+          "descent": -200,
+          "lineGap": 0,
+          "capHeight": 482,
+          "xHeight": 482,
+          "glyphs": 253,
+          "characters": 252,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 0
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬®¯°±²³´¶·¸»¿Ö×÷",
+          "features": [],
+          "copyright": null,
+          "version": "Version 1.001;Fontself Maker 3.6.12"
+        }
+      ]
+    },
+    {
       "id": "classical-material",
       "name": "Classical Material",
       "cssFamily": "tc-classical-material-regular",
       "primary": "classical-material/regular",
       "classification": "serif",
       "kind": "single",
-      "moods": [
-        "calligraphic",
-        "elegant",
-        "classic",
-        "editorial"
+      "categories": [
+        "Serif"
       ],
       "tags": [
-        "calligraphic",
-        "ligatures"
+        "Calligraphic",
+        "Elegant",
+        "Classic",
+        "Editorial",
+        "Ligatures"
       ],
       "bestFor": [
         "book titles",
         "editorial",
         "branding"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T13:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
       ],
       "description": "A calligraphic serif that keeps the pen's angle in every stroke. Wide language support even in the demo, with standard ligatures.",
       "designer": "177Studio",
@@ -226,6 +787,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-classical-material-regular",
           "unitsPerEm": 1000,
           "ascent": 1325,
@@ -238,16 +800,570 @@
           "coverage": {
             "upper": 1,
             "lower": 1,
-            "digits": 1,
+            "digits": 0,
             "punct": 1,
             "accents": 1
           },
-          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĂăĄąĆćČčĎďĐđĘęĚěıĹĺĽľŁłŃńŇňŐőŒœŔŕŘřŚśŞşŠšŤťŮůŰűŸŹźŻżŽž",
+          "latin": " !\"#$%&'()*+,-./:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĂăĄąĆćČčĎďĐđĘęĚěıĹĺĽľŁłŃńŇňŐőŒœŔŕŘřŚśŞşŠšŤťŮůŰűŸŹźŻżŽž",
           "features": [
             "liga"
           ],
           "copyright": "Copyright (c) 2026 by 177Studio.com. All rights reserved.",
           "version": "Version 1.001"
+        }
+      ]
+    },
+    {
+      "id": "daenerys",
+      "name": "Daenerys",
+      "cssFamily": "tc-daenerys-regular",
+      "primary": "daenerys/regular",
+      "classification": "script",
+      "kind": "single",
+      "categories": [
+        "Script"
+      ],
+      "tags": [
+        "Signature",
+        "Handwritten",
+        "Elegant",
+        "Wedding",
+        "Thin",
+        "Ligatures"
+      ],
+      "bestFor": [
+        "signatures",
+        "wedding",
+        "beauty"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "An extra-thin signature script with a very low x-height and a long list of OpenType features. Letters only in the demo.",
+      "designer": "Faptype",
+      "source": "https://faptype.com/product/daenerys-extra-thin-signature-font/",
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Yours with love",
+      "faces": [
+        {
+          "id": "daenerys/regular",
+          "file": "fonts/daenerys/Daenerys-Regular.otf",
+          "format": "otf",
+          "bytes": 35084,
+          "postscriptName": "Daenerys",
+          "style": "Regular",
+          "weight": 300,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-daenerys-regular",
+          "unitsPerEm": 2048,
+          "ascent": 2738,
+          "descent": -810,
+          "lineGap": 0,
+          "capHeight": 1807,
+          "xHeight": 240,
+          "glyphs": 276,
+          "characters": 280,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 0,
+            "punct": 0,
+            "accents": 0
+          },
+          "latin": " ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzªº",
+          "features": [
+            "liga",
+            "ss01",
+            "salt",
+            "dlig",
+            "frac",
+            "ordn",
+            "sups",
+            "cpsp"
+          ],
+          "copyright": "Daenerys  © (Faptype).2022. All Rights Reserved",
+          "version": "Version 1.000;January 29, 2023;FontCreator 14.0.0.2899 64-bit"
+        }
+      ]
+    },
+    {
+      "id": "dallen-stamp",
+      "name": "Dallen Stamp",
+      "cssFamily": "tc-dallen-stamp-regular",
+      "primary": "dallen-stamp/regular",
+      "classification": "display",
+      "kind": "single",
+      "categories": [
+        "Display",
+        "Decorative"
+      ],
+      "tags": [
+        "Vintage",
+        "Stamp",
+        "Textured",
+        "Retro",
+        "Logo"
+      ],
+      "bestFor": [
+        "labels",
+        "badges",
+        "packaging"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T15:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "A rubber-stamp display face with worn edges. Letters only in the demo.",
+      "designer": "Craft Supply Co.",
+      "source": null,
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Stamped and shipped",
+      "faces": [
+        {
+          "id": "dallen-stamp/regular",
+          "file": "fonts/dallen-stamp/DallenStamp-Demo-Regular.otf",
+          "format": "otf",
+          "bytes": 46376,
+          "postscriptName": "DallenStampRegularDemo",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-dallen-stamp-regular",
+          "unitsPerEm": 1000,
+          "ascent": 799,
+          "descent": -228,
+          "lineGap": 100,
+          "capHeight": 700,
+          "xHeight": 600,
+          "glyphs": 54,
+          "characters": 54,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 0,
+            "punct": 0,
+            "accents": 0
+          },
+          "latin": " ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+          "features": [],
+          "copyright": "Copyright (c) 2026 by Craft Supply Co. All rights reserved.",
+          "version": "Version 1.000"
+        }
+      ]
+    },
+    {
+      "id": "degolan",
+      "name": "Degolan",
+      "cssFamily": "tc-degolan-regular",
+      "primary": "degolan/regular",
+      "classification": "display",
+      "kind": "single",
+      "categories": [
+        "Display",
+        "Sans Serif"
+      ],
+      "tags": [
+        "Condensed",
+        "Modern",
+        "Bold",
+        "Poster",
+        "Branding"
+      ],
+      "bestFor": [
+        "posters",
+        "headlines",
+        "event branding"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "A modern condensed display face with accents and digits. Stacks tightly for posters.",
+      "designer": "Ermedia Studio",
+      "source": "https://ermediastudio.com/product/degolan-modern-condensed-dosplay-font/",
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Stack it tight",
+      "faces": [
+        {
+          "id": "degolan/regular",
+          "file": "fonts/degolan/Degolan-Regular.otf",
+          "format": "otf",
+          "bytes": 10780,
+          "postscriptName": "DegolanRegular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-degolan-regular",
+          "unitsPerEm": 1000,
+          "ascent": 750,
+          "descent": -200,
+          "lineGap": 0,
+          "capHeight": 772,
+          "xHeight": 772,
+          "glyphs": 106,
+          "characters": 165,
+          "coverage": {
+            "upper": 0.7692307692307693,
+            "lower": 0.7692307692307693,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 0.07692307692307693
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@BCDFGHJKLMNPQRSTVWXZ[\\]^_bcdfghjklmnpqrstvwxz{|}¡¢¥©¿ÇÑçñ",
+          "features": [],
+          "copyright": "Typeface © Ermedia Studio 2026. All Rights Reserved",
+          "version": "Version 1.00;June 26, 2026;FontCreator 13.0.0.2683 64-bit"
+        }
+      ]
+    },
+    {
+      "id": "dh-alista-aghni",
+      "name": "Dh Alista Aghni",
+      "cssFamily": "tc-dh-alista-aghni-bold",
+      "primary": "dh-alista-aghni/bold",
+      "classification": "display",
+      "kind": "single",
+      "categories": [
+        "Display",
+        "Decorative"
+      ],
+      "tags": [
+        "Bold",
+        "Decorative",
+        "Display",
+        "Alternates",
+        "Ligatures"
+      ],
+      "bestFor": [
+        "posters",
+        "packaging",
+        "titles"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "ttf"
+      ],
+      "description": "A bold decorative display face with alternates and ligatures. Letters only in the demo.",
+      "designer": "Dharmas Foundry",
+      "source": null,
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Loud and decorated",
+      "faces": [
+        {
+          "id": "dh-alista-aghni/bold",
+          "file": "fonts/dh-alista-aghni/DhAlistaAghni-Demo-Regular.ttf",
+          "format": "ttf",
+          "bytes": 151124,
+          "postscriptName": "DhAlistaAghniDEMO-Bold",
+          "style": "Bold",
+          "weight": 700,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-dh-alista-aghni-bold",
+          "unitsPerEm": 1000,
+          "ascent": 1237,
+          "descent": -468,
+          "lineGap": 100,
+          "capHeight": 930,
+          "xHeight": 718,
+          "glyphs": 165,
+          "characters": 165,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 0,
+            "punct": 0,
+            "accents": 0
+          },
+          "latin": " ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+          "features": [
+            "aalt",
+            "dlig",
+            "liga",
+            "salt",
+            "ss01"
+          ],
+          "copyright": "Copyright © 2026 by Dharmas Foundry. All rights reserved.",
+          "version": "Version 1.000"
+        }
+      ]
+    },
+    {
+      "id": "dolce-amyara",
+      "name": "Dolce & Amyara",
+      "cssFamily": "tc-dolce-amyara-regular",
+      "primary": "dolce-amyara/regular",
+      "classification": "serif",
+      "kind": "single",
+      "categories": [
+        "Serif",
+        "Display"
+      ],
+      "tags": [
+        "Elegant",
+        "Romantic",
+        "Wedding",
+        "Fashion",
+        "Alternates"
+      ],
+      "bestFor": [
+        "wedding",
+        "beauty",
+        "editorial"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "ttf"
+      ],
+      "description": "A romantic serif in upright and italic. Accents are complete, digits and punctuation are partial in this personal-use cut.",
+      "designer": "Hishand Studio",
+      "source": null,
+      "license": "Personal use only.",
+      "demo": true,
+      "sample": "Sweet as the evening",
+      "faces": [
+        {
+          "id": "dolce-amyara/regular",
+          "file": "fonts/dolce-amyara/DolceAmyara-Regular.ttf",
+          "format": "ttf",
+          "bytes": 99812,
+          "postscriptName": "Dolce&Amyara-PersonalUse",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-dolce-amyara-regular",
+          "unitsPerEm": 2048,
+          "ascent": 5174,
+          "descent": -2196,
+          "lineGap": 0,
+          "capHeight": 1434,
+          "xHeight": 958,
+          "glyphs": 220,
+          "characters": 222,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 0.2,
+            "punct": 0.16666666666666666,
+            "accents": 1
+          },
+          "latin": " &,.25ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ",
+          "features": [
+            "liga",
+            "aalt",
+            "salt",
+            "ss01"
+          ],
+          "copyright": "© Hishand Studio. 2023. All Rights Reserved",
+          "version": "Version 1.00;January 30, 2023;FontCreator 13.0.0.2683 64-bit"
+        },
+        {
+          "id": "dolce-amyara/italic",
+          "file": "fonts/dolce-amyara/DolceAmyara-Italic.ttf",
+          "format": "ttf",
+          "bytes": 102880,
+          "postscriptName": "Dolce&AmyaraItalic-PersonalUse",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-dolce-amyara-italic",
+          "unitsPerEm": 2048,
+          "ascent": 5174,
+          "descent": -2196,
+          "lineGap": 0,
+          "capHeight": 2619,
+          "xHeight": 1765,
+          "glyphs": 221,
+          "characters": 223,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 0.2,
+            "punct": 0.16666666666666666,
+            "accents": 1
+          },
+          "latin": " &,.25ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ",
+          "features": [
+            "liga",
+            "aalt",
+            "salt",
+            "ss01"
+          ],
+          "copyright": "© Hishand Studio. 2023. All Rights Reserved",
+          "version": "Version 1.00;January 17, 2024;FontCreator 13.0.0.2683 64-bit"
+        }
+      ]
+    },
+    {
+      "id": "evo-rinnox",
+      "name": "Evo Rinnox",
+      "cssFamily": "tc-evo-rinnox-regular",
+      "primary": "evo-rinnox/regular",
+      "classification": "sans",
+      "kind": "single",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [
+        "Grotesk",
+        "Modern",
+        "Neutral",
+        "Branding",
+        "Typeface"
+      ],
+      "bestFor": [
+        "body text",
+        "interfaces",
+        "branding"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": true,
+      "formats": [
+        "otf"
+      ],
+      "description": "A modern grotesk with a complete Latin set and two stylistic sets. The second true text sans in the library after Helvetica.",
+      "designer": "Gracetype Studios",
+      "source": null,
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "A grotesk for everyday work",
+      "faces": [
+        {
+          "id": "evo-rinnox/regular",
+          "file": "fonts/evo-rinnox/EvoRinnox-Demo-Regular.otf",
+          "format": "otf",
+          "bytes": 64076,
+          "postscriptName": "EvoRinnox",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-evo-rinnox-regular",
+          "unitsPerEm": 1000,
+          "ascent": 890,
+          "descent": -402,
+          "lineGap": 0,
+          "capHeight": 678,
+          "xHeight": 503,
+          "glyphs": 261,
+          "characters": 265,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 0,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿıŒœŠšŸž",
+          "features": [
+            "liga",
+            "ss01",
+            "ss02"
+          ],
+          "copyright": "©Gracetype Studios 2024.  All Rights Reserved",
+          "version": "Version 1.00;September 8, 2026;FontCreator 13.0.0.2680 64-bit"
+        }
+      ]
+    },
+    {
+      "id": "femhitary",
+      "name": "Femhitary",
+      "cssFamily": "tc-femhitary-regular",
+      "primary": "femhitary/regular",
+      "classification": "script",
+      "kind": "single",
+      "categories": [
+        "Script",
+        "Display"
+      ],
+      "tags": [
+        "Handwritten",
+        "Bold",
+        "Brush",
+        "Playful",
+        "Branding"
+      ],
+      "bestFor": [
+        "packaging",
+        "posters",
+        "social"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "ttf"
+      ],
+      "description": "A bold handwritten brush face with a large character set, ligatures and a stylistic set. Reads at small sizes better than most brush scripts.",
+      "designer": "Letterena Studios",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Written fast, meant it",
+      "faces": [
+        {
+          "id": "femhitary/regular",
+          "file": "fonts/femhitary/Femhitary-Regular.ttf",
+          "format": "ttf",
+          "bytes": 286304,
+          "postscriptName": "Femhitary",
+          "style": "Regular",
+          "weight": 700,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-femhitary-regular",
+          "unitsPerEm": 1000,
+          "ascent": 750,
+          "descent": -250,
+          "lineGap": 0,
+          "capHeight": 809,
+          "xHeight": 420,
+          "glyphs": 536,
+          "characters": 536,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġģĨĩĪīĬĭĮįİıŁłŃńŇňŌōŎŏŐőŒœŔŕŘřŚŜŝŞşŠšŤťŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽž",
+          "features": [
+            "liga",
+            "ss01",
+            "aalt"
+          ],
+          "copyright": "©Letterena Studios. All Rights Reserved",
+          "version": "Version 1.00;September 4, 2026;FontCreator 13.0.0.2683 32-bit"
         }
       ]
     },
@@ -258,20 +1374,27 @@
       "primary": "further/regular",
       "classification": "sans",
       "kind": "single",
-      "moods": [
-        "tall",
-        "condensed",
-        "bold",
-        "modern"
+      "categories": [
+        "Sans Serif",
+        "Display"
       ],
       "tags": [
-        "display",
-        "condensed"
+        "Condensed",
+        "Tall",
+        "Bold",
+        "Modern",
+        "Poster"
       ],
       "bestFor": [
         "posters",
         "event branding",
         "headlines"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T13:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
       ],
       "description": "A tall, condensed display sans that stacks well and shouts politely. Good at filling a poster edge to edge.",
       "designer": "Pian45 Studio",
@@ -290,6 +1413,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-further-regular",
           "unitsPerEm": 1000,
           "ascent": 750,
@@ -322,20 +1446,27 @@
       "primary": "gondhe/regular",
       "classification": "serif",
       "kind": "single",
-      "moods": [
-        "elegant",
-        "romantic",
-        "swash",
-        "fashion"
+      "categories": [
+        "Serif",
+        "Display"
       ],
       "tags": [
-        "swashes",
-        "ligatures"
+        "Elegant",
+        "Romantic",
+        "Swash",
+        "Fashion",
+        "Wedding"
       ],
       "bestFor": [
         "names",
         "titles",
         "invitations"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T13:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
       ],
       "description": "An elegant serif with swashed capitals and long, curling tails. Letters and most digits only in this cut, so keep it to names and titles.",
       "designer": "Burntilldead",
@@ -354,6 +1485,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-gondhe-regular",
           "unitsPerEm": 1000,
           "ascent": 750,
@@ -381,26 +1513,177 @@
       ]
     },
     {
+      "id": "groovy",
+      "name": "Groovy",
+      "cssFamily": "tc-groovy-regular",
+      "primary": "groovy/regular",
+      "classification": "script",
+      "kind": "single",
+      "categories": [
+        "Script"
+      ],
+      "tags": [
+        "Calligraphic",
+        "Script",
+        "Retro",
+        "Handwritten",
+        "Branding"
+      ],
+      "bestFor": [
+        "logos",
+        "labels",
+        "posters"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "A calligraphy script with a broad, rolling stroke. Full Latin set with accents and ligatures.",
+      "designer": "Unknown",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Roll with it",
+      "faces": [
+        {
+          "id": "groovy/regular",
+          "file": "fonts/groovy/Groovy-Regular.otf",
+          "format": "otf",
+          "bytes": 129376,
+          "postscriptName": "GroovyRegular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-groovy-regular",
+          "unitsPerEm": 1000,
+          "ascent": 797,
+          "descent": -400,
+          "lineGap": 0,
+          "capHeight": 875,
+          "xHeight": 430,
+          "glyphs": 194,
+          "characters": 197,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}¡¢£¤¥§©«®°µ¶·»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÕÖ×ØÙÚÛÜÝßàáâãäåæçèéêëìíîïñòóôõö÷øùúûüýÿŒœŠšŸŹž",
+          "features": [
+            "aalt",
+            "liga"
+          ],
+          "copyright": null,
+          "version": "Version 1.002;Fontself Maker 3.5.9"
+        }
+      ]
+    },
+    {
+      "id": "haveron",
+      "name": "Haveron",
+      "cssFamily": "tc-haveron-regular",
+      "primary": "haveron/regular",
+      "classification": "display",
+      "kind": "single",
+      "categories": [
+        "Display",
+        "Decorative"
+      ],
+      "tags": [
+        "Metal",
+        "Decorative",
+        "Bold",
+        "Vintage",
+        "Poster"
+      ],
+      "bestFor": [
+        "posters",
+        "merch",
+        "album art"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "ttf"
+      ],
+      "description": "A spiky display face from a metal-lettering studio. Letters, digits and most punctuation, no accents.",
+      "designer": "Masyafi Studio (Death Metal Font)",
+      "source": null,
+      "license": "Free for personal use.",
+      "demo": false,
+      "sample": "Loud on purpose",
+      "faces": [
+        {
+          "id": "haveron/regular",
+          "file": "fonts/haveron/Haveron-Regular.ttf",
+          "format": "ttf",
+          "bytes": 33920,
+          "postscriptName": "Haveron-Regular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-haveron-regular",
+          "unitsPerEm": 2048,
+          "ascent": 1723,
+          "descent": -428,
+          "lineGap": 0,
+          "capHeight": 1434,
+          "xHeight": 958,
+          "glyphs": 235,
+          "characters": 239,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 0
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}~­",
+          "features": [],
+          "copyright": "Copyright © 2026 by Masyafi Studio",
+          "version": "Version 1.000;August 24, 2026;FontCreator 15.0.0.3048 64-bit"
+        }
+      ]
+    },
+    {
       "id": "helvetica",
       "name": "Helvetica",
       "cssFamily": "tc-helvetica-regular",
       "primary": "helvetica/regular",
       "classification": "sans",
       "kind": "duo",
-      "moods": [
-        "neutral",
-        "swiss",
-        "modern",
-        "workhorse"
+      "categories": [
+        "Sans Serif"
       ],
       "tags": [
-        "grotesk"
+        "Neutral",
+        "Swiss",
+        "Modern",
+        "Grotesk",
+        "Typeface",
+        "Workhorse"
       ],
       "bestFor": [
         "body text",
         "interfaces",
         "captions",
         "pairing with anything"
+      ],
+      "licenseKind": "proprietary",
+      "added": "2026-09-09T10:00",
+      "staffPick": true,
+      "formats": [
+        "ttf",
+        "otf"
       ],
       "description": "The neutral. Swiss modernism's most famous grotesk, here in seven cuts from a compressed display face to the rounded bold. The body face the rest of the library leans on.",
       "designer": "Max Miedinger, Eduard Hoffmann (Haas, 1957)",
@@ -419,6 +1702,7 @@
           "weight": 300,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-helvetica-light",
           "unitsPerEm": 2048,
           "ascent": 2005,
@@ -448,6 +1732,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-helvetica-regular",
           "unitsPerEm": 2048,
           "ascent": 1577,
@@ -481,6 +1766,7 @@
           "weight": 400,
           "italic": true,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-helvetica-oblique",
           "unitsPerEm": 2048,
           "ascent": 1577,
@@ -514,6 +1800,7 @@
           "weight": 700,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-helvetica-bold",
           "unitsPerEm": 2048,
           "ascent": 1577,
@@ -547,6 +1834,7 @@
           "weight": 700,
           "italic": true,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-helvetica-bold-oblique",
           "unitsPerEm": 2048,
           "ascent": 1577,
@@ -580,6 +1868,7 @@
           "weight": 500,
           "italic": false,
           "variant": true,
+          "noLiga": false,
           "cssFamily": "tc-helvetica-compressed",
           "unitsPerEm": 1000,
           "ascent": 990,
@@ -611,6 +1900,7 @@
           "weight": 700,
           "italic": false,
           "variant": true,
+          "noLiga": false,
           "cssFamily": "tc-helvetica-rounded-bold",
           "unitsPerEm": 1000,
           "ascent": 963,
@@ -635,26 +1925,105 @@
       ]
     },
     {
+      "id": "hidda",
+      "name": "Hidda",
+      "cssFamily": "tc-hidda-regular",
+      "primary": "hidda/regular",
+      "classification": "serif",
+      "kind": "single",
+      "categories": [
+        "Serif",
+        "Display"
+      ],
+      "tags": [
+        "Modern",
+        "Elegant",
+        "Editorial",
+        "Branding",
+        "Ligatures"
+      ],
+      "bestFor": [
+        "editorial",
+        "branding",
+        "titles"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "A modern serif with a complete Latin set and accents. A candidate for body text at larger sizes.",
+      "designer": "Muflieart",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Hidden in plain serif",
+      "faces": [
+        {
+          "id": "hidda/regular",
+          "file": "fonts/hidda/Hidda-Regular.otf",
+          "format": "otf",
+          "bytes": 121736,
+          "postscriptName": "HiddaRegular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-hidda-regular",
+          "unitsPerEm": 1000,
+          "ascent": 757,
+          "descent": -200,
+          "lineGap": 0,
+          "capHeight": 700,
+          "xHeight": 465,
+          "glyphs": 204,
+          "characters": 208,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}~©®ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿŒœŠšŸŽž",
+          "features": [
+            "liga"
+          ],
+          "copyright": "Copyright © 2024 by  Muflieart. All Rights Reserved",
+          "version": "Version 1.001;Fontself Maker 3.5.8"
+        }
+      ]
+    },
+    {
       "id": "kavorie",
       "name": "Kavorie",
       "cssFamily": "tc-kavorie-regular",
       "primary": "kavorie/regular",
       "classification": "serif",
       "kind": "single",
-      "moods": [
-        "editorial",
-        "elegant",
-        "high-contrast",
-        "fashion"
+      "categories": [
+        "Serif",
+        "Display"
       ],
       "tags": [
-        "display",
-        "ligatures"
+        "Editorial",
+        "Elegant",
+        "High Contrast",
+        "Fashion",
+        "Ligatures"
       ],
       "bestFor": [
         "magazine headlines",
         "covers",
         "campaigns"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T10:00",
+      "staffPick": true,
+      "formats": [
+        "otf"
       ],
       "description": "A sharp editorial display serif with discretionary ligatures. Letters only in this demo cut.",
       "designer": "Ragamkata Studio",
@@ -673,6 +2042,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-kavorie-regular",
           "unitsPerEm": 1000,
           "ascent": 750,
@@ -705,19 +2075,27 @@
       "primary": "kuigaf/regular",
       "classification": "serif",
       "kind": "single",
-      "moods": [
-        "editorial",
-        "modern",
-        "elegant",
-        "sharp"
+      "categories": [
+        "Serif",
+        "Display"
       ],
       "tags": [
-        "display"
+        "Editorial",
+        "Modern",
+        "Elegant",
+        "Sharp",
+        "Branding"
       ],
       "bestFor": [
         "headlines",
         "branding",
         "editorial"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T13:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
       ],
       "description": "A serif display face with wedge serifs and a slightly narrow stance. Full Latin set with accents, so it can carry a whole headline system.",
       "designer": "Yumnacreative, Dhabee Studio",
@@ -736,6 +2114,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-kuigaf-regular",
           "unitsPerEm": 1000,
           "ascent": 750,
@@ -768,19 +2147,27 @@
       "primary": "maison-celeste/regular",
       "classification": "serif",
       "kind": "single",
-      "moods": [
-        "elegant",
-        "luxury",
-        "fashion",
-        "high-contrast"
+      "categories": [
+        "Serif",
+        "Display"
       ],
       "tags": [
-        "hairline"
+        "Elegant",
+        "Luxury",
+        "Fashion",
+        "High Contrast",
+        "Logo"
       ],
       "bestFor": [
         "perfume",
         "fashion",
         "wordmarks"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T10:00",
+      "staffPick": false,
+      "formats": [
+        "ttf"
       ],
       "description": "Refined fashion serif with hairline joins and long, elegant extenders. Digits and accents included in the demo, punctuation is not.",
       "designer": "Sixtype Foundry",
@@ -799,6 +2186,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-maison-celeste-regular",
           "unitsPerEm": 1000,
           "ascent": 1000,
@@ -829,20 +2217,29 @@
       "primary": "maison-galliard/serif",
       "classification": "serif",
       "kind": "trio",
-      "moods": [
-        "luxury",
-        "elegant",
-        "hotel",
-        "branding"
+      "categories": [
+        "Serif",
+        "Sans Serif",
+        "Script"
       ],
       "tags": [
-        "serif + sans + script",
-        "stylistic alternates"
+        "Luxury",
+        "Elegant",
+        "Hotel",
+        "Branding",
+        "Font Family",
+        "Alternates"
       ],
       "bestFor": [
         "brand systems",
         "hospitality",
         "packaging"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T12:00",
+      "staffPick": true,
+      "formats": [
+        "otf"
       ],
       "description": "A three-part brand system: a high-contrast serif, a matching sans and a script that shares their proportions. The serif and sans carry stylistic alternates and ligatures.",
       "designer": "Creacy Studio Co.",
@@ -861,6 +2258,7 @@
           "weight": 400,
           "italic": false,
           "variant": true,
+          "noLiga": false,
           "cssFamily": "tc-maison-galliard-serif",
           "unitsPerEm": 1000,
           "ascent": 750,
@@ -897,6 +2295,7 @@
           "weight": 400,
           "italic": false,
           "variant": true,
+          "noLiga": false,
           "cssFamily": "tc-maison-galliard-sans",
           "unitsPerEm": 1000,
           "ascent": 750,
@@ -933,6 +2332,7 @@
           "weight": 400,
           "italic": false,
           "variant": true,
+          "noLiga": false,
           "cssFamily": "tc-maison-galliard-script",
           "unitsPerEm": 1000,
           "ascent": 750,
@@ -959,26 +2359,105 @@
       ]
     },
     {
+      "id": "malograh",
+      "name": "Malograh",
+      "cssFamily": "tc-malograh-regular",
+      "primary": "malograh/regular",
+      "classification": "script",
+      "kind": "single",
+      "categories": [
+        "Script"
+      ],
+      "tags": [
+        "Handwritten",
+        "Script",
+        "Signature",
+        "Casual",
+        "Stationery"
+      ],
+      "bestFor": [
+        "captions",
+        "cards",
+        "social"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "A handwritten script with a tiny x-height and three stylistic sets. Full Latin set with accents.",
+      "designer": "Gracetype Studios",
+      "source": null,
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Scribbled in the margin",
+      "faces": [
+        {
+          "id": "malograh/regular",
+          "file": "fonts/malograh/Malograh-Demo-Regular.otf",
+          "format": "otf",
+          "bytes": 130076,
+          "postscriptName": "Malograh",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-malograh-regular",
+          "unitsPerEm": 1000,
+          "ascent": 1015,
+          "descent": -1049,
+          "lineGap": 0,
+          "capHeight": 793,
+          "xHeight": 210,
+          "glyphs": 263,
+          "characters": 267,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 0,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿıŒœŠšŸž",
+          "features": [
+            "ss01",
+            "ss02",
+            "ss03"
+          ],
+          "copyright": "©Gracetype Studios 2024.  All Rights Reserved",
+          "version": "Version 1.00;September 7, 2026;FontCreator 13.0.0.2680 64-bit"
+        }
+      ]
+    },
+    {
       "id": "maroes",
       "name": "Maroes",
       "cssFamily": "tc-maroes-regular",
       "primary": "maroes/regular",
       "classification": "serif",
       "kind": "single",
-      "moods": [
-        "editorial",
-        "modern",
-        "elegant",
-        "text"
+      "categories": [
+        "Serif"
       ],
       "tags": [
-        "full-charset",
-        "opentype"
+        "Editorial",
+        "Modern",
+        "Elegant",
+        "Typeface",
+        "Text"
       ],
       "bestFor": [
         "body text",
         "decks",
         "long titles"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T10:00",
+      "staffPick": true,
+      "formats": [
+        "otf"
       ],
       "description": "A modern serif with a complete Latin character set, case-sensitive forms, ordinals and standard ligatures. The most complete text serif in the library, though its digits are placeholders.",
       "designer": "Aiqui Type",
@@ -997,6 +2476,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-maroes-regular",
           "unitsPerEm": 1000,
           "ascent": 761,
@@ -1033,20 +2513,27 @@
       "primary": "mochi-pop/regular",
       "classification": "display",
       "kind": "single",
-      "moods": [
-        "cute",
-        "playful",
-        "bubbly",
-        "sweet"
+      "categories": [
+        "Display",
+        "Decorative"
       ],
       "tags": [
-        "bubble",
-        "rounded"
+        "Cute",
+        "Playful",
+        "Bubble",
+        "Rounded",
+        "Sweet"
       ],
       "bestFor": [
         "food packaging",
         "stickers",
         "kids"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T13:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
       ],
       "description": "A cute bubble face with inflated counters and a soft edge. Letters, digits and basic punctuation, no accents.",
       "designer": "Unknown",
@@ -1065,6 +2552,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-mochi-pop-regular",
           "unitsPerEm": 1000,
           "ascent": 750,
@@ -1097,20 +2585,27 @@
       "primary": "mofela/regular",
       "classification": "serif",
       "kind": "single",
-      "moods": [
-        "elegant",
-        "flared",
-        "decorative",
-        "editorial"
+      "categories": [
+        "Serif",
+        "Display"
       ],
       "tags": [
-        "ligatures",
-        "display"
+        "Elegant",
+        "Flared",
+        "Decorative",
+        "Logo",
+        "Ligatures"
       ],
       "bestFor": [
         "wordmarks",
         "titles",
         "monograms"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T10:00",
+      "staffPick": false,
+      "formats": [
+        "ttf"
       ],
       "description": "A ligature-led display serif. Its pairs and flourishes are the whole point. Letters only in this demo cut.",
       "designer": "Font Liner",
@@ -1129,6 +2624,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-mofela-regular",
           "unitsPerEm": 1000,
           "ascent": 773,
@@ -1155,26 +2651,402 @@
       ]
     },
     {
+      "id": "moot-jungle",
+      "name": "Moot Jungle",
+      "cssFamily": "tc-moot-jungle-regular",
+      "primary": "moot-jungle/regular",
+      "classification": "display",
+      "kind": "single",
+      "categories": [
+        "Display",
+        "Decorative"
+      ],
+      "tags": [
+        "Playful",
+        "Bold",
+        "Retro",
+        "Groovy",
+        "Alternates"
+      ],
+      "bestFor": [
+        "posters",
+        "merch",
+        "packaging"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T15:00",
+      "staffPick": false,
+      "formats": [
+        "ttf"
+      ],
+      "description": "A bold groovy display face with alternates and two stylistic sets. Letters, digits and punctuation, no accents in the free version.",
+      "designer": "Alit Suarnegara",
+      "source": null,
+      "license": "Free version. Personal use only.",
+      "demo": true,
+      "sample": "Deep in the jungle",
+      "faces": [
+        {
+          "id": "moot-jungle/regular",
+          "file": "fonts/moot-jungle/MootJungle-Free-Regular.ttf",
+          "format": "ttf",
+          "bytes": 50872,
+          "postscriptName": "Mootjunglefreeversion-Regular",
+          "style": "Regular",
+          "weight": 700,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-moot-jungle-regular",
+          "unitsPerEm": 1000,
+          "ascent": 1200,
+          "descent": -500,
+          "lineGap": 0,
+          "capHeight": 700,
+          "xHeight": 500,
+          "glyphs": 144,
+          "characters": 144,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 0
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}~¡¦«¬­°±²³·¹»¿×÷",
+          "features": [
+            "aalt",
+            "dlig",
+            "salt",
+            "ss01",
+            "ss02",
+            "sups"
+          ],
+          "copyright": "Copyright © 2023 by Alit suarnegara. All rights reserved.",
+          "version": "Version 1.000"
+        }
+      ]
+    },
+    {
+      "id": "morige",
+      "name": "Morige",
+      "cssFamily": "tc-morige-regular",
+      "primary": "morige/regular",
+      "classification": "serif",
+      "kind": "single",
+      "categories": [
+        "Serif",
+        "Display"
+      ],
+      "tags": [
+        "Elegant",
+        "Display",
+        "Modern",
+        "Alternates",
+        "Branding"
+      ],
+      "bestFor": [
+        "titles",
+        "branding",
+        "beauty"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "An elegant serif display face with discretionary ligatures and alternates. Letters, digits and punctuation, no accents.",
+      "designer": "Roomspace Creative Lab",
+      "source": null,
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Morning light on marble",
+      "faces": [
+        {
+          "id": "morige/regular",
+          "file": "fonts/morige/Morige-Demo-Regular.otf",
+          "format": "otf",
+          "bytes": 16464,
+          "postscriptName": "MorigeDemo-Regular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-morige-regular",
+          "unitsPerEm": 1000,
+          "ascent": 900,
+          "descent": -250,
+          "lineGap": 100,
+          "capHeight": 850,
+          "xHeight": 650,
+          "glyphs": 112,
+          "characters": 112,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 0
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}¬¯",
+          "features": [
+            "dlig",
+            "salt",
+            "ss01"
+          ],
+          "copyright": "Copyright (c) 2026 by Roomspace Creative Lab. All right reserved.",
+          "version": "Version 1.000"
+        }
+      ]
+    },
+    {
+      "id": "naolen",
+      "name": "Naolen",
+      "cssFamily": "tc-naolen-regular",
+      "primary": "naolen/regular",
+      "classification": "serif",
+      "kind": "single",
+      "categories": [
+        "Serif",
+        "Display"
+      ],
+      "tags": [
+        "Modern",
+        "Elegant",
+        "Fashion",
+        "Luxury",
+        "Logo"
+      ],
+      "bestFor": [
+        "logos",
+        "fashion",
+        "beauty"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "A modern elegant serif with an unusually low x-height. Letters, digits and most punctuation, no accents.",
+      "designer": "Ermedia Studio",
+      "source": "https://ermediastudio.com/product/naolen-modern-elegant-serif-font/",
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Small letters, tall caps",
+      "faces": [
+        {
+          "id": "naolen/regular",
+          "file": "fonts/naolen/Naolen-Regular.otf",
+          "format": "otf",
+          "bytes": 16016,
+          "postscriptName": "Naolen-Regular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-naolen-regular",
+          "unitsPerEm": 2048,
+          "ascent": 1434,
+          "descent": -600,
+          "lineGap": 205,
+          "capHeight": 2100,
+          "xHeight": 700,
+          "glyphs": 107,
+          "characters": 110,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 0
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}¢¥¨­´",
+          "features": [],
+          "copyright": "Typeface © ErmediaStudio 2025. All Rights Reserved",
+          "version": "Version 1.00;June 25, 2026;FontCreator 13.0.0.2683 64-bit"
+        }
+      ]
+    },
+    {
+      "id": "neuropolitical",
+      "name": "Neuropolitical",
+      "cssFamily": "tc-neuropolitical-regular",
+      "primary": "neuropolitical/regular",
+      "classification": "sans",
+      "kind": "single",
+      "categories": [
+        "Sans Serif",
+        "Display",
+        "Free"
+      ],
+      "tags": [
+        "Futuristic",
+        "Tech",
+        "Geometric",
+        "Modern",
+        "Typeface"
+      ],
+      "bestFor": [
+        "tech",
+        "gaming",
+        "sci-fi",
+        "interfaces"
+      ],
+      "licenseKind": "commercial",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "A futuristic geometric sans from Typodermic with a complete character set, fractions and superscripts. One of the few faces here cleared for commercial use.",
+      "designer": "Ray Larabie (Typodermic)",
+      "source": null,
+      "license": "Typodermic desktop EULA. Free, commercial use allowed (see LICENSE.txt).",
+      "demo": false,
+      "sample": "Signal from the future",
+      "faces": [
+        {
+          "id": "neuropolitical/regular",
+          "file": "fonts/neuropolitical/Neuropolitical-Regular.otf",
+          "format": "otf",
+          "bytes": 36412,
+          "postscriptName": "Neuropolitical-Regular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-neuropolitical-regular",
+          "unitsPerEm": 1000,
+          "ascent": 980,
+          "descent": -220,
+          "lineGap": 0,
+          "capHeight": 682,
+          "xHeight": 542,
+          "glyphs": 388,
+          "characters": 387,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬®¯°±²³´¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĊċČčĎďĐđĒēĔĕĖėĘęĚěĞğĠġĢģĦħĪīĬĭĮįİıĲĳĶķĹĺĻļĽľĿŀŁłŃńŅņŇňŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽž",
+          "features": [
+            "frac",
+            "liga",
+            "sinf",
+            "sups"
+          ],
+          "copyright": "© 1999-2024 Typodermic Fonts Inc.",
+          "version": "Version 5.200"
+        }
+      ]
+    },
+    {
+      "id": "nuega",
+      "name": "Nuega",
+      "cssFamily": "tc-nuega-regular",
+      "primary": "nuega/regular",
+      "classification": "serif",
+      "kind": "single",
+      "categories": [
+        "Slab Serif",
+        "Display"
+      ],
+      "tags": [
+        "Slab",
+        "Bold",
+        "Retro",
+        "Poster",
+        "Branding"
+      ],
+      "bestFor": [
+        "coffee",
+        "posters",
+        "labels"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": true,
+      "formats": [
+        "ttf"
+      ],
+      "description": "A bold slab serif with heavy bracketless serifs. Letters, digits and most punctuation, no accents. The only slab in the library.",
+      "designer": "Blankids Studio",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Heavy on the shelf",
+      "faces": [
+        {
+          "id": "nuega/regular",
+          "file": "fonts/nuega/Nuega-Regular.ttf",
+          "format": "ttf",
+          "bytes": 33648,
+          "postscriptName": "Nuega-Regular",
+          "style": "Regular",
+          "weight": 700,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-nuega-regular",
+          "unitsPerEm": 1000,
+          "ascent": 680,
+          "descent": -229,
+          "lineGap": 0,
+          "capHeight": 480,
+          "xHeight": 480,
+          "glyphs": 94,
+          "characters": 94,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 0
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz",
+          "features": [
+            "ordn"
+          ],
+          "copyright": "Nuega font by Blankids Studio 2026",
+          "version": "Version 1.001;Fontself Maker 3.5.20"
+        }
+      ]
+    },
+    {
       "id": "paperline",
       "name": "Paperline",
       "cssFamily": "tc-paperline-regular",
       "primary": "paperline/regular",
       "classification": "script",
       "kind": "single",
-      "moods": [
-        "handmade",
-        "casual",
-        "warm",
-        "stationery"
+      "categories": [
+        "Script"
       ],
       "tags": [
-        "hand lettering",
-        "ligatures"
+        "Handwritten",
+        "Casual",
+        "Warm",
+        "Stationery",
+        "Ligatures"
       ],
       "bestFor": [
         "cards",
         "captions",
         "labels"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T13:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
       ],
       "description": "A hand-lettered script with a felt-tip feel and a low x-height. Full Latin set with accents, so it works for real sentences, not just names.",
       "designer": "Unknown",
@@ -1193,6 +3065,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-paperline-regular",
           "unitsPerEm": 1000,
           "ascent": 790,
@@ -1219,26 +3092,181 @@
       ]
     },
     {
+      "id": "qliesya",
+      "name": "Qliesya",
+      "cssFamily": "tc-qliesya-regular",
+      "primary": "qliesya/regular",
+      "classification": "serif",
+      "kind": "single",
+      "categories": [
+        "Serif",
+        "Display"
+      ],
+      "tags": [
+        "Modern",
+        "Elegant",
+        "Fashion",
+        "Luxury",
+        "Editorial"
+      ],
+      "bestFor": [
+        "fashion",
+        "beauty",
+        "editorial"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "A modern elegant serif with a low x-height and fine hairlines. Letters, digits and most punctuation, no accents.",
+      "designer": "Ermedia Studio",
+      "source": "https://ermediastudio.com/product/qliesya-modern-elegant-serif-font/",
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Fine lines, fine manners",
+      "faces": [
+        {
+          "id": "qliesya/regular",
+          "file": "fonts/qliesya/Qliesya-Regular.otf",
+          "format": "otf",
+          "bytes": 15688,
+          "postscriptName": "Qliesya-Regular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-qliesya-regular",
+          "unitsPerEm": 2048,
+          "ascent": 1434,
+          "descent": -1100,
+          "lineGap": 600,
+          "capHeight": 1800,
+          "xHeight": 700,
+          "glyphs": 108,
+          "characters": 111,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 0
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}¢¥¨­´",
+          "features": [],
+          "copyright": "Typeface © ErmediaStudio 2025. All Rights Reserved",
+          "version": "Version 1.00;June 25, 2026;FontCreator 13.0.0.2683 64-bit"
+        }
+      ]
+    },
+    {
+      "id": "raquens",
+      "name": "Raquens",
+      "cssFamily": "tc-raquens-regular",
+      "primary": "raquens/regular",
+      "classification": "display",
+      "kind": "single",
+      "categories": [
+        "Blackletter",
+        "Display"
+      ],
+      "tags": [
+        "Blackletter",
+        "Gothic",
+        "Bold",
+        "Vintage",
+        "Alternates"
+      ],
+      "bestFor": [
+        "merch",
+        "posters",
+        "logos",
+        "editorial drop caps"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T15:00",
+      "staffPick": true,
+      "formats": [
+        "otf"
+      ],
+      "description": "A blackletter display face with a full Latin set, accents and five stylistic sets. The only blackletter in the library. The demo swaps some ligatures for a watermark, so ligatures are switched off here.",
+      "designer": "Denustudios",
+      "source": null,
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Gothic letters for modern walls",
+      "faces": [
+        {
+          "id": "raquens/regular",
+          "file": "fonts/raquens/Raquens-Demo-Regular.otf",
+          "format": "otf",
+          "bytes": 236808,
+          "postscriptName": "Raquens",
+          "style": "Regular",
+          "weight": 700,
+          "italic": false,
+          "variant": false,
+          "noLiga": true,
+          "cssFamily": "tc-raquens-regular",
+          "unitsPerEm": 1000,
+          "ascent": 1044,
+          "descent": -1035,
+          "lineGap": 0,
+          "capHeight": 797,
+          "xHeight": 448,
+          "glyphs": 334,
+          "characters": 338,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 0,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿıŒœŠšŸž",
+          "features": [
+            "liga",
+            "ss01",
+            "ss02",
+            "ss03",
+            "ss04",
+            "ss05"
+          ],
+          "copyright": "©Denustudios 2022.  All Rights Reserved",
+          "version": "Version 1.00;September 6, 2026;FontCreator 13.0.0.2680 64-bit"
+        }
+      ]
+    },
+    {
       "id": "raventhorn",
       "name": "Raventhorn",
       "cssFamily": "tc-raventhorn-regular",
       "primary": "raventhorn/regular",
       "classification": "serif",
       "kind": "single",
-      "moods": [
-        "vintage",
-        "decorative",
-        "victorian",
-        "bold"
+      "categories": [
+        "Serif",
+        "Decorative"
       ],
       "tags": [
-        "stylistic set",
-        "ornamental"
+        "Vintage",
+        "Decorative",
+        "Victorian",
+        "Bold",
+        "Alternates"
       ],
       "bestFor": [
         "labels",
         "signage",
         "packaging"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T12:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
       ],
       "description": "A decorative vintage serif with spurred terminals and a Victorian shopfront air. Ships a stylistic set and alternates for the ornamental capitals.",
       "designer": "Cikareotype Studio",
@@ -1257,6 +3285,7 @@
           "weight": 400,
           "italic": false,
           "variant": false,
+          "noLiga": false,
           "cssFamily": "tc-raventhorn-regular",
           "unitsPerEm": 1000,
           "ascent": 863,
@@ -1284,25 +3313,105 @@
       ]
     },
     {
+      "id": "ronalltie",
+      "name": "Ronalltie",
+      "cssFamily": "tc-ronalltie-regular",
+      "primary": "ronalltie/regular",
+      "classification": "script",
+      "kind": "single",
+      "categories": [
+        "Script"
+      ],
+      "tags": [
+        "Signature",
+        "Elegant",
+        "Handwritten",
+        "Wedding",
+        "Logo"
+      ],
+      "bestFor": [
+        "signatures",
+        "wedding",
+        "beauty"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "ttf"
+      ],
+      "description": "An elegant signature script with a very low x-height, full Latin set and alternates.",
+      "designer": "DM Letter Studio",
+      "source": "https://dmletterstudio.com/product/ronallatie-elegant-signature-font/",
+      "license": "Personal / demo use only.",
+      "demo": true,
+      "sample": "With kind regards",
+      "faces": [
+        {
+          "id": "ronalltie/regular",
+          "file": "fonts/ronalltie/Ronalltie-Regular.ttf",
+          "format": "ttf",
+          "bytes": 48744,
+          "postscriptName": "Ronalltie",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-ronalltie-regular",
+          "unitsPerEm": 1000,
+          "ascent": 995,
+          "descent": -411,
+          "lineGap": 0,
+          "capHeight": 848,
+          "xHeight": 222,
+          "glyphs": 270,
+          "characters": 274,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¥¦§¨©ª«­®°±²³´·¸¹º»¿ÀÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝßàáâãäåæçèéêëìíîïñòóôõö÷øùúûüýÿıŸ",
+          "features": [
+            "liga",
+            "salt"
+          ],
+          "copyright": "Ronalltie © Dm Letter Studio . 2019 . All Rights Reserved",
+          "version": "Version 1.00;August 12, 2023;FontCreator 11.5.0.2430 64-bit"
+        }
+      ]
+    },
+    {
       "id": "royal-fortune",
       "name": "Royal Fortune",
       "cssFamily": "tc-royal-fortune-serif",
       "primary": "royal-fortune/serif",
       "classification": "serif",
       "kind": "duo",
-      "moods": [
-        "luxury",
-        "romantic",
-        "wedding",
-        "elegant"
+      "categories": [
+        "Serif",
+        "Script"
       ],
       "tags": [
-        "serif + script"
+        "Luxury",
+        "Romantic",
+        "Wedding",
+        "Elegant",
+        "Font Family"
       ],
       "bestFor": [
         "invitations",
         "weddings",
         "branding"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T10:00",
+      "staffPick": false,
+      "formats": [
+        "ttf"
       ],
       "description": "A luxury duo. A high-contrast serif and a matching script designed to sit on the same line.",
       "designer": "Letterhend Studio",
@@ -1321,6 +3430,7 @@
           "weight": 400,
           "italic": false,
           "variant": true,
+          "noLiga": false,
           "cssFamily": "tc-royal-fortune-serif",
           "unitsPerEm": 1000,
           "ascent": 750,
@@ -1352,6 +3462,7 @@
           "weight": 400,
           "italic": false,
           "variant": true,
+          "noLiga": false,
           "cssFamily": "tc-royal-fortune-script",
           "unitsPerEm": 1000,
           "ascent": 700,
@@ -1382,19 +3493,27 @@
       "primary": "royal-maison/serif",
       "classification": "serif",
       "kind": "duo",
-      "moods": [
-        "luxury",
-        "hotel",
-        "classic",
-        "elegant"
+      "categories": [
+        "Serif",
+        "Script"
       ],
       "tags": [
-        "serif + script"
+        "Luxury",
+        "Hotel",
+        "Classic",
+        "Elegant",
+        "Font Family"
       ],
       "bestFor": [
         "hospitality",
         "menus",
         "branding"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T10:00",
+      "staffPick": false,
+      "formats": [
+        "ttf"
       ],
       "description": "Serif and script companions with an old-world hotel feel. Made to pair with itself.",
       "designer": "Honestype",
@@ -1413,6 +3532,7 @@
           "weight": 400,
           "italic": false,
           "variant": true,
+          "noLiga": false,
           "cssFamily": "tc-royal-maison-serif",
           "unitsPerEm": 1000,
           "ascent": 627,
@@ -1444,6 +3564,7 @@
           "weight": 400,
           "italic": false,
           "variant": true,
+          "noLiga": false,
           "cssFamily": "tc-royal-maison-script",
           "unitsPerEm": 1000,
           "ascent": 1331,
@@ -1464,6 +3585,360 @@
           "features": [],
           "copyright": "Royal Maison Font by Honestype 2026",
           "version": "Version 1.001;Fontself Maker 3.5.20"
+        }
+      ]
+    },
+    {
+      "id": "saneoz",
+      "name": "Saneoz",
+      "cssFamily": "tc-saneoz-regular",
+      "primary": "saneoz/regular",
+      "classification": "display",
+      "kind": "single",
+      "categories": [
+        "Display",
+        "Sans Serif"
+      ],
+      "tags": [
+        "Condensed",
+        "Modern",
+        "Poster",
+        "Bold",
+        "Branding"
+      ],
+      "bestFor": [
+        "posters",
+        "headlines",
+        "sport"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "A modern condensed display face with a tall x-height, accents and digits.",
+      "designer": "Ermedia Studio",
+      "source": "https://ermediastudio.com/product/saneoz-modern-condensed-dosplay-font/",
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Narrow and certain",
+      "faces": [
+        {
+          "id": "saneoz/regular",
+          "file": "fonts/saneoz/Saneoz-Regular.otf",
+          "format": "otf",
+          "bytes": 11892,
+          "postscriptName": "SaneozRegular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-saneoz-regular",
+          "unitsPerEm": 1000,
+          "ascent": 751,
+          "descent": -200,
+          "lineGap": 0,
+          "capHeight": 772,
+          "xHeight": 727,
+          "glyphs": 110,
+          "characters": 169,
+          "coverage": {
+            "upper": 0.7692307692307693,
+            "lower": 0.7692307692307693,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 0.07692307692307693
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@BCDFGHJKLMNPQRSTVWXZ[\\]^_`bcdfghjklmnpqrstvwxz{|}~¡¢£¤¥©¿ÇÑçñ",
+          "features": [],
+          "copyright": "Typeface © Ermedia Studio 2026. All Rights Reserved",
+          "version": "Version 1.00;June 26, 2026;FontCreator 13.0.0.2683 64-bit"
+        }
+      ]
+    },
+    {
+      "id": "silver-shard",
+      "name": "Silver Shard",
+      "cssFamily": "tc-silver-shard-regular",
+      "primary": "silver-shard/regular",
+      "classification": "display",
+      "kind": "single",
+      "categories": [
+        "Display",
+        "Decorative"
+      ],
+      "tags": [
+        "Sharp",
+        "Futuristic",
+        "Gaming",
+        "Bold",
+        "Alternates"
+      ],
+      "bestFor": [
+        "gaming",
+        "esports",
+        "posters"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "ttf"
+      ],
+      "description": "A sharp, angular display face with discretionary ligatures and stylistic sets. Letters, digits and punctuation, no accents.",
+      "designer": "Ny Indrayana",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Cut from the same blade",
+      "faces": [
+        {
+          "id": "silver-shard/regular",
+          "file": "fonts/silver-shard/SilverShard-Regular.ttf",
+          "format": "ttf",
+          "bytes": 71792,
+          "postscriptName": "SilverShard-Regular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-silver-shard-regular",
+          "unitsPerEm": 1000,
+          "ascent": 1070,
+          "descent": -400,
+          "lineGap": 0,
+          "capHeight": 750,
+          "xHeight": 650,
+          "glyphs": 136,
+          "characters": 133,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 0
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{}~¡¢£¤«¬­±·»¿×÷Ŧ",
+          "features": [
+            "aalt",
+            "dlig",
+            "ss02",
+            "ss05"
+          ],
+          "copyright": "Copyright © 2026 by Ny Indrayana. All rights reserved.",
+          "version": "Version 1.000"
+        }
+      ]
+    },
+    {
+      "id": "sophia-oliver",
+      "name": "Sophia Oliver",
+      "cssFamily": "tc-sophia-oliver-regular",
+      "primary": "sophia-oliver/regular",
+      "classification": "script",
+      "kind": "single",
+      "categories": [
+        "Script"
+      ],
+      "tags": [
+        "Signature",
+        "Wedding",
+        "Elegant",
+        "Handwritten",
+        "Logo"
+      ],
+      "bestFor": [
+        "signatures",
+        "wedding",
+        "beauty"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": true,
+      "formats": [
+        "otf"
+      ],
+      "description": "A signature script with a confident slant and clean joins. Letters, digits and most punctuation, no accents.",
+      "designer": "Zerologic Studio",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Sophia and Oliver",
+      "faces": [
+        {
+          "id": "sophia-oliver/regular",
+          "file": "fonts/sophia-oliver/SophiaOliver-Regular.otf",
+          "format": "otf",
+          "bytes": 112420,
+          "postscriptName": "SophiaOliver-Regular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-sophia-oliver-regular",
+          "unitsPerEm": 1000,
+          "ascent": 800,
+          "descent": -200,
+          "lineGap": 90,
+          "capHeight": 925,
+          "xHeight": 443,
+          "glyphs": 103,
+          "characters": 102,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 0
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}~",
+          "features": [],
+          "copyright": "Copyright 2024 Zerologic Studio",
+          "version": "Version 001.000 "
+        }
+      ]
+    },
+    {
+      "id": "sraken",
+      "name": "Sraken",
+      "cssFamily": "tc-sraken-regular",
+      "primary": "sraken/regular",
+      "classification": "serif",
+      "kind": "single",
+      "categories": [
+        "Serif",
+        "Display"
+      ],
+      "tags": [
+        "Modern",
+        "Elegant",
+        "Fashion",
+        "Luxury",
+        "Logo"
+      ],
+      "bestFor": [
+        "fashion",
+        "logos",
+        "beauty"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "A modern elegant serif with a low x-height. Letters, digits and most punctuation, no accents.",
+      "designer": "Ermedia Studio",
+      "source": "https://ermediastudio.com/product/sraken-modern-elegant-serif-font/",
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Elegant by construction",
+      "faces": [
+        {
+          "id": "sraken/regular",
+          "file": "fonts/sraken/Sraken-Regular.otf",
+          "format": "otf",
+          "bytes": 15608,
+          "postscriptName": "Sraken-Regular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-sraken-regular",
+          "unitsPerEm": 2048,
+          "ascent": 1434,
+          "descent": -850,
+          "lineGap": 400,
+          "capHeight": 1950,
+          "xHeight": 700,
+          "glyphs": 107,
+          "characters": 110,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 0
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}¢¥¨­´",
+          "features": [],
+          "copyright": "Typeface © ErmediaStudio 2025. All Rights Reserved",
+          "version": "Version 1.00;June 25, 2026;FontCreator 13.0.0.2683 64-bit"
+        }
+      ]
+    },
+    {
+      "id": "welorac",
+      "name": "Welorac",
+      "cssFamily": "tc-welorac-regular",
+      "primary": "welorac/regular",
+      "classification": "serif",
+      "kind": "single",
+      "categories": [
+        "Serif",
+        "Display"
+      ],
+      "tags": [
+        "Modern",
+        "Classy",
+        "Elegant",
+        "Editorial",
+        "Branding"
+      ],
+      "bestFor": [
+        "editorial",
+        "branding",
+        "titles"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T14:00",
+      "staffPick": false,
+      "formats": [
+        "otf"
+      ],
+      "description": "A modern classy serif with a full Latin set and accents. The most complete of the Ermedia serifs.",
+      "designer": "Ermedia Studio",
+      "source": "https://ermediastudio.com/product/welorac-modern-classy-serif-font/",
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Classy and complete",
+      "faces": [
+        {
+          "id": "welorac/regular",
+          "file": "fonts/welorac/Welorac-Regular.otf",
+          "format": "otf",
+          "bytes": 46356,
+          "postscriptName": "Welorac",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-welorac-regular",
+          "unitsPerEm": 2048,
+          "ascent": 1716,
+          "descent": -418,
+          "lineGap": 222,
+          "capHeight": 1500,
+          "xHeight": 700,
+          "glyphs": 239,
+          "characters": 244,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿıŒœŠšŸŽž",
+          "features": [],
+          "copyright": "Typeface © ErmediaStudio2026. All Rights Reserved",
+          "version": "Version 1.00;June 26, 2026;FontCreator 13.0.0.2683 64-bit"
         }
       ]
     }

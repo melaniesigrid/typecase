@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { byFamily, primaryFace, ff, fmtBytes, pct, ratio, FEATURE_NAMES, PANGRAMS } from '../lib/fonts.js';
+import { byFamily, primaryFace, ff, fmtBytes, pct, ratio, FEATURE_NAMES, PANGRAMS, LICENSE_LABEL } from '../lib/fonts.js';
 import { looksUsingFamily } from '../content/looks.js';
 import { articlesUsingFamily } from '../content/articles.js';
 import { href, navigate } from '../lib/router.js';
@@ -19,6 +19,7 @@ export default function Specimen({ id, prefs, set }) {
   const face = fam.faces.find(x => x.id === faceId) || primaryFace(fam);
   const sample = prefs.text.trim() || fam.sample || PANGRAMS[0];
   const inCompare = prefs.compare.includes(face.id);
+  const isFav = prefs.favs.includes(fam.id);
   const chars = [...face.latin].filter(c => c !== ' ');
   const fontFeatureSettings = Object.entries(featOn).filter(([, v]) => v).map(([k]) => `"${k}" 1`).join(', ') || 'normal';
   const looks = looksUsingFamily(fam.id);
@@ -40,14 +41,18 @@ export default function Specimen({ id, prefs, set }) {
           <p className="spec-desc">{fam.description}</p>
           <div className="spec-tags">
             {fam.demo && <Badge tone="warn">demo cut</Badge>}
-            <Badge>{fam.classification}</Badge>
+            {fam.staffPick && <Badge tone="pick">★ staff pick</Badge>}
+            {fam.categories.map(c => <a key={c} href={href('/')} onClick={() => set('facets', f => ({ ...f, categories: [c] }))}><Badge>{c}</Badge></a>)}
             {fam.kind !== 'single' && <Badge>{fam.kind}</Badge>}
-            {fam.moods.map(t => <a key={t} href={href('/')} onClick={() => set('mood', t)}><Badge>{t}</Badge></a>)}
+            {fam.tags.map(t => <a key={t} href={href('/')} onClick={() => set('facets', f => ({ ...f, tags: [t] }))}><Badge tone="tag">{t}</Badge></a>)}
           </div>
           {fam.bestFor.length > 0 && <p className="spec-best mono">Best for {fam.bestFor.join(', ')}</p>}
           <div className="spec-actions">
             <button type="button" className={`btn ${inCompare ? 'btn-on' : ''}`} onClick={toggleCompare}>
               {inCompare ? '✓ In compare' : '+ Compare'}
+            </button>
+            <button type="button" className={`btn btn-ghost ${isFav ? 'btn-fav' : ''}`} onClick={() => set('favs', l => (isFav ? l.filter(x => x !== fam.id) : [...l, fam.id]))}>
+              {isFav ? '♥ Favourite' : '♡ Favourite'}
             </button>
             <button type="button" className="btn btn-ghost" onClick={() => { set('playHead', face.id); navigate('/play'); }}>
               Use as headline
@@ -150,7 +155,8 @@ export default function Specimen({ id, prefs, set }) {
         <Kv k="postscript" v={face.postscriptName} />
         <Kv k="version" v={face.version || '–'} />
         <Kv k="designer" v={fam.designer || '–'} mono={false} />
-        <Kv k="license" v={fam.license} mono={false} />
+        <Kv k="license" v={`${LICENSE_LABEL[fam.licenseKind]} · ${fam.license}`} mono={false} />
+        <Kv k="added" v={fam.added.slice(0, 10)} />
         {fam.source && <Kv k="source" v={<a href={fam.source} target="_blank" rel="noreferrer">{fam.source}</a>} />}
         {face.copyright && <Kv k="copyright" v={face.copyright} mono={false} />}
       </dl>

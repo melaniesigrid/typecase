@@ -1,0 +1,326 @@
+TYPODERMIC FONTS INC. | DESKTOP EULA v260817 
+Effective August 17, 2026 Page 1 of 10 
+Typodermic Font Software for Desktop End User 
+License Agreement  
+Version v260817 
+Effective date: August 17, 2026 
+We recommend that you save or print this Agreement for future reference. 
+This Font Software for Desktop End User License Agreement (the Agreement) is a legal agreement 
+between the Licensee and Typodermic. It governs the Font Software that is accompanied by, packaged 
+with, or expressly refers to this Agreement. 
+By downloading, installing, copying, or using the Font Software, or by accepting this Agreement by 
+another clear means, the Licensee agrees to this Agreement. A person accepting for an organization 
+represents that the person has authority to bind that organization. If the Licensee does not agree, the 
+Font Software must not be downloaded, installed, copied, or used. 
+Capitalized words have the meanings given in Section 9. 
+1. Binding Agreement 
+The Licensee is bound by this Agreement. All Use of Font Software supplied by Typodermic under this 
+Agreement is governed by this Agreement and by any applicable Distribution Record. 
+This Agreement applies only to the specific Font Software delivered with or referring to it. A license for 
+one font, style, version, or file does not grant rights to another font, style, version, or file. 
+2. License Grants 
+Subject to this Agreement, Typodermic grants the Licensee a worldwide, perpetual, non-exclusive, non-
+sublicensable, non-assignable, and non-transferable license for the Licensed Desktop Users to do the 
+following. 
+2.1 Workstation installation 
+A Licensed Desktop User may install and Use the Font Software on that user's Workstations. 
+2.2 Finished materials and static images 
+A Licensed Desktop User may Use the Font Software to create, edit, view, print, and distribute materials 
+for commercial or non-commercial purposes if: 
+• the distributed materials do not contain the Font Software; and 
+
+TYPODERMIC FONTS INC. | DESKTOP EULA v260817 
+Effective August 17, 2026 Page 2 of 10 
+• any representation of the typeface is fixed artwork and does not provide glyphs or glyph 
+combinations that software, a website, hardware, or another mechanism can individually 
+address to render text or designs. 
+Permitted finished materials include print, logos, packaging, merchandise, presentations, images, and 
+rendered audiovisual content, provided they meet the conditions above. A recipient may receive the 
+finished result but not a reusable font capability. 
+2.3 Limited PDF embedding 
+A Licensed Desktop User may create and distribute a Non-commercial PDF containing embedded Font 
+Software if: 
+• the PDF is non-editable by its recipient using the embedded Font Software; 
+• the Font Software cannot be fully or partially extracted from the PDF; and 
+• the PDF does not enable a recipient to compose new text with the Font Software. 
+A commercial PDF, e-book, electronic publication, or other electronic document that contains 
+embedded Font Software is not licensed under this Agreement if it is sold, licensed, or distributed as a 
+product in itself. A separate written license is required. 
+A commercial PDF that contains only outlined or rasterized artwork, and does not contain Font 
+Software, may qualify as a permitted finished material under Section 2.2. 
+2.4 Backup copies 
+The Licensee may make a reasonable number of backup copies for internal archival and disaster-
+recovery purposes. Backup copies must remain under the Licensee's exclusive control and retain all 
+copyright, trademark, and proprietary notices contained in the original files. 
+2.5 Trademarks 
+Use of the Trademarks is not required. When accurately identifying Font Software or permitted 
+materials created with it, the Licensee may use the applicable Trademarks in advertising, publicity, 
+packaging, documentation, and other descriptive materials. The Licensee acquires no ownership in the 
+Trademarks and must not imply sponsorship or endorsement by Typodermic. 
+All rights not expressly granted are reserved by Typodermic and its licensors. 
+3. License Limits and Verification 
+3.1 Licensed user count 
+The maximum number of Licensed Desktop Users is the number stated in the Distribution Record. If no 
+number is stated, the number is one. 
+
+TYPODERMIC FONTS INC. | DESKTOP EULA v260817 
+Effective August 17, 2026 Page 3 of 10 
+Each Licensed Desktop User is counted whether or not that person uses the Font Software at the same 
+time as another user and whether or not that person uses it regularly. The count is based on all 
+individuals who are authorized and able to Use the Font Software, not concurrent use. 
+The Licensee is responsible for every Licensed Desktop User's compliance with this Agreement. 
+3.2 Volume 
+Unless the Distribution Record expressly states otherwise, there is no reproduction-volume limit for 
+finished materials permitted by Section 2.2. Volume does not expand the kinds of Use permitted by this 
+Agreement. 
+3.3 Verification 
+The Licensee must maintain reasonable records sufficient to identify the Licensed Desktop Users and the 
+source and version of the Font Software. Upon a reasonable written request, the Licensee must provide 
+information reasonably necessary to verify compliance within 30 days. Typodermic will use requested 
+information only for license administration, enforcement, and related legal obligations. 
+If additional users or rights are required, the Licensee must obtain an appropriate license before the 
+additional Use begins. No fee is due to Typodermic for Use that is permitted by this Agreement. 
+4. Restrictions on Use 
+Except where this Agreement expressly permits it, the Licensee and Licensed Desktop Users must not do 
+any of the following. 
+4.1 No transfer or distribution 
+The Licensee must not assign or transfer this Agreement or rent, lease, sublicense, give, lend, publish, 
+upload, share, or otherwise distribute the Font Software or any copy. Another person or legal entity 
+must obtain its own copy and license from an Authorized Download Source. Typodermic may approve a 
+different arrangement only in a separate written agreement. 
+4.2 Modification and derivative fonts 
+The Licensee must not modify, adapt, translate, reverse engineer, decompile, disassemble, convert, 
+rename, subset, expand, or otherwise alter the Font Software, or create or commission a Derivative 
+Work from it, except to the limited extent that applicable law does not permit this restriction. 
+The Licensee must not alter embedding permissions or other technical protection settings, remove 
+proprietary notices, or circumvent a protection measure. 
+Editing, distorting, or otherwise changing letterforms after they have been converted to ordinary vector 
+outlines or raster artwork in a permitted finished material is not modification of the Font Software. 
+
+TYPODERMIC FONTS INC. | DESKTOP EULA v260817 
+Effective August 17, 2026 Page 4 of 10 
+4.3 Embedding and functional distribution 
+Except for Section 2.3, the Licensee must not embed, bundle, install, or distribute the Font Software in 
+or with any: 
+• website or webfont implementation; 
+• app, game, desktop application, plug-in, extension, mod, or other software; 
+• editable template, presentation theme, document template, or design system distributed to 
+another person; 
+• server, software-as-a-service product, automated document or image generator, product-
+personalization system, print-on-demand system, or user-generated-content service; 
+• operating system, firmware, hardware, device, vehicle, kiosk, appliance, or other OEM product; 
+or 
+• product or file that allows another person to access, select, extract, or Use the Font Software. 
+4.4 Servers and digital asset management 
+The Licensee must not install or store the Font Software on a server, shared network location, cloud font 
+service, or digital asset management system from which it can be accessed or synchronized for Use. A 
+backup location that satisfies Section 2.4 and cannot be used as a shared font source is permitted. 
+4.5 Reusable glyph products 
+The Licensee must not use the Font Software or fixed artwork derived from it to create or distribute a 
+substitute font, alphabet product, letter set, embroidery alphabet, cutting-machine alphabet, 
+individually addressable glyph library, recombinable character sheet, or other product whose purpose or 
+practical effect is to let a recipient compose new text or designs from the typeface. 
+4.6 Publicly Available Software 
+The Licensee must not include or embed the Font Software in Publicly Available Software, or use it in a 
+way that would require the Font Software to be disclosed in source form, licensed for modification, or 
+redistributed at no charge. 
+4.7 Artificial intelligence 
+The Licensee must not use the Font Software, font tables, glyph outlines, spacing or kerning data, or 
+rendered visual elements from the Font Software in connection with the development, training, or fine-
+tuning of an artificial-intelligence or machine-learning model, including a generative model. 
+The Licensee may use non-rendered descriptive metadata, such as font names, classifications, and tags, 
+for automated analysis or model training if that metadata does not contain and cannot be used to 
+reconstruct the Font Software, its tables, or its glyph outlines. 
+
+TYPODERMIC FONTS INC. | DESKTOP EULA v260817 
+Effective August 17, 2026 Page 5 of 10 
+This Section does not prohibit ordinary use of software that incorporates an AI feature when that use 
+does not provide the Font Software or derived training material to an AI model and otherwise complies 
+with this Agreement. 
+5. Intellectual and Industrial Property Rights 
+The Font Software is protected by Canadian copyright and other intellectual and industrial property 
+laws, corresponding laws of other jurisdictions, and international treaties. 
+Typodermic and its licensors own all right, title, and interest in the Font Software, including its structure, 
+organization, code, tables, related files, typeface-design rights where recognized, copyright, design 
+rights, and trademark rights. The Licensee receives a license, not ownership. 
+Intentional or negligent Use outside this Agreement may infringe those rights. All rights not expressly 
+granted, including unpublished rights, are reserved. 
+6. No Warranty and Limitation of Liability 
+6.1 No contractual warranty or support obligation 
+To the maximum extent permitted by applicable law, the Font Software is provided "as is," with all faults 
+and without any representation, condition, guarantee, or warranty of any kind, whether express, 
+implied, statutory, or otherwise. 
+Typodermic does not promise that the Font Software will be error-free, complete, secure, 
+uninterrupted, compatible with any software, operating system, hardware, file format, or workflow, 
+suitable for any particular purpose, or capable of producing any particular result. Typodermic does not 
+promise that any defect will be corrected. 
+Typodermic has no contractual obligation to maintain, update, correct, repair, replace, or support the 
+Font Software. Any assistance, correction, replacement, update, or new download that Typodermic 
+chooses to provide is voluntary and does not create a warranty or continuing obligation. 
+6.2 Disclaimer of implied terms 
+Without limiting Section 6.1, and to the maximum extent permitted by applicable law, Typodermic 
+disclaims all implied or statutory representations, conditions, guarantees, and warranties, including non-
+infringement, merchantability, acceptable quality, durability, fitness for a particular purpose, 
+compatibility, performance, and results. 
+The Licensee is responsible for deciding whether the Font Software is suitable for the Licensee's 
+purposes and for testing it before relying on it in production, publication, manufacture, distribution, or 
+another material use. 
+6.3 Exclusion of liability 
+To the maximum extent permitted by applicable law, Typodermic will not be liable under any legal 
+theory, including contract, tort (including negligence), strict liability, statute, or otherwise, for any claim, 
+
+TYPODERMIC FONTS INC. | DESKTOP EULA v260817 
+Effective August 17, 2026 Page 6 of 10 
+loss, damage, cost, expense, or other liability arising out of or relating to the Font Software, this 
+Agreement, or the Use of or inability to Use the Font Software. 
+This exclusion includes direct, indirect, consequential, incidental, special, exemplary, and punitive 
+damages and any loss of profit, revenue, data, goodwill, savings, business opportunity, production, or 
+use; business interruption; computer or system failure; replacement cost; or third-party claim, even if 
+Typodermic was advised that the loss was possible. 
+6.4 Mandatory rights and liabilities 
+Nothing in this Agreement excludes or limits a right, remedy, condition, guarantee, warranty, duty, or 
+liability that applicable law does not permit the parties to exclude or limit. Nothing in this Agreement 
+waives a consumer's non-waivable statutory rights or remedies. If applicable law requires a remedy or 
+liability that cannot be excluded but permits it to be limited, Typodermic's obligation or liability is 
+limited to the minimum permitted by that law. 
+7. Perpetual Duration and Termination 
+7.1 Duration 
+This Agreement begins when the Licensee first accepts it. Subject to this Section, the license is perpetual 
+and has no expiry, renewal, subscription, or recurring fee. 
+7.2 Termination for breach 
+Typodermic may terminate this Agreement by written notice if the Licensee or a Licensed Desktop User 
+materially breaches it. 
+If a breach is capable of cure, the notice will describe the breach and the Licensee will have 14 days after 
+receipt to cure it. Typodermic may terminate immediately for an intentional or repeated unauthorized 
+distribution, embedding, circumvention, or modification of the Font Software, or if a breach cannot 
+reasonably be cured. 
+7.3 Effect of termination 
+Upon termination or voluntary surrender, the Licensee must stop all Use and permanently delete or 
+destroy every copy of the Font Software under the Licensee's possession or control, including backups. 
+Termination does not affect claims arising from an earlier breach. 
+Sections 4, 5, 6, 7.3, 8, and any provision that by its nature should survive will continue after 
+termination. 
+
+TYPODERMIC FONTS INC. | DESKTOP EULA v260817 
+Effective August 17, 2026 Page 7 of 10 
+8. Governing Law, Disputes, and General Terms 
+8.1 Governing law 
+This Agreement and any dispute arising from it are governed by the laws of British Columbia and the 
+federal laws of Canada applicable there, without regard to conflict-of-laws rules. The United Nations 
+Convention on Contracts for the International Sale of Goods does not apply. 
+Mandatory rights available to the Licensee under applicable consumer or other law are not excluded by 
+this choice of law. 
+8.2 Informal resolution 
+Before starting a formal proceeding, the parties are encouraged, but not required, to exchange written 
+notice describing the dispute and requested resolution and to attempt in good faith to resolve it. 
+Typodermic may be contacted at fontsupport@typodermicfonts.com. This Section does not delay a 
+limitation period or restrict either party's legal rights. 
+8.3 Courts and jurisdiction 
+Subject to any mandatory right under applicable consumer or other law, the courts of British Columbia 
+and the federal courts of Canada sitting in British Columbia have exclusive jurisdiction over disputes 
+arising out of or relating to this Agreement. The Licensee and Typodermic submit to the jurisdiction of 
+those courts. 
+If applicable law gives the Licensee a non-waivable right to bring a claim in another court or tribunal, or 
+makes an exclusive-jurisdiction provision unenforceable, that right is preserved. 
+8.4 Interim and intellectual-property relief 
+Nothing in this Agreement prevents either party from asking a court with jurisdiction for interim, 
+conservatory, or injunctive relief when reasonably necessary to protect rights or prevent irreparable 
+harm, including relief concerning unauthorized distribution, modification, or embedding of the Font 
+Software. 
+8.5 Entire agreement and order of precedence 
+This Agreement, the applicable Distribution Record, and any separate written agreement signed by an 
+authorized representative of Typodermic are the entire agreement concerning the Font Software and 
+supersede earlier communications about that delivery. 
+If they conflict, a separate signed agreement controls, followed by a Distribution Record expressly issued 
+or approved by Typodermic, followed by this Agreement. A Typodermic-issued or approved Distribution 
+Record may identify the Font Software, grant more Licensed Desktop Users, or grant additional rights, 
+but it does not reduce rights in this Agreement unless it clearly states the change and the Licensee 
+expressly accepts it. A distributor's independent listing, summary, category, or "free" label does not 
+change this Agreement. 
+
+TYPODERMIC FONTS INC. | DESKTOP EULA v260817 
+Effective August 17, 2026 Page 8 of 10 
+8.6 Changes to the Agreement 
+A later EULA or website revision does not change a license already accepted for a delivered version of 
+Font Software unless the Licensee expressly accepts the change. Typodermic may require a later 
+agreement for a later font version, update, or new delivery. 
+No other modification is effective unless it is in writing and signed by an authorized representative of 
+Typodermic and the Licensee. 
+8.7 Assignment and corporate succession 
+The Licensee may not assign or transfer this Agreement. Typodermic may assign this Agreement with 
+the Font Software business or intellectual-property rights to a successor or affiliated entity, provided the 
+assignment does not materially reduce the Licensee's express rights. 
+8.8 Severability, waiver, and headings 
+If a provision is invalid, illegal, or unenforceable, it will be interpreted or limited to the minimum extent 
+necessary to make it enforceable where possible, and the remaining provisions will continue in effect. A 
+failure or delay in enforcing a provision is not a waiver. Headings are for convenience and do not limit 
+the text. 
+8.9 Notices and electronic records 
+Written notices to Typodermic may be sent to fontsupport@typodermicfonts.com or: 
+Typodermic Fonts Inc. 
+901 1-2-10 Hirako 
+Minami-ku, Nagoya 
+Aichi 457-0001 
+Japan 
+A notice to the Licensee may be sent to the latest contact address the Licensee supplied to Typodermic, 
+if any. Notices may be delivered by email or another written method that provides a record of 
+transmission. The Licensee agrees that this Agreement and related records may be retained and 
+delivered electronically. 
+8.10 Export and sanctions compliance 
+The Licensee must not export, transfer, or Use the Font Software in violation of applicable Canadian 
+export controls, economic sanctions, or other trade laws, or applicable laws binding on the Licensee. 
+
+TYPODERMIC FONTS INC. | DESKTOP EULA v260817 
+Effective August 17, 2026 Page 9 of 10 
+9. Definitions 
+Agreement means this Typodermic Font Software for Desktop End User License Agreement together 
+with an applicable Distribution Record and any separate written agreement that Section 8.5 makes part 
+of the entire agreement. 
+Authorized Download Source means Typodermic's official website or a third-party distributor that 
+Typodermic authorized to distribute the relevant Font Software at the time of acquisition. Current 
+examples may include DaFont and 1001 Fonts. A site's independent description of a font as "free" does 
+not make it an Authorized Download Source or change this Agreement. 
+Commercial Electronic Document means a PDF, e-book, electronic publication, or similar document that 
+is sold, licensed, or distributed as a product in itself for a fee or other consideration. A document used 
+only inside the Licensee's organization, or distributed only as an incidental explanation of another 
+product or service, is not a Commercial Electronic Document for this Agreement. 
+Derivative Work means software, data, or another work based on or derived from all or part of the Font 
+Software in a form in which the Font Software is recast, transformed, adapted, converted, expanded, 
+subsetted, or otherwise altered. Permitted fixed artwork created under Section 2.2 is not a Derivative 
+Work of the Font Software. 
+Distribution Record means the download page, package, included license or readme file, written 
+confirmation, or other record issued or expressly approved by Typodermic that identifies the relevant 
+Font Software and any specific licensed user count or additional rights. A page at an Authorized 
+Download Source may identify the download and its source, but it changes licensed rights only if 
+Typodermic expressly approved that change. 
+Font Software means the software and data that generate or implement a typeface or typographic 
+design, including font files, executable instructions, tables, glyph outlines, spacing and kerning data, 
+subsets, converted font formats, updates or upgrades supplied by Typodermic, related files, permitted 
+copies, and documentation. Font Software does not include fixed artwork lawfully created and 
+distributed under Section 2.2. 
+Licensee means the individual or legal entity that accepts this Agreement. If a person accepts for an 
+employer or another organization, that organization is the Licensee. 
+Licensed Desktop User means a natural person whom the Licensee authorizes to exercise the desktop 
+rights in this Agreement, up to the permitted user count. If the Licensee is an individual, the Licensee 
+may be the Licensed Desktop User. If the Licensee is an entity, each Licensed Desktop User must be an 
+employee unless the Distribution Record or a separate signed agreement expressly permits another 
+relationship. Contractors, agencies, clients, subsidiaries, affiliates, and other legal entities are not 
+Licensed Desktop Users merely because they work with the Licensee. 
+Non-commercial PDF means a non-editable PDF that is not a Commercial Electronic Document. It may 
+include an internal document or a document distributed only as an incidental explanation of another 
+product or service. 
+
+TYPODERMIC FONTS INC. | DESKTOP EULA v260817 
+Effective August 17, 2026 Page 10 of 10 
+Publicly Available Software means software distributed under an open-source, free-software, source-
+available, or similar model that requires software incorporated into, derived from, or distributed with it 
+to be disclosed in source form, licensed for modification, or redistributable at no charge. 
+Trademarks means the names, marks, and logos under which Typodermic or its licensors identify or 
+market the Font Software. 
+Typodermic means Typodermic Fonts Inc. and its successors and permitted assigns. 
+Use occurs when a person can give a command that is followed by the Font Software, or when the Font 
+Software's software or instructions are executed, regardless of where the Font Software is stored. 
+Workstation means a desktop or laptop computing device primarily assigned to and controlled by a 
+Licensed Desktop User. It does not include a server, shared network service, digital asset management 
+system, mobile app, hardware product, or device in which the Font Software is embedded for use by 
+others. 

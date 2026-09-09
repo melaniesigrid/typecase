@@ -57,9 +57,9 @@ button.look:hover .lk-tag { opacity: 1; }
 .look-label .lk-accent { font-size: 6cqw; }
 .look-label .lk-body { font-size: clamp(9px, 2.2cqw, 15px); letter-spacing: 0.06em; margin: 0; }
 .look-split { flex-direction: row; align-items: stretch; gap: 6cqw; }
-.lk-left { flex: 1.2; display: flex; align-items: center; }
+.lk-left { flex: 1 1 58%; min-width: 0; display: flex; align-items: center; overflow: hidden; }
 .lk-left .lk-head { font-size: 11cqw; margin: 0; overflow-wrap: normal; min-width: 0; }
-.lk-right { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; gap: 1.2cqw; border-left: 1px solid var(--lk-accent); padding-left: 4cqw; }
+.lk-right { flex: 0 0 34%; min-width: 0; display: flex; flex-direction: column; justify-content: flex-end; gap: 1.2cqw; border-left: 1px solid var(--lk-accent); padding-left: 4cqw; }
 .look-poster .lk-head { font-size: 15cqw; }
 .look-poster .lk-body { position: absolute; left: 7cqw; bottom: 6cqw; max-width: 60%; }
 .look-poster .lk-kicker { position: absolute; top: 6cqw; left: 7cqw; }
