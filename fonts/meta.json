@@ -9,6 +9,26 @@
     "sample": "Quiet luxury never shouts",
     "faces": { "Annyra-Regular.ttf": { "style": "Regular", "weight": 400 } }
   },
+  "bellique": {
+    "name": "Bellique",
+    "category": "script",
+    "tags": ["logo", "script", "signature", "ligatures"],
+    "designer": "Shanaf Studio",
+    "license": "Personal use (check vendor)",
+    "description": "A logo script with a steady hand. Full character set, digits and accents, plus discretionary ligatures for the letter pairs that tend to clash.",
+    "sample": "Signed with a flourish",
+    "faces": { "Bellique-Regular.otf": { "style": "Regular", "weight": 400 } }
+  },
+  "bhelmora": {
+    "name": "Bhelmora",
+    "category": "display",
+    "tags": ["whimsical", "display", "playful", "full-charset"],
+    "designer": "Figuree Studio",
+    "license": "Personal use (check vendor)",
+    "description": "A whimsical display face with bouncing baselines and soft, hand-cut curves. Complete Latin set for posters, packaging and anything that should feel handmade.",
+    "sample": "Marmalade on Sunday",
+    "faces": { "Bhelmora-Regular.otf": { "style": "Regular", "weight": 400 } }
+  },
   "helvetica": {
     "name": "Helvetica",
     "category": "sans",
@@ -50,6 +70,23 @@
     "sample": "Maison of light and shadow",
     "faces": { "MaisonCeleste-Demo-Regular.ttf": { "style": "Regular", "weight": 400 } }
   },
+  "maison-galliard": {
+    "name": "Maison Galliard",
+    "primary": "MaisonGalliard-Serif.otf",
+    "category": "trio",
+    "tags": ["luxury", "serif + sans + script", "branding", "stylistic alternates"],
+    "designer": "Creacy Studio Co.",
+    "source": "https://ifonts.xyz/maison-galliard-font.html",
+    "license": "Demo. Personal use only.",
+    "demo": true,
+    "description": "A three-part brand system: a high-contrast serif, a matching sans and a script that shares their proportions. The serif and sans carry stylistic alternates and ligatures.",
+    "sample": "Galliard House est. 1924",
+    "faces": {
+      "MaisonGalliard-Serif.otf": { "style": "Serif", "weight": 400, "variant": true },
+      "MaisonGalliard-Sans.otf": { "style": "Sans", "weight": 400, "variant": true },
+      "MaisonGalliard-Script.otf": { "style": "Script", "weight": 400, "variant": true }
+    }
+  },
   "maroes": {
     "name": "Maroes",
     "category": "serif",
@@ -71,6 +108,16 @@
     "description": "A ligature-led display serif. Its pairs and flourishes are the whole point. Letters only in this demo cut.",
     "sample": "Little effect flourish",
     "faces": { "Mofela-Demo-Regular.ttf": { "style": "Regular", "weight": 400 } }
+  },
+  "raventhorn": {
+    "name": "Raventhorn",
+    "category": "serif",
+    "tags": ["vintage", "decorative", "victorian", "stylistic set"],
+    "designer": "Cikareotype Studio",
+    "license": "Personal use (check vendor)",
+    "description": "A decorative vintage serif with spurred terminals and a Victorian shopfront air. Ships a stylistic set and alternates for the ornamental capitals.",
+    "sample": "Apothecary & Curiosities",
+    "faces": { "Raventhorn-Regular.otf": { "style": "Regular", "weight": 400 } }
   },
   "royal-fortune": {
     "name": "Royal Fortune",

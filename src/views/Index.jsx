@@ -2,7 +2,7 @@ import { families, primaryFace, applyCase, categories } from '../lib/fonts.js';
 import { href } from '../lib/router.js';
 import { Sample, Seg, Range, Badge } from '../components/ui.jsx';
 
-const CATEGORY_LABEL = { all: 'All', sans: 'Sans', serif: 'Serif', duo: 'Duos', display: 'Display' };
+const CATEGORY_LABEL = { all: 'All', sans: 'Sans', serif: 'Serif', script: 'Script', display: 'Display', duo: 'Duos', trio: 'Trios' };
 
 export default function Index({ prefs, set }) {
   const { text, size, filter, caps } = prefs;

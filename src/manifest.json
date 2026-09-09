@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T15:57:59.815Z",
+  "generatedAt": "2026-09-09T16:15:04.857Z",
   "families": [
     {
       "id": "annyra",
@@ -50,6 +50,112 @@
           "features": [],
           "copyright": "FLAWLESSANDCO",
           "version": "Version 1.000"
+        }
+      ]
+    },
+    {
+      "id": "bellique",
+      "name": "Bellique",
+      "cssFamily": "tc-bellique-regular",
+      "primary": "bellique/regular",
+      "category": "script",
+      "tags": [
+        "logo",
+        "script",
+        "signature",
+        "ligatures"
+      ],
+      "description": "A logo script with a steady hand. Full character set, digits and accents, plus discretionary ligatures for the letter pairs that tend to clash.",
+      "designer": "Shanaf Studio",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Signed with a flourish",
+      "faces": [
+        {
+          "id": "bellique/regular",
+          "file": "fonts/bellique/Bellique-Regular.otf",
+          "format": "otf",
+          "bytes": 41060,
+          "postscriptName": "BelliqueRegular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "cssFamily": "tc-bellique-regular",
+          "unitsPerEm": 1000,
+          "ascent": 900,
+          "descent": -400,
+          "lineGap": 0,
+          "capHeight": 699,
+          "xHeight": 444,
+          "glyphs": 227,
+          "characters": 226,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}~¡¢£¥§©«®°±²³·¹»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿŒœŠšŸŽž",
+          "features": [
+            "dlig"
+          ],
+          "copyright": "©2026. Shanaf Studio.",
+          "version": "Version 1.00;March 5, 2026;FontCreator 13.0.0.2655 64-bit"
+        }
+      ]
+    },
+    {
+      "id": "bhelmora",
+      "name": "Bhelmora",
+      "cssFamily": "tc-bhelmora-regular",
+      "primary": "bhelmora/regular",
+      "category": "display",
+      "tags": [
+        "whimsical",
+        "display",
+        "playful",
+        "full-charset"
+      ],
+      "description": "A whimsical display face with bouncing baselines and soft, hand-cut curves. Complete Latin set for posters, packaging and anything that should feel handmade.",
+      "designer": "Figuree Studio",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Marmalade on Sunday",
+      "faces": [
+        {
+          "id": "bhelmora/regular",
+          "file": "fonts/bhelmora/Bhelmora-Regular.otf",
+          "format": "otf",
+          "bytes": 81768,
+          "postscriptName": "Bhelmora",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "cssFamily": "tc-bhelmora-regular",
+          "unitsPerEm": 1000,
+          "ascent": 800,
+          "descent": -200,
+          "lineGap": 0,
+          "capHeight": 700,
+          "xHeight": 506,
+          "glyphs": 233,
+          "characters": 233,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿı",
+          "features": [],
+          "copyright": "Bhelmora © Figuree Studio. 2026. All Rights Reserved",
+          "version": "Version 1.00;July 4, 2026;FontCreator 12.0.0.2567 64-bit"
         }
       ]
     },
@@ -403,6 +509,132 @@
       ]
     },
     {
+      "id": "maison-galliard",
+      "name": "Maison Galliard",
+      "cssFamily": "tc-maison-galliard-serif",
+      "primary": "maison-galliard/serif",
+      "category": "trio",
+      "tags": [
+        "luxury",
+        "serif + sans + script",
+        "branding",
+        "stylistic alternates"
+      ],
+      "description": "A three-part brand system: a high-contrast serif, a matching sans and a script that shares their proportions. The serif and sans carry stylistic alternates and ligatures.",
+      "designer": "Creacy Studio Co.",
+      "source": "https://ifonts.xyz/maison-galliard-font.html",
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Galliard House est. 1924",
+      "faces": [
+        {
+          "id": "maison-galliard/serif",
+          "file": "fonts/maison-galliard/MaisonGalliard-Serif.otf",
+          "format": "otf",
+          "bytes": 39324,
+          "postscriptName": "MaisonGalliardSerif-Regular",
+          "style": "Serif",
+          "weight": 400,
+          "italic": false,
+          "variant": true,
+          "cssFamily": "tc-maison-galliard-serif",
+          "unitsPerEm": 1000,
+          "ascent": 750,
+          "descent": -250,
+          "lineGap": 100,
+          "capHeight": 700,
+          "xHeight": 500,
+          "glyphs": 208,
+          "characters": 198,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¥¨©®±´·¸¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝàáâãäåæçèéêëìíîïñòóôõö÷øùúûüýÿĐđŁłŒœŠšŸŽž",
+          "features": [
+            "aalt",
+            "dlig",
+            "liga",
+            "salt"
+          ],
+          "copyright": "©2025, Creacy Studio Co.",
+          "version": "Version 1.000"
+        },
+        {
+          "id": "maison-galliard/sans",
+          "file": "fonts/maison-galliard/MaisonGalliard-Sans.otf",
+          "format": "otf",
+          "bytes": 25156,
+          "postscriptName": "MaisonGalliardSans-Regular",
+          "style": "Sans",
+          "weight": 400,
+          "italic": false,
+          "variant": true,
+          "cssFamily": "tc-maison-galliard-sans",
+          "unitsPerEm": 1000,
+          "ascent": 750,
+          "descent": -250,
+          "lineGap": 100,
+          "capHeight": 700,
+          "xHeight": 500,
+          "glyphs": 193,
+          "characters": 189,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;=?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~£¨©®±´¸ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝàáâãäåæçèéêëìíîïñòóôõöøùúûüýÿĐđŁłŒœŠšŸŽž",
+          "features": [
+            "aalt",
+            "dlig",
+            "liga",
+            "salt"
+          ],
+          "copyright": "©2025, Creacy Studio Co.",
+          "version": "Version 1.000"
+        },
+        {
+          "id": "maison-galliard/script",
+          "file": "fonts/maison-galliard/MaisonGalliard-Script.otf",
+          "format": "otf",
+          "bytes": 33488,
+          "postscriptName": "MaisonGalliard-Script",
+          "style": "Script",
+          "weight": 400,
+          "italic": false,
+          "variant": true,
+          "cssFamily": "tc-maison-galliard-script",
+          "unitsPerEm": 1000,
+          "ascent": 750,
+          "descent": -250,
+          "lineGap": 100,
+          "capHeight": 700,
+          "xHeight": 500,
+          "glyphs": 196,
+          "characters": 196,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 1
+          },
+          "latin": " !\"#$%&()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¥¨©®±´¸¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝàáâãäåæçèéêëìíîïñòóôõö÷øùúûüýÿĐđŁłŒœŠšŸŽž",
+          "features": [
+            "liga"
+          ],
+          "copyright": "©2025, Creacy Studio Co.",
+          "version": "Version 1.000"
+        }
+      ]
+    },
+    {
       "id": "maroes",
       "name": "Maroes",
       "cssFamily": "tc-maroes-regular",
@@ -510,6 +742,61 @@
           ],
           "copyright": "Copyright (c) 2025 by Font Liner. All rights reserved.",
           "version": "1.000"
+        }
+      ]
+    },
+    {
+      "id": "raventhorn",
+      "name": "Raventhorn",
+      "cssFamily": "tc-raventhorn-regular",
+      "primary": "raventhorn/regular",
+      "category": "serif",
+      "tags": [
+        "vintage",
+        "decorative",
+        "victorian",
+        "stylistic set"
+      ],
+      "description": "A decorative vintage serif with spurred terminals and a Victorian shopfront air. Ships a stylistic set and alternates for the ornamental capitals.",
+      "designer": "Cikareotype Studio",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Apothecary & Curiosities",
+      "faces": [
+        {
+          "id": "raventhorn/regular",
+          "file": "fonts/raventhorn/Raventhorn-Regular.otf",
+          "format": "otf",
+          "bytes": 79544,
+          "postscriptName": "Raventhorn",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "cssFamily": "tc-raventhorn-regular",
+          "unitsPerEm": 1000,
+          "ascent": 863,
+          "descent": -240,
+          "lineGap": 0,
+          "capHeight": 681,
+          "xHeight": 400,
+          "glyphs": 240,
+          "characters": 244,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿıŸ",
+          "features": [
+            "salt",
+            "ss01"
+          ],
+          "copyright": "Raventhorn © CikareotypeStudio. 2026. All Rights Reserved",
+          "version": "Version 1.00;July 8, 2026;FontCreator 12.0.0.2567 64-bit"
         }
       ]
     },
