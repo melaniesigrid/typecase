@@ -5,13 +5,28 @@ import { href, navigate } from '../lib/router.js';
 import Look from '../components/Look.jsx';
 import SetPreview from '../components/SetPreview.jsx';
 import { families } from '../lib/fonts.js';
+import { contrast, grade } from '../lib/color.js';
+import { cssForRoles } from '../lib/css.js';
+
+function Contrast({ palette }) {
+  const r = contrast(palette.ink, palette.paper);
+  const g = grade(r);
+  return <span className={`contrast mono ${g === 'fail' ? 'bad' : ''}`} title="Ink on paper, WCAG contrast">{r.toFixed(1)}:1 {g}</span>;
+}
 
 const ROLE_LABEL = { display: 'Display', accent: 'Accent', body: 'Body' };
 const sets = families.filter(f => f.kind === 'duo' || f.kind === 'trio');
 
 export default function Lookbook({ prefs, set }) {
   const [openId, setOpenId] = useState(null);
+  const [copied, setCopied] = useState(false);
   const open = looks.find(l => l.id === openId);
+
+  async function copyCss(look) {
+    const roles = Object.fromEntries(Object.entries(look.faces).map(([r, id]) => [r, byFace[id]]));
+    try { await navigator.clipboard.writeText(cssForRoles(roles, look.palette)); setCopied(true); setTimeout(() => setCopied(false), 1600); }
+    catch { /* clipboard blocked */ }
+  }
 
   function toPlay(look) {
     set('playHead', look.faces.display);
@@ -35,8 +50,11 @@ export default function Lookbook({ prefs, set }) {
         <div className="look-detail" key={open.id}>
           <Look look={open} size="hero" interactive={false} />
           <div className="look-side">
-            <p className="eyebrow mono">{open.mood}</p>
+            <p className="eyebrow mono">{open.mood} · <Contrast palette={open.palette} /></p>
             <h2 className="look-title">{open.title}</h2>
+            <div className="swatches">
+              {Object.entries(open.palette).map(([k, v]) => <span key={k} className="swatch" style={{ background: v }} title={`${k} ${v}`}><i className="mono">{v}</i></span>)}
+            </div>
             <p className="look-notes">{open.notes}</p>
             <ul className="look-faces">
               {Object.entries(open.faces).map(([role, id]) => {
@@ -52,6 +70,7 @@ export default function Lookbook({ prefs, set }) {
             <div className="spec-actions">
               <button type="button" className="btn" onClick={() => toPlay(open)}>Try on a page</button>
               <button type="button" className="btn btn-ghost" onClick={() => toCompare(open)}>Compare the faces</button>
+              <button type="button" className="btn btn-ghost" onClick={() => copyCss(open)}>{copied ? 'Copied CSS' : 'Copy CSS'}</button>
               <button type="button" className="btn btn-ghost" onClick={() => setOpenId(null)}>Close</button>
             </div>
           </div>

@@ -21,12 +21,12 @@ the right section. Dates are absolute.
 - [ ] Link the lookbook from melaniesigrid.com (decide: nav item, or a "Type" page that embeds a few looks).
 - [ ] Open Graph image per look so shared links preview the composition.
 - [ ] Export a look as PNG from the browser (canvas render of the composed piece).
-- [ ] Shareable URLs for Compare and Play state (encode faces and settings in the hash).
+- [x] 2026-09-10 Shareable URLs for Compare and Play (Copy link buttons).
 - [ ] Article authoring in Markdown with front matter, compiled to the block format at build time.
 - [ ] Variable font support in the manifest (axes already read, no UI yet).
 - [ ] Per-face download buttons, gated by license kind.
-- [ ] A "Use in project" panel: copy `@font-face` plus a fallback stack, and a CSS variable set for a pairing.
-- [ ] Contrast checker for look palettes (WCAG ratio badge on each look).
+- [x] 2026-09-10 Copy CSS on looks and in Play: @font-face, fallback stacks, CSS variables for roles and palette.
+- [x] 2026-09-10 WCAG contrast badge and swatches on each open look.
 - [ ] Keyboard navigation through library rows (j/k, enter to open).
 
 ## Content

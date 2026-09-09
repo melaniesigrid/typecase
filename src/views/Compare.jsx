@@ -1,6 +1,7 @@
 import { families, byFace, ff, ratio, fmtBytes } from '../lib/fonts.js';
 import { href } from '../lib/router.js';
 import { Sample, Seg, Range, Field } from '../components/ui.jsx';
+import { useShareable } from '../lib/share.js';
 
 const MAX = 4;
 const COLORS = ['var(--overlay-a)', 'var(--overlay-b)', 'var(--overlay-c)', 'var(--overlay-d)'];
@@ -8,6 +9,7 @@ const COLORS = ['var(--overlay-a)', 'var(--overlay-b)', 'var(--overlay-c)', 'var
 export default function Compare({ prefs, set }) {
   const picked = prefs.compare.map(id => byFace[id]).filter(Boolean);
   const { cmpText, cmpSize, cmpTracking, cmpLeading, cmpMode } = prefs;
+  const sharing = useShareable('compare', ['compare', 'cmpText', 'cmpSize', 'cmpTracking', 'cmpLeading', 'cmpMode'], prefs, set);
 
   function toggle(id) {
     set('compare', list => (list.includes(id) ? list.filter(x => x !== id) : [...list.slice(-(MAX - 1)), id]));
@@ -49,6 +51,7 @@ export default function Compare({ prefs, set }) {
           <Field label="Size"><Range value={cmpSize} onChange={v => set('cmpSize', v)} min={24} max={240} step={2} unit="px" /></Field>
           <Field label="Tracking"><Range value={cmpTracking} onChange={v => set('cmpTracking', v)} min={-0.1} max={0.4} step={0.005} unit="em" /></Field>
           <Field label="Leading"><Range value={cmpLeading} onChange={v => set('cmpLeading', v)} min={0.8} max={2} step={0.05} /></Field>
+          <button type="button" className="btn btn-ghost" onClick={sharing.share}>{sharing.copied ? 'Link copied' : 'Copy link'}</button>
         </div>
       </div>
 

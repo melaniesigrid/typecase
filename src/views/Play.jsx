@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { faces, byFace, ff } from '../lib/fonts.js';
+import { cssForRoles } from '../lib/css.js';
 import { Seg, Range, Field } from '../components/ui.jsx';
+import { useShareable } from '../lib/share.js';
 
 const PRESETS = {
   editorial: { playHeadSize: 88, playBodySize: 19, playLeading: 1.5, playTracking: -0.01, playMeasure: 62, playAlign: 'left' },
@@ -8,14 +10,7 @@ const PRESETS = {
   wordmark: { playHeadSize: 200, playBodySize: 16, playLeading: 1.4, playTracking: 0.12, playMeasure: 100, playAlign: 'center' },
 };
 
-function cssFor(head, body) {
-  const face = x => `@font-face {\n  font-family: "${x.family.name} ${x.style}";\n  src: url("${x.file}") format("${{ ttf: 'truetype', otf: 'opentype', woff: 'woff', woff2: 'woff2' }[x.format]}");\n  font-display: swap;\n}`;
-  return [
-    face(head), head.id !== body.id ? face(body) : null,
-    `h1 { font-family: "${head.family.name} ${head.style}", serif; }`,
-    `body { font-family: "${body.family.name} ${body.style}", serif; }`,
-  ].filter(Boolean).join('\n\n');
-}
+const cssFor = (head, body) => cssForRoles({ display: head, body });
 
 function FaceSelect({ value, onChange }) {
   return (
@@ -30,6 +25,7 @@ export default function Play({ prefs, set }) {
   const body = byFace[prefs.playBody] || faces[0];
   const [copied, setCopied] = useState(false);
   const { playHeadSize, playBodySize, playLeading, playTracking, playMeasure, playAlign, playInvert } = prefs;
+  const sharing = useShareable('play', ['playHead', 'playBody', 'playHeadSize', 'playBodySize', 'playLeading', 'playTracking', 'playMeasure', 'playAlign', 'playInvert'], prefs, set);
 
   function preset(name) { for (const [k, v] of Object.entries(PRESETS[name])) set(k, v); }
   async function copy() {
@@ -58,7 +54,10 @@ export default function Play({ prefs, set }) {
           <Field label="Measure"><Range value={playMeasure} onChange={v => set('playMeasure', v)} min={30} max={100} step={1} unit="ch" /></Field>
           <Field label="Align"><Seg value={playAlign} onChange={v => set('playAlign', v)} options={[['left', 'Left'], ['center', 'Centre'], ['right', 'Right']]} /></Field>
           <Field label="Ground"><Seg value={playInvert ? 'ink' : 'paper'} onChange={v => set('playInvert', v === 'ink')} options={[['paper', 'Paper'], ['ink', 'Ink']]} /></Field>
-          <button type="button" className="btn" onClick={copy}>{copied ? 'Copied CSS' : 'Copy CSS'}</button>
+          <div className="spec-actions">
+            <button type="button" className="btn" onClick={copy}>{copied ? 'Copied CSS' : 'Copy CSS'}</button>
+            <button type="button" className="btn btn-ghost" onClick={sharing.share}>{sharing.copied ? 'Link copied' : 'Copy link'}</button>
+          </div>
           <p className="hint">Everything on the page is editable. Click into it and type.</p>
         </aside>
 
