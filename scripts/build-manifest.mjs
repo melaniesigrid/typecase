@@ -151,7 +151,8 @@ for (const dir of fs.readdirSync(FONTS, { withFileTypes: true }).filter(d => d.i
     cssFamily: primary.cssFamily,
     primary: primary.id,
     classification: m.classification || 'display', // sans | serif | script | display
-    kind: m.kind || (faces.filter(x => x.variant).length >= 3 ? 'trio' : faces.some(x => x.variant) ? 'duo' : 'single'),
+    // single | family (weights/styles) | duo | trio (companion designs meant to be used together)
+    kind: m.kind || (faces.filter(x => x.variant).length >= 3 ? 'trio' : faces.some(x => x.variant) ? 'duo' : faces.length > 1 ? 'family' : 'single'),
     categories: m.categories || [],
     tags: m.tags || [],
     bestFor: m.bestFor || [],
@@ -165,6 +166,7 @@ for (const dir of fs.readdirSync(FONTS, { withFileTypes: true }).filter(d => d.i
     license: m.license || 'unknown',
     demo: m.demo ?? /demo/i.test(faces.map(x => x.file).join(' ')),
     sample: m.sample || null,
+    setCopy: m.setCopy || null, // headline / script / sans lines for companion-set previews
     faces,
   });
 }

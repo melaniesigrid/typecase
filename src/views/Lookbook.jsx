@@ -3,10 +3,13 @@ import { looks } from '../content/looks.js';
 import { byFace } from '../lib/fonts.js';
 import { href, navigate } from '../lib/router.js';
 import Look from '../components/Look.jsx';
+import SetPreview from '../components/SetPreview.jsx';
+import { families } from '../lib/fonts.js';
 
 const ROLE_LABEL = { display: 'Display', accent: 'Accent', body: 'Body' };
+const sets = families.filter(f => f.kind === 'duo' || f.kind === 'trio');
 
-export default function Lookbook({ set }) {
+export default function Lookbook({ prefs, set }) {
   const [openId, setOpenId] = useState(null);
   const open = looks.find(l => l.id === openId);
 
@@ -55,6 +58,17 @@ export default function Lookbook({ set }) {
         </div>
       )}
 
+      <h2 className="sec-title"><span className="mono">01</span> Sets <em className="mono muted">duos and trios that ship together</em></h2>
+      <div className="sets-grid">
+        {sets.map(fam => (
+          <a key={fam.id} href={href(`/f/${fam.id}`)} className="set-cell">
+            <SetPreview fam={fam} text={prefs.text} size="half" />
+            <p className="look-caption"><b>{fam.name}</b> <span className="mono muted">{fam.kind} · {fam.faces.map(f => f.style).join(' + ')}</span></p>
+          </a>
+        ))}
+      </div>
+
+      <h2 className="sec-title"><span className="mono">02</span> Pairings <em className="mono muted">{looks.length} looks</em></h2>
       <div className="look-grid">
         {looks.map((l, i) => (
           <div key={l.id} className={`look-cell ${i % 5 === 0 ? 'wide' : ''}`} style={{ '--i': i }}>

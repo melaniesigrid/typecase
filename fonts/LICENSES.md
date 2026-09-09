@@ -16,6 +16,7 @@ These files are kept for personal comparison only and are not offered for reuse.
 | Biora | Flawless & Co | Personal use only | Personal use (check vendor) |
 | Cakra | Unknown | Personal use only | Personal use (check vendor) |
 | Classical Material | 177Studio | Personal use only | Demo. Personal use only. Demo cut. |
+| Cocogoose Pro | Zetafonts | Personal use only | Trial. Personal use only (Zetafonts). Demo cut. |
 | Daenerys | Faptype | Personal use only | Demo. Personal use only. Demo cut. |
 | Dallen Stamp | Craft Supply Co. | Personal use only | Demo. Personal use only. Demo cut. |
 | Degolan | Ermedia Studio | Personal use only | Demo. Personal use only. Demo cut. |

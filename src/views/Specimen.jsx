@@ -6,6 +6,7 @@ import { href, navigate } from '../lib/router.js';
 import { Sample, Seg, Badge, Kv } from '../components/ui.jsx';
 import MetricGlyph from '../components/MetricGlyph.jsx';
 import Look from '../components/Look.jsx';
+import SetPreview from '../components/SetPreview.jsx';
 
 const WATERFALL = [120, 96, 72, 56, 44, 32, 24, 18, 14];
 
@@ -89,6 +90,13 @@ export default function Specimen({ id, prefs, set }) {
           </dl>
         </div>
       </div>
+
+      {(fam.kind === 'duo' || fam.kind === 'trio') && (
+        <>
+          <h2 className="sec-title"><span className="mono">{num()}</span> Together <em className="mono muted">{fam.kind} · type in the Library box to set all faces</em></h2>
+          <SetPreview fam={fam} text={prefs.text} size="hero" />
+        </>
+      )}
 
       {looks.length > 0 && (
         <>

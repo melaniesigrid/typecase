@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T16:53:50.086Z",
+  "generatedAt": "2026-09-09T17:01:14.154Z",
   "families": [
     {
       "id": "achilo",
@@ -36,6 +36,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Classy without trying",
+      "setCopy": null,
       "faces": [
         {
           "id": "achilo/regular",
@@ -106,6 +107,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "One alphabet two minds",
+      "setCopy": null,
       "faces": [
         {
           "id": "amoen/regular",
@@ -183,6 +185,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Quiet luxury never shouts",
+      "setCopy": null,
       "faces": [
         {
           "id": "annyra/regular",
@@ -253,6 +256,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Built for the big line",
+      "setCopy": null,
       "faces": [
         {
           "id": "aspera/regular",
@@ -323,6 +327,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Tall letters, long evenings",
+      "setCopy": null,
       "faces": [
         {
           "id": "auleriz/regular",
@@ -364,7 +369,7 @@
       "cssFamily": "tc-barking-at-stars-regular",
       "primary": "barking-at-stars/regular",
       "classification": "display",
-      "kind": "duo",
+      "kind": "family",
       "categories": [
         "Display",
         "Sans Serif"
@@ -393,6 +398,7 @@
       "license": "Free for personal use (Chequered Ink).",
       "demo": false,
       "sample": "Barking at the stars",
+      "setCopy": null,
       "faces": [
         {
           "id": "barking-at-stars/regular",
@@ -495,6 +501,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Signed with a flourish",
+      "setCopy": null,
       "faces": [
         {
           "id": "bellique/regular",
@@ -567,6 +574,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Marmalade on Sunday",
+      "setCopy": null,
       "faces": [
         {
           "id": "bhelmora/regular",
@@ -637,6 +645,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Elegance in the stem",
+      "setCopy": null,
       "faces": [
         {
           "id": "biora/regular",
@@ -707,6 +716,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Straight lines, sharp turns",
+      "setCopy": null,
       "faces": [
         {
           "id": "cakra/regular",
@@ -776,6 +786,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Ink, nib and patience",
+      "setCopy": null,
       "faces": [
         {
           "id": "classical-material/regular",
@@ -814,6 +825,390 @@
       ]
     },
     {
+      "id": "cocogoose",
+      "name": "Cocogoose Pro",
+      "cssFamily": "tc-cocogoose-regular",
+      "primary": "cocogoose/regular",
+      "classification": "sans",
+      "kind": "family",
+      "categories": [
+        "Sans Serif",
+        "Display"
+      ],
+      "tags": [
+        "Geometric",
+        "Modern",
+        "Font Family",
+        "Typeface",
+        "Branding",
+        "Rounded"
+      ],
+      "bestFor": [
+        "branding",
+        "headlines",
+        "interfaces"
+      ],
+      "licenseKind": "personal",
+      "added": "2026-09-09T16:00",
+      "staffPick": true,
+      "formats": [
+        "ttf"
+      ],
+      "description": "A geometric display sans in five weights from Thin to Regular, each with an italic. The largest family in the library and the only one with a real weight axis to play with.",
+      "designer": "Zetafonts",
+      "source": "https://www.zetafonts.com/cocogoose-pro",
+      "license": "Trial. Personal use only (Zetafonts).",
+      "demo": true,
+      "sample": "Ten cuts, one geometry",
+      "setCopy": null,
+      "faces": [
+        {
+          "id": "cocogoose/thin",
+          "file": "fonts/cocogoose/CocogoosePro-Thin.ttf",
+          "format": "ttf",
+          "bytes": 250588,
+          "postscriptName": "CocogoosePro-Thin",
+          "style": "Thin",
+          "weight": 100,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-cocogoose-thin",
+          "unitsPerEm": 1920,
+          "ascent": 1939,
+          "descent": -365,
+          "lineGap": 0,
+          "capHeight": 1427,
+          "xHeight": 1226,
+          "glyphs": 729,
+          "characters": 641,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽž",
+          "features": [
+            "liga",
+            "onum",
+            "smcp"
+          ],
+          "copyright": "Copyright \\(c\\) 2016 by Zetafonts. All rights reserved.",
+          "version": "Version 1.000"
+        },
+        {
+          "id": "cocogoose/thin-italic",
+          "file": "fonts/cocogoose/CocogoosePro-ThinItalic.ttf",
+          "format": "ttf",
+          "bytes": 268148,
+          "postscriptName": "CocogoosePro-ThinItalic",
+          "style": "Thin Italic",
+          "weight": 100,
+          "italic": true,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-cocogoose-thin-italic",
+          "unitsPerEm": 1920,
+          "ascent": 1900,
+          "descent": -404,
+          "lineGap": 0,
+          "capHeight": 1427,
+          "xHeight": 1226,
+          "glyphs": 728,
+          "characters": 641,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽž",
+          "features": [
+            "liga",
+            "onum",
+            "smcp"
+          ],
+          "copyright": "Copyright \\(c\\) 2016 by Zetafonts. All rights reserved.",
+          "version": "Version 1.000"
+        },
+        {
+          "id": "cocogoose/ultralight",
+          "file": "fonts/cocogoose/CocogoosePro-UltraLight.ttf",
+          "format": "ttf",
+          "bytes": 135468,
+          "postscriptName": "COCOGOOSE-UltraLight",
+          "style": "UltraLight",
+          "weight": 200,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-cocogoose-ultralight",
+          "unitsPerEm": 2000,
+          "ascent": 1500,
+          "descent": -500,
+          "lineGap": 0,
+          "capHeight": 1484,
+          "xHeight": 1264,
+          "glyphs": 424,
+          "characters": 407,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 0,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽž",
+          "features": [],
+          "copyright": "Copyright (c) 2015 by . All rights reserved.",
+          "version": "Version 1.000"
+        },
+        {
+          "id": "cocogoose/ultralight-italic",
+          "file": "fonts/cocogoose/CocogoosePro-UltraLightItalic.ttf",
+          "format": "ttf",
+          "bytes": 269992,
+          "postscriptName": "CocogoosePro-UltraLightItalic",
+          "style": "UltraLight Italic",
+          "weight": 200,
+          "italic": true,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-cocogoose-ultralight-italic",
+          "unitsPerEm": 1920,
+          "ascent": 1933,
+          "descent": -371,
+          "lineGap": 0,
+          "capHeight": 1427,
+          "xHeight": 1224,
+          "glyphs": 730,
+          "characters": 640,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽž",
+          "features": [
+            "liga",
+            "onum",
+            "smcp"
+          ],
+          "copyright": "Copyright \\(c\\) 2016 by Zetafonts. All rights reserved.",
+          "version": "Version 1.000"
+        },
+        {
+          "id": "cocogoose/light",
+          "file": "fonts/cocogoose/CocogoosePro-Light.ttf",
+          "format": "ttf",
+          "bytes": 120272,
+          "postscriptName": "Cocogoose-Light",
+          "style": "Light",
+          "weight": 300,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-cocogoose-light",
+          "unitsPerEm": 2000,
+          "ascent": 2008,
+          "descent": -623,
+          "lineGap": 53,
+          "capHeight": 1485,
+          "xHeight": 1271,
+          "glyphs": 413,
+          "characters": 406,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 0,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽž",
+          "features": [],
+          "copyright": "Copyright (c) 2014 by Studio kmzero. All rights reserved.",
+          "version": "Version 1.000"
+        },
+        {
+          "id": "cocogoose/light-italic",
+          "file": "fonts/cocogoose/CocogoosePro-LightItalic.ttf",
+          "format": "ttf",
+          "bytes": 275492,
+          "postscriptName": "CocogoosePro-LightItalic",
+          "style": "Light Italic",
+          "weight": 300,
+          "italic": true,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-cocogoose-light-italic",
+          "unitsPerEm": 1920,
+          "ascent": 1937,
+          "descent": -367,
+          "lineGap": 0,
+          "capHeight": 1427,
+          "xHeight": 1227,
+          "glyphs": 732,
+          "characters": 642,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽž",
+          "features": [
+            "liga",
+            "onum",
+            "smcp"
+          ],
+          "copyright": "Copyright \\(c\\) 2016 by Zetafonts. All rights reserved.",
+          "version": "Version 1.000"
+        },
+        {
+          "id": "cocogoose/semilight",
+          "file": "fonts/cocogoose/CocogoosePro-SemiLight.ttf",
+          "format": "ttf",
+          "bytes": 121704,
+          "postscriptName": "COCOGOOSE-DemiBold",
+          "style": "SemiLight",
+          "weight": 350,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-cocogoose-semilight",
+          "unitsPerEm": 2000,
+          "ascent": 1500,
+          "descent": -500,
+          "lineGap": 0,
+          "capHeight": 1483,
+          "xHeight": 1270,
+          "glyphs": 413,
+          "characters": 396,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 0,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽž",
+          "features": [],
+          "copyright": "Copyright (c) 2015 by . All rights reserved.",
+          "version": null
+        },
+        {
+          "id": "cocogoose/semilight-italic",
+          "file": "fonts/cocogoose/CocogoosePro-SemiLightItalic.ttf",
+          "format": "ttf",
+          "bytes": 278476,
+          "postscriptName": "CocogoosePro-SemiLightItalic",
+          "style": "SemiLight Italic",
+          "weight": 350,
+          "italic": true,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-cocogoose-semilight-italic",
+          "unitsPerEm": 1920,
+          "ascent": 1935,
+          "descent": -369,
+          "lineGap": 0,
+          "capHeight": 1426,
+          "xHeight": 1226,
+          "glyphs": 729,
+          "characters": 640,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽž",
+          "features": [
+            "liga",
+            "onum",
+            "smcp"
+          ],
+          "copyright": "Copyright \\(c\\) 2016 by Zetafonts. All rights reserved.",
+          "version": "Version 1.000"
+        },
+        {
+          "id": "cocogoose/regular",
+          "file": "fonts/cocogoose/CocogoosePro-Regular.ttf",
+          "format": "ttf",
+          "bytes": 172212,
+          "postscriptName": "Cocogoose",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-cocogoose-regular",
+          "unitsPerEm": 2000,
+          "ascent": 2003,
+          "descent": -792,
+          "lineGap": 46,
+          "capHeight": 1486,
+          "xHeight": 1271,
+          "glyphs": 403,
+          "characters": 397,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 0,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±´µ¶·¸º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽž",
+          "features": [],
+          "copyright": "Copyright (c) 2014 by Studio kmzero. All rights reserved.",
+          "version": "Version 1.000"
+        },
+        {
+          "id": "cocogoose/italic",
+          "file": "fonts/cocogoose/CocogoosePro-Italic.ttf",
+          "format": "ttf",
+          "bytes": 276524,
+          "postscriptName": "CocogoosePro-Italic",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "variant": false,
+          "noLiga": false,
+          "cssFamily": "tc-cocogoose-italic",
+          "unitsPerEm": 1920,
+          "ascent": 1930,
+          "descent": -374,
+          "lineGap": 0,
+          "capHeight": 1426,
+          "xHeight": 1225,
+          "glyphs": 730,
+          "characters": 640,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽž",
+          "features": [
+            "liga",
+            "onum",
+            "smcp"
+          ],
+          "copyright": "Copyright \\(c\\) 2016 by Zetafonts. All rights reserved.",
+          "version": "Version 1.000"
+        }
+      ]
+    },
+    {
       "id": "daenerys",
       "name": "Daenerys",
       "cssFamily": "tc-daenerys-regular",
@@ -848,6 +1243,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Yours with love",
+      "setCopy": null,
       "faces": [
         {
           "id": "daenerys/regular",
@@ -927,6 +1323,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Stamped and shipped",
+      "setCopy": null,
       "faces": [
         {
           "id": "dallen-stamp/regular",
@@ -997,6 +1394,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Stack it tight",
+      "setCopy": null,
       "faces": [
         {
           "id": "degolan/regular",
@@ -1067,6 +1465,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Loud and decorated",
+      "setCopy": null,
       "faces": [
         {
           "id": "dh-alista-aghni/bold",
@@ -1114,7 +1513,7 @@
       "cssFamily": "tc-dolce-amyara-regular",
       "primary": "dolce-amyara/regular",
       "classification": "serif",
-      "kind": "single",
+      "kind": "family",
       "categories": [
         "Serif",
         "Display"
@@ -1143,6 +1542,7 @@
       "license": "Personal use only.",
       "demo": true,
       "sample": "Sweet as the evening",
+      "setCopy": null,
       "faces": [
         {
           "id": "dolce-amyara/regular",
@@ -1254,6 +1654,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "A grotesk for everyday work",
+      "setCopy": null,
       "faces": [
         {
           "id": "evo-rinnox/regular",
@@ -1328,6 +1729,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Written fast, meant it",
+      "setCopy": null,
       "faces": [
         {
           "id": "femhitary/regular",
@@ -1402,6 +1804,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Seven nights of new music",
+      "setCopy": null,
       "faces": [
         {
           "id": "further/regular",
@@ -1474,6 +1877,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Grace in every tail",
+      "setCopy": null,
       "faces": [
         {
           "id": "gondhe/regular",
@@ -1546,6 +1950,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Roll with it",
+      "setCopy": null,
       "faces": [
         {
           "id": "groovy/regular",
@@ -1619,6 +2024,7 @@
       "license": "Free for personal use.",
       "demo": false,
       "sample": "Loud on purpose",
+      "setCopy": null,
       "faces": [
         {
           "id": "haveron/regular",
@@ -1660,7 +2066,7 @@
       "cssFamily": "tc-helvetica-regular",
       "primary": "helvetica/regular",
       "classification": "sans",
-      "kind": "duo",
+      "kind": "family",
       "categories": [
         "Sans Serif"
       ],
@@ -1691,6 +2097,7 @@
       "license": "Proprietary (Linotype). Not redistributable.",
       "demo": false,
       "sample": "The quick brown fox jumps over the lazy dog",
+      "setCopy": null,
       "faces": [
         {
           "id": "helvetica/light",
@@ -1959,6 +2366,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Hidden in plain serif",
+      "setCopy": null,
       "faces": [
         {
           "id": "hidda/regular",
@@ -2031,6 +2439,7 @@
       "license": "Demo. Personal use only, limited character set.",
       "demo": true,
       "sample": "Chic bold shape",
+      "setCopy": null,
       "faces": [
         {
           "id": "kavorie/regular",
@@ -2103,6 +2512,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Sharp edges, soft voice",
+      "setCopy": null,
       "faces": [
         {
           "id": "kuigaf/regular",
@@ -2175,6 +2585,7 @@
       "license": "Demo. Personal use only, limited character set.",
       "demo": true,
       "sample": "Maison of light and shadow",
+      "setCopy": null,
       "faces": [
         {
           "id": "maison-celeste/regular",
@@ -2247,6 +2658,11 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Galliard House est. 1924",
+      "setCopy": {
+        "script": "a quiet address",
+        "headline": "Galliard House",
+        "sans": "Twelve rooms · Lisbon · est. 1924"
+      },
       "faces": [
         {
           "id": "maison-galliard/serif",
@@ -2392,6 +2808,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Scribbled in the margin",
+      "setCopy": null,
       "faces": [
         {
           "id": "malograh/regular",
@@ -2465,6 +2882,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Modern serifs, quietly confident",
+      "setCopy": null,
       "faces": [
         {
           "id": "maroes/regular",
@@ -2541,6 +2959,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Soft chewy and a bit silly",
+      "setCopy": null,
       "faces": [
         {
           "id": "mochi-pop/regular",
@@ -2613,6 +3032,7 @@
       "license": "Demo. Personal use only, limited character set.",
       "demo": true,
       "sample": "Little effect flourish",
+      "setCopy": null,
       "faces": [
         {
           "id": "mofela/regular",
@@ -2685,6 +3105,7 @@
       "license": "Free version. Personal use only.",
       "demo": true,
       "sample": "Deep in the jungle",
+      "setCopy": null,
       "faces": [
         {
           "id": "moot-jungle/regular",
@@ -2762,6 +3183,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Morning light on marble",
+      "setCopy": null,
       "faces": [
         {
           "id": "morige/regular",
@@ -2836,6 +3258,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Small letters, tall caps",
+      "setCopy": null,
       "faces": [
         {
           "id": "naolen/regular",
@@ -2908,6 +3331,7 @@
       "license": "Typodermic desktop EULA. Free, commercial use allowed (see LICENSE.txt).",
       "demo": false,
       "sample": "Signal from the future",
+      "setCopy": null,
       "faces": [
         {
           "id": "neuropolitical/regular",
@@ -2983,6 +3407,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Heavy on the shelf",
+      "setCopy": null,
       "faces": [
         {
           "id": "nuega/regular",
@@ -3054,6 +3479,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Written on the back of a postcard",
+      "setCopy": null,
       "faces": [
         {
           "id": "paperline/regular",
@@ -3126,6 +3552,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Fine lines, fine manners",
+      "setCopy": null,
       "faces": [
         {
           "id": "qliesya/regular",
@@ -3197,6 +3624,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Gothic letters for modern walls",
+      "setCopy": null,
       "faces": [
         {
           "id": "raquens/regular",
@@ -3274,6 +3702,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Apothecary & Curiosities",
+      "setCopy": null,
       "faces": [
         {
           "id": "raventhorn/regular",
@@ -3346,6 +3775,7 @@
       "license": "Personal / demo use only.",
       "demo": true,
       "sample": "With kind regards",
+      "setCopy": null,
       "faces": [
         {
           "id": "ronalltie/regular",
@@ -3419,6 +3849,10 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Fortune favours the bold",
+      "setCopy": {
+        "script": "together with their families",
+        "headline": "Eleanor & James"
+      },
       "faces": [
         {
           "id": "royal-fortune/serif",
@@ -3521,6 +3955,10 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Rooms with a view",
+      "setCopy": {
+        "script": "aperitivo hour",
+        "headline": "ROYAL MAISON"
+      },
       "faces": [
         {
           "id": "royal-maison/serif",
@@ -3623,6 +4061,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Narrow and certain",
+      "setCopy": null,
       "faces": [
         {
           "id": "saneoz/regular",
@@ -3693,6 +4132,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Cut from the same blade",
+      "setCopy": null,
       "faces": [
         {
           "id": "silver-shard/regular",
@@ -3767,6 +4207,7 @@
       "license": "Personal use (check vendor)",
       "demo": false,
       "sample": "Sophia and Oliver",
+      "setCopy": null,
       "faces": [
         {
           "id": "sophia-oliver/regular",
@@ -3837,6 +4278,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Elegant by construction",
+      "setCopy": null,
       "faces": [
         {
           "id": "sraken/regular",
@@ -3907,6 +4349,7 @@
       "license": "Demo. Personal use only.",
       "demo": true,
       "sample": "Classy and complete",
+      "setCopy": null,
       "faces": [
         {
           "id": "welorac/regular",

@@ -2,7 +2,7 @@
   "_vocabulary": {
     "categories": ["Serif", "Sans Serif", "Script", "Display", "Slab Serif", "Decorative", "Blackletter", "Colorful", "Dingbats"],
     "licenseKind": ["personal", "commercial", "proprietary"],
-    "kind": ["single", "duo", "trio"],
+    "kind": ["single", "family", "duo", "trio"],
     "note": "tags are free-form but reuse existing ones. added is an ISO date, later means newer."
   },
 
@@ -57,7 +57,7 @@
     "faces": { "Auleriz-Regular.otf": { "style": "Regular", "weight": 400 } }
   },
   "barking-at-stars": {
-    "name": "Barking at Stars", "classification": "display", "categories": ["Display", "Sans Serif"],
+    "name": "Barking at Stars", "classification": "display", "kind": "family", "categories": ["Display", "Sans Serif"],
     "tags": ["Playful", "Handwritten", "Rounded", "Font Family", "Casual"],
     "bestFor": ["kids", "games", "stickers"],
     "designer": "Chequered Ink", "licenseKind": "personal", "license": "Free for personal use (Chequered Ink).",
@@ -108,6 +108,27 @@
     "description": "A geometric display sans with a full Latin set and accents. Squared and even, ready for a tech wordmark.",
     "sample": "Straight lines, sharp turns",
     "faces": { "Cakra-Regular.otf": { "style": "Regular", "weight": 400 } }
+  },
+  "cocogoose": {
+    "name": "Cocogoose Pro", "classification": "sans", "kind": "family", "categories": ["Sans Serif", "Display"],
+    "tags": ["Geometric", "Modern", "Font Family", "Typeface", "Branding", "Rounded"],
+    "bestFor": ["branding", "headlines", "interfaces"],
+    "designer": "Zetafonts", "licenseKind": "personal", "license": "Trial. Personal use only (Zetafonts).", "demo": true,
+    "source": "https://www.zetafonts.com/cocogoose-pro", "added": "2026-09-09T16:00", "staffPick": true,
+    "description": "A geometric display sans in five weights from Thin to Regular, each with an italic. The largest family in the library and the only one with a real weight axis to play with.",
+    "sample": "Ten cuts, one geometry",
+    "faces": {
+      "CocogoosePro-Thin.ttf": { "style": "Thin", "weight": 100 },
+      "CocogoosePro-ThinItalic.ttf": { "style": "Thin Italic", "weight": 100, "italic": true },
+      "CocogoosePro-UltraLight.ttf": { "style": "UltraLight", "weight": 200 },
+      "CocogoosePro-UltraLightItalic.ttf": { "style": "UltraLight Italic", "weight": 200, "italic": true },
+      "CocogoosePro-Light.ttf": { "style": "Light", "weight": 300 },
+      "CocogoosePro-LightItalic.ttf": { "style": "Light Italic", "weight": 300, "italic": true },
+      "CocogoosePro-SemiLight.ttf": { "style": "SemiLight", "weight": 350 },
+      "CocogoosePro-SemiLightItalic.ttf": { "style": "SemiLight Italic", "weight": 350, "italic": true },
+      "CocogoosePro-Regular.ttf": { "style": "Regular", "weight": 400 },
+      "CocogoosePro-Italic.ttf": { "style": "Italic", "weight": 400, "italic": true }
+    }
   },
   "classical-material": {
     "name": "Classical Material", "classification": "serif", "categories": ["Serif"],
@@ -233,7 +254,7 @@
     "faces": { "Haveron-Regular.ttf": { "style": "Regular", "weight": 400 } }
   },
   "helvetica": {
-    "name": "Helvetica", "classification": "sans", "categories": ["Sans Serif"],
+    "name": "Helvetica", "classification": "sans", "kind": "family", "categories": ["Sans Serif"],
     "tags": ["Neutral", "Swiss", "Modern", "Grotesk", "Typeface", "Workhorse"],
     "bestFor": ["body text", "interfaces", "captions", "pairing with anything"],
     "designer": "Max Miedinger, Eduard Hoffmann (Haas, 1957)", "licenseKind": "proprietary", "license": "Proprietary (Linotype). Not redistributable.",
@@ -299,6 +320,7 @@
     "source": "https://ifonts.xyz/maison-galliard-font.html", "added": "2026-09-09T12:00", "staffPick": true,
     "description": "A three-part brand system: a high-contrast serif, a matching sans and a script that shares their proportions. The serif and sans carry stylistic alternates and ligatures.",
     "sample": "Galliard House est. 1924",
+    "setCopy": { "script": "a quiet address", "headline": "Galliard House", "sans": "Twelve rooms · Lisbon · est. 1924" },
     "faces": {
       "MaisonGalliard-Serif.otf": { "style": "Serif", "weight": 400, "variant": true },
       "MaisonGalliard-Sans.otf": { "style": "Sans", "weight": 400, "variant": true },
@@ -454,6 +476,7 @@
     "added": "2026-09-09T10:00",
     "description": "A luxury duo. A high-contrast serif and a matching script designed to sit on the same line.",
     "sample": "Fortune favours the bold",
+    "setCopy": { "script": "together with their families", "headline": "Eleanor & James" },
     "faces": {
       "RoyalFortune-Serif-Demo.ttf": { "style": "Serif", "weight": 400, "variant": true },
       "RoyalFortune-Script-Demo.ttf": { "style": "Script", "weight": 400, "variant": true }
@@ -468,6 +491,7 @@
     "added": "2026-09-09T10:00",
     "description": "Serif and script companions with an old-world hotel feel. Made to pair with itself.",
     "sample": "Rooms with a view",
+    "setCopy": { "script": "aperitivo hour", "headline": "ROYAL MAISON" },
     "faces": {
       "RoyalMaison-Serif.ttf": { "style": "Serif", "weight": 400, "variant": true },
       "RoyalMaison-Script.ttf": { "style": "Script", "weight": 400, "variant": true }

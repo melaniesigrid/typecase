@@ -11,55 +11,65 @@ import u8 from '../fonts/bhelmora/Bhelmora-Regular.otf';
 import u9 from '../fonts/biora/Biora-Regular.ttf';
 import u10 from '../fonts/cakra/Cakra-Regular.otf';
 import u11 from '../fonts/classical-material/ClassicalMaterial-Demo-Regular.otf';
-import u12 from '../fonts/daenerys/Daenerys-Regular.otf';
-import u13 from '../fonts/dallen-stamp/DallenStamp-Demo-Regular.otf';
-import u14 from '../fonts/degolan/Degolan-Regular.otf';
-import u15 from '../fonts/dh-alista-aghni/DhAlistaAghni-Demo-Regular.ttf';
-import u16 from '../fonts/dolce-amyara/DolceAmyara-Regular.ttf';
-import u17 from '../fonts/dolce-amyara/DolceAmyara-Italic.ttf';
-import u18 from '../fonts/evo-rinnox/EvoRinnox-Demo-Regular.otf';
-import u19 from '../fonts/femhitary/Femhitary-Regular.ttf';
-import u20 from '../fonts/further/Further-Regular.otf';
-import u21 from '../fonts/gondhe/Gondhe-Regular.otf';
-import u22 from '../fonts/groovy/Groovy-Regular.otf';
-import u23 from '../fonts/haveron/Haveron-Regular.ttf';
-import u24 from '../fonts/helvetica/Helvetica-Light.ttf';
-import u25 from '../fonts/helvetica/Helvetica-Regular.ttf';
-import u26 from '../fonts/helvetica/Helvetica-Oblique.ttf';
-import u27 from '../fonts/helvetica/Helvetica-Bold.ttf';
-import u28 from '../fonts/helvetica/Helvetica-BoldOblique.ttf';
-import u29 from '../fonts/helvetica/Helvetica-Compressed.otf';
-import u30 from '../fonts/helvetica/Helvetica-RoundedBold.otf';
-import u31 from '../fonts/hidda/Hidda-Regular.otf';
-import u32 from '../fonts/kavorie/Kavorie-Demo-Regular.otf';
-import u33 from '../fonts/kuigaf/Kuigaf-Regular.otf';
-import u34 from '../fonts/maison-celeste/MaisonCeleste-Demo-Regular.ttf';
-import u35 from '../fonts/maison-galliard/MaisonGalliard-Serif.otf';
-import u36 from '../fonts/maison-galliard/MaisonGalliard-Sans.otf';
-import u37 from '../fonts/maison-galliard/MaisonGalliard-Script.otf';
-import u38 from '../fonts/malograh/Malograh-Demo-Regular.otf';
-import u39 from '../fonts/maroes/Maroes-Regular.otf';
-import u40 from '../fonts/mochi-pop/MochiPop-Regular.otf';
-import u41 from '../fonts/mofela/Mofela-Demo-Regular.ttf';
-import u42 from '../fonts/moot-jungle/MootJungle-Free-Regular.ttf';
-import u43 from '../fonts/morige/Morige-Demo-Regular.otf';
-import u44 from '../fonts/naolen/Naolen-Regular.otf';
-import u45 from '../fonts/neuropolitical/Neuropolitical-Regular.otf';
-import u46 from '../fonts/nuega/Nuega-Regular.ttf';
-import u47 from '../fonts/paperline/Paperline-Regular.otf';
-import u48 from '../fonts/qliesya/Qliesya-Regular.otf';
-import u49 from '../fonts/raquens/Raquens-Demo-Regular.otf';
-import u50 from '../fonts/raventhorn/Raventhorn-Regular.otf';
-import u51 from '../fonts/ronalltie/Ronalltie-Regular.ttf';
-import u52 from '../fonts/royal-fortune/RoyalFortune-Serif-Demo.ttf';
-import u53 from '../fonts/royal-fortune/RoyalFortune-Script-Demo.ttf';
-import u54 from '../fonts/royal-maison/RoyalMaison-Serif.ttf';
-import u55 from '../fonts/royal-maison/RoyalMaison-Script.ttf';
-import u56 from '../fonts/saneoz/Saneoz-Regular.otf';
-import u57 from '../fonts/silver-shard/SilverShard-Regular.ttf';
-import u58 from '../fonts/sophia-oliver/SophiaOliver-Regular.otf';
-import u59 from '../fonts/sraken/Sraken-Regular.otf';
-import u60 from '../fonts/welorac/Welorac-Regular.otf';
+import u12 from '../fonts/cocogoose/CocogoosePro-Thin.ttf';
+import u13 from '../fonts/cocogoose/CocogoosePro-ThinItalic.ttf';
+import u14 from '../fonts/cocogoose/CocogoosePro-UltraLight.ttf';
+import u15 from '../fonts/cocogoose/CocogoosePro-UltraLightItalic.ttf';
+import u16 from '../fonts/cocogoose/CocogoosePro-Light.ttf';
+import u17 from '../fonts/cocogoose/CocogoosePro-LightItalic.ttf';
+import u18 from '../fonts/cocogoose/CocogoosePro-SemiLight.ttf';
+import u19 from '../fonts/cocogoose/CocogoosePro-SemiLightItalic.ttf';
+import u20 from '../fonts/cocogoose/CocogoosePro-Regular.ttf';
+import u21 from '../fonts/cocogoose/CocogoosePro-Italic.ttf';
+import u22 from '../fonts/daenerys/Daenerys-Regular.otf';
+import u23 from '../fonts/dallen-stamp/DallenStamp-Demo-Regular.otf';
+import u24 from '../fonts/degolan/Degolan-Regular.otf';
+import u25 from '../fonts/dh-alista-aghni/DhAlistaAghni-Demo-Regular.ttf';
+import u26 from '../fonts/dolce-amyara/DolceAmyara-Regular.ttf';
+import u27 from '../fonts/dolce-amyara/DolceAmyara-Italic.ttf';
+import u28 from '../fonts/evo-rinnox/EvoRinnox-Demo-Regular.otf';
+import u29 from '../fonts/femhitary/Femhitary-Regular.ttf';
+import u30 from '../fonts/further/Further-Regular.otf';
+import u31 from '../fonts/gondhe/Gondhe-Regular.otf';
+import u32 from '../fonts/groovy/Groovy-Regular.otf';
+import u33 from '../fonts/haveron/Haveron-Regular.ttf';
+import u34 from '../fonts/helvetica/Helvetica-Light.ttf';
+import u35 from '../fonts/helvetica/Helvetica-Regular.ttf';
+import u36 from '../fonts/helvetica/Helvetica-Oblique.ttf';
+import u37 from '../fonts/helvetica/Helvetica-Bold.ttf';
+import u38 from '../fonts/helvetica/Helvetica-BoldOblique.ttf';
+import u39 from '../fonts/helvetica/Helvetica-Compressed.otf';
+import u40 from '../fonts/helvetica/Helvetica-RoundedBold.otf';
+import u41 from '../fonts/hidda/Hidda-Regular.otf';
+import u42 from '../fonts/kavorie/Kavorie-Demo-Regular.otf';
+import u43 from '../fonts/kuigaf/Kuigaf-Regular.otf';
+import u44 from '../fonts/maison-celeste/MaisonCeleste-Demo-Regular.ttf';
+import u45 from '../fonts/maison-galliard/MaisonGalliard-Serif.otf';
+import u46 from '../fonts/maison-galliard/MaisonGalliard-Sans.otf';
+import u47 from '../fonts/maison-galliard/MaisonGalliard-Script.otf';
+import u48 from '../fonts/malograh/Malograh-Demo-Regular.otf';
+import u49 from '../fonts/maroes/Maroes-Regular.otf';
+import u50 from '../fonts/mochi-pop/MochiPop-Regular.otf';
+import u51 from '../fonts/mofela/Mofela-Demo-Regular.ttf';
+import u52 from '../fonts/moot-jungle/MootJungle-Free-Regular.ttf';
+import u53 from '../fonts/morige/Morige-Demo-Regular.otf';
+import u54 from '../fonts/naolen/Naolen-Regular.otf';
+import u55 from '../fonts/neuropolitical/Neuropolitical-Regular.otf';
+import u56 from '../fonts/nuega/Nuega-Regular.ttf';
+import u57 from '../fonts/paperline/Paperline-Regular.otf';
+import u58 from '../fonts/qliesya/Qliesya-Regular.otf';
+import u59 from '../fonts/raquens/Raquens-Demo-Regular.otf';
+import u60 from '../fonts/raventhorn/Raventhorn-Regular.otf';
+import u61 from '../fonts/ronalltie/Ronalltie-Regular.ttf';
+import u62 from '../fonts/royal-fortune/RoyalFortune-Serif-Demo.ttf';
+import u63 from '../fonts/royal-fortune/RoyalFortune-Script-Demo.ttf';
+import u64 from '../fonts/royal-maison/RoyalMaison-Serif.ttf';
+import u65 from '../fonts/royal-maison/RoyalMaison-Script.ttf';
+import u66 from '../fonts/saneoz/Saneoz-Regular.otf';
+import u67 from '../fonts/silver-shard/SilverShard-Regular.ttf';
+import u68 from '../fonts/sophia-oliver/SophiaOliver-Regular.otf';
+import u69 from '../fonts/sraken/Sraken-Regular.otf';
+import u70 from '../fonts/welorac/Welorac-Regular.otf';
 export const faces = [
   { family: "tc-achilo-regular", url: u0, format: "opentype" },
   { family: "tc-amoen-regular", url: u1, format: "truetype" },
@@ -73,55 +83,65 @@ export const faces = [
   { family: "tc-biora-regular", url: u9, format: "truetype" },
   { family: "tc-cakra-regular", url: u10, format: "opentype" },
   { family: "tc-classical-material-regular", url: u11, format: "opentype" },
-  { family: "tc-daenerys-regular", url: u12, format: "opentype" },
-  { family: "tc-dallen-stamp-regular", url: u13, format: "opentype" },
-  { family: "tc-degolan-regular", url: u14, format: "opentype" },
-  { family: "tc-dh-alista-aghni-bold", url: u15, format: "truetype" },
-  { family: "tc-dolce-amyara-regular", url: u16, format: "truetype" },
-  { family: "tc-dolce-amyara-italic", url: u17, format: "truetype" },
-  { family: "tc-evo-rinnox-regular", url: u18, format: "opentype" },
-  { family: "tc-femhitary-regular", url: u19, format: "truetype" },
-  { family: "tc-further-regular", url: u20, format: "opentype" },
-  { family: "tc-gondhe-regular", url: u21, format: "opentype" },
-  { family: "tc-groovy-regular", url: u22, format: "opentype" },
-  { family: "tc-haveron-regular", url: u23, format: "truetype" },
-  { family: "tc-helvetica-light", url: u24, format: "truetype" },
-  { family: "tc-helvetica-regular", url: u25, format: "truetype" },
-  { family: "tc-helvetica-oblique", url: u26, format: "truetype" },
-  { family: "tc-helvetica-bold", url: u27, format: "truetype" },
-  { family: "tc-helvetica-bold-oblique", url: u28, format: "truetype" },
-  { family: "tc-helvetica-compressed", url: u29, format: "opentype" },
-  { family: "tc-helvetica-rounded-bold", url: u30, format: "opentype" },
-  { family: "tc-hidda-regular", url: u31, format: "opentype" },
-  { family: "tc-kavorie-regular", url: u32, format: "opentype" },
-  { family: "tc-kuigaf-regular", url: u33, format: "opentype" },
-  { family: "tc-maison-celeste-regular", url: u34, format: "truetype" },
-  { family: "tc-maison-galliard-serif", url: u35, format: "opentype" },
-  { family: "tc-maison-galliard-sans", url: u36, format: "opentype" },
-  { family: "tc-maison-galliard-script", url: u37, format: "opentype" },
-  { family: "tc-malograh-regular", url: u38, format: "opentype" },
-  { family: "tc-maroes-regular", url: u39, format: "opentype" },
-  { family: "tc-mochi-pop-regular", url: u40, format: "opentype" },
-  { family: "tc-mofela-regular", url: u41, format: "truetype" },
-  { family: "tc-moot-jungle-regular", url: u42, format: "truetype" },
-  { family: "tc-morige-regular", url: u43, format: "opentype" },
-  { family: "tc-naolen-regular", url: u44, format: "opentype" },
-  { family: "tc-neuropolitical-regular", url: u45, format: "opentype" },
-  { family: "tc-nuega-regular", url: u46, format: "truetype" },
-  { family: "tc-paperline-regular", url: u47, format: "opentype" },
-  { family: "tc-qliesya-regular", url: u48, format: "opentype" },
-  { family: "tc-raquens-regular", url: u49, format: "opentype" },
-  { family: "tc-raventhorn-regular", url: u50, format: "opentype" },
-  { family: "tc-ronalltie-regular", url: u51, format: "truetype" },
-  { family: "tc-royal-fortune-serif", url: u52, format: "truetype" },
-  { family: "tc-royal-fortune-script", url: u53, format: "truetype" },
-  { family: "tc-royal-maison-serif", url: u54, format: "truetype" },
-  { family: "tc-royal-maison-script", url: u55, format: "truetype" },
-  { family: "tc-saneoz-regular", url: u56, format: "opentype" },
-  { family: "tc-silver-shard-regular", url: u57, format: "truetype" },
-  { family: "tc-sophia-oliver-regular", url: u58, format: "opentype" },
-  { family: "tc-sraken-regular", url: u59, format: "opentype" },
-  { family: "tc-welorac-regular", url: u60, format: "opentype" },
+  { family: "tc-cocogoose-thin", url: u12, format: "truetype" },
+  { family: "tc-cocogoose-thin-italic", url: u13, format: "truetype" },
+  { family: "tc-cocogoose-ultralight", url: u14, format: "truetype" },
+  { family: "tc-cocogoose-ultralight-italic", url: u15, format: "truetype" },
+  { family: "tc-cocogoose-light", url: u16, format: "truetype" },
+  { family: "tc-cocogoose-light-italic", url: u17, format: "truetype" },
+  { family: "tc-cocogoose-semilight", url: u18, format: "truetype" },
+  { family: "tc-cocogoose-semilight-italic", url: u19, format: "truetype" },
+  { family: "tc-cocogoose-regular", url: u20, format: "truetype" },
+  { family: "tc-cocogoose-italic", url: u21, format: "truetype" },
+  { family: "tc-daenerys-regular", url: u22, format: "opentype" },
+  { family: "tc-dallen-stamp-regular", url: u23, format: "opentype" },
+  { family: "tc-degolan-regular", url: u24, format: "opentype" },
+  { family: "tc-dh-alista-aghni-bold", url: u25, format: "truetype" },
+  { family: "tc-dolce-amyara-regular", url: u26, format: "truetype" },
+  { family: "tc-dolce-amyara-italic", url: u27, format: "truetype" },
+  { family: "tc-evo-rinnox-regular", url: u28, format: "opentype" },
+  { family: "tc-femhitary-regular", url: u29, format: "truetype" },
+  { family: "tc-further-regular", url: u30, format: "opentype" },
+  { family: "tc-gondhe-regular", url: u31, format: "opentype" },
+  { family: "tc-groovy-regular", url: u32, format: "opentype" },
+  { family: "tc-haveron-regular", url: u33, format: "truetype" },
+  { family: "tc-helvetica-light", url: u34, format: "truetype" },
+  { family: "tc-helvetica-regular", url: u35, format: "truetype" },
+  { family: "tc-helvetica-oblique", url: u36, format: "truetype" },
+  { family: "tc-helvetica-bold", url: u37, format: "truetype" },
+  { family: "tc-helvetica-bold-oblique", url: u38, format: "truetype" },
+  { family: "tc-helvetica-compressed", url: u39, format: "opentype" },
+  { family: "tc-helvetica-rounded-bold", url: u40, format: "opentype" },
+  { family: "tc-hidda-regular", url: u41, format: "opentype" },
+  { family: "tc-kavorie-regular", url: u42, format: "opentype" },
+  { family: "tc-kuigaf-regular", url: u43, format: "opentype" },
+  { family: "tc-maison-celeste-regular", url: u44, format: "truetype" },
+  { family: "tc-maison-galliard-serif", url: u45, format: "opentype" },
+  { family: "tc-maison-galliard-sans", url: u46, format: "opentype" },
+  { family: "tc-maison-galliard-script", url: u47, format: "opentype" },
+  { family: "tc-malograh-regular", url: u48, format: "opentype" },
+  { family: "tc-maroes-regular", url: u49, format: "opentype" },
+  { family: "tc-mochi-pop-regular", url: u50, format: "opentype" },
+  { family: "tc-mofela-regular", url: u51, format: "truetype" },
+  { family: "tc-moot-jungle-regular", url: u52, format: "truetype" },
+  { family: "tc-morige-regular", url: u53, format: "opentype" },
+  { family: "tc-naolen-regular", url: u54, format: "opentype" },
+  { family: "tc-neuropolitical-regular", url: u55, format: "opentype" },
+  { family: "tc-nuega-regular", url: u56, format: "truetype" },
+  { family: "tc-paperline-regular", url: u57, format: "opentype" },
+  { family: "tc-qliesya-regular", url: u58, format: "opentype" },
+  { family: "tc-raquens-regular", url: u59, format: "opentype" },
+  { family: "tc-raventhorn-regular", url: u60, format: "opentype" },
+  { family: "tc-ronalltie-regular", url: u61, format: "truetype" },
+  { family: "tc-royal-fortune-serif", url: u62, format: "truetype" },
+  { family: "tc-royal-fortune-script", url: u63, format: "truetype" },
+  { family: "tc-royal-maison-serif", url: u64, format: "truetype" },
+  { family: "tc-royal-maison-script", url: u65, format: "truetype" },
+  { family: "tc-saneoz-regular", url: u66, format: "opentype" },
+  { family: "tc-silver-shard-regular", url: u67, format: "truetype" },
+  { family: "tc-sophia-oliver-regular", url: u68, format: "opentype" },
+  { family: "tc-sraken-regular", url: u69, format: "opentype" },
+  { family: "tc-welorac-regular", url: u70, format: "opentype" },
 ];
 export function injectFontFaces() {
   if (document.getElementById("tc-fontfaces")) return;

@@ -133,7 +133,12 @@ export default function Index({ prefs, set }) {
                 <li key={f.id} className="row" style={{ '--i': Math.min(i, 12) }}>
                   <a href={href(`/f/${f.id}`)} className="row-link">
                     <span className="row-num mono">{String(i + 1).padStart(2, '0')}</span>
-                    <Sample face={face} text={t} className="row-sample" style={{ fontSize: size }} />
+                    <span className="row-samples">
+                      <Sample face={face} text={t} className="row-sample" style={{ fontSize: size }} />
+                      {(f.kind === 'duo' || f.kind === 'trio') && f.faces.filter(x => x.id !== face.id).map(x => (
+                        <Sample key={x.id} face={x} text={t} className="row-sample row-sample-2" style={{ fontSize: Math.round(size * 0.55) }} />
+                      ))}
+                    </span>
                     <span className="row-meta">
                       <b>{f.name}{f.staffPick && <span className="pick" title="Staff pick">★</span>}</b>
                       <span className="mono">{f.designer}</span>
