@@ -2,48 +2,60 @@
 import u0 from '../fonts/annyra/Annyra-Regular.ttf';
 import u1 from '../fonts/bellique/Bellique-Regular.otf';
 import u2 from '../fonts/bhelmora/Bhelmora-Regular.otf';
-import u3 from '../fonts/helvetica/Helvetica-Light.ttf';
-import u4 from '../fonts/helvetica/Helvetica-Regular.ttf';
-import u5 from '../fonts/helvetica/Helvetica-Oblique.ttf';
-import u6 from '../fonts/helvetica/Helvetica-Bold.ttf';
-import u7 from '../fonts/helvetica/Helvetica-BoldOblique.ttf';
-import u8 from '../fonts/helvetica/Helvetica-Compressed.otf';
-import u9 from '../fonts/helvetica/Helvetica-RoundedBold.otf';
-import u10 from '../fonts/kavorie/Kavorie-Demo-Regular.otf';
-import u11 from '../fonts/maison-celeste/MaisonCeleste-Demo-Regular.ttf';
-import u12 from '../fonts/maison-galliard/MaisonGalliard-Serif.otf';
-import u13 from '../fonts/maison-galliard/MaisonGalliard-Sans.otf';
-import u14 from '../fonts/maison-galliard/MaisonGalliard-Script.otf';
-import u15 from '../fonts/maroes/Maroes-Regular.otf';
-import u16 from '../fonts/mofela/Mofela-Demo-Regular.ttf';
-import u17 from '../fonts/raventhorn/Raventhorn-Regular.otf';
-import u18 from '../fonts/royal-fortune/RoyalFortune-Serif-Demo.ttf';
-import u19 from '../fonts/royal-fortune/RoyalFortune-Script-Demo.ttf';
-import u20 from '../fonts/royal-maison/RoyalMaison-Serif.ttf';
-import u21 from '../fonts/royal-maison/RoyalMaison-Script.ttf';
+import u3 from '../fonts/classical-material/ClassicalMaterial-Demo-Regular.otf';
+import u4 from '../fonts/further/Further-Regular.otf';
+import u5 from '../fonts/gondhe/Gondhe-Regular.otf';
+import u6 from '../fonts/helvetica/Helvetica-Light.ttf';
+import u7 from '../fonts/helvetica/Helvetica-Regular.ttf';
+import u8 from '../fonts/helvetica/Helvetica-Oblique.ttf';
+import u9 from '../fonts/helvetica/Helvetica-Bold.ttf';
+import u10 from '../fonts/helvetica/Helvetica-BoldOblique.ttf';
+import u11 from '../fonts/helvetica/Helvetica-Compressed.otf';
+import u12 from '../fonts/helvetica/Helvetica-RoundedBold.otf';
+import u13 from '../fonts/kavorie/Kavorie-Demo-Regular.otf';
+import u14 from '../fonts/kuigaf/Kuigaf-Regular.otf';
+import u15 from '../fonts/maison-celeste/MaisonCeleste-Demo-Regular.ttf';
+import u16 from '../fonts/maison-galliard/MaisonGalliard-Serif.otf';
+import u17 from '../fonts/maison-galliard/MaisonGalliard-Sans.otf';
+import u18 from '../fonts/maison-galliard/MaisonGalliard-Script.otf';
+import u19 from '../fonts/maroes/Maroes-Regular.otf';
+import u20 from '../fonts/mochi-pop/MochiPop-Regular.otf';
+import u21 from '../fonts/mofela/Mofela-Demo-Regular.ttf';
+import u22 from '../fonts/paperline/Paperline-Regular.otf';
+import u23 from '../fonts/raventhorn/Raventhorn-Regular.otf';
+import u24 from '../fonts/royal-fortune/RoyalFortune-Serif-Demo.ttf';
+import u25 from '../fonts/royal-fortune/RoyalFortune-Script-Demo.ttf';
+import u26 from '../fonts/royal-maison/RoyalMaison-Serif.ttf';
+import u27 from '../fonts/royal-maison/RoyalMaison-Script.ttf';
 export const faces = [
   { family: "tc-annyra-regular", url: u0, format: "truetype" },
   { family: "tc-bellique-regular", url: u1, format: "opentype" },
   { family: "tc-bhelmora-regular", url: u2, format: "opentype" },
-  { family: "tc-helvetica-light", url: u3, format: "truetype" },
-  { family: "tc-helvetica-regular", url: u4, format: "truetype" },
-  { family: "tc-helvetica-oblique", url: u5, format: "truetype" },
-  { family: "tc-helvetica-bold", url: u6, format: "truetype" },
-  { family: "tc-helvetica-bold-oblique", url: u7, format: "truetype" },
-  { family: "tc-helvetica-compressed", url: u8, format: "opentype" },
-  { family: "tc-helvetica-rounded-bold", url: u9, format: "opentype" },
-  { family: "tc-kavorie-regular", url: u10, format: "opentype" },
-  { family: "tc-maison-celeste-regular", url: u11, format: "truetype" },
-  { family: "tc-maison-galliard-serif", url: u12, format: "opentype" },
-  { family: "tc-maison-galliard-sans", url: u13, format: "opentype" },
-  { family: "tc-maison-galliard-script", url: u14, format: "opentype" },
-  { family: "tc-maroes-regular", url: u15, format: "opentype" },
-  { family: "tc-mofela-regular", url: u16, format: "truetype" },
-  { family: "tc-raventhorn-regular", url: u17, format: "opentype" },
-  { family: "tc-royal-fortune-serif", url: u18, format: "truetype" },
-  { family: "tc-royal-fortune-script", url: u19, format: "truetype" },
-  { family: "tc-royal-maison-serif", url: u20, format: "truetype" },
-  { family: "tc-royal-maison-script", url: u21, format: "truetype" },
+  { family: "tc-classical-material-regular", url: u3, format: "opentype" },
+  { family: "tc-further-regular", url: u4, format: "opentype" },
+  { family: "tc-gondhe-regular", url: u5, format: "opentype" },
+  { family: "tc-helvetica-light", url: u6, format: "truetype" },
+  { family: "tc-helvetica-regular", url: u7, format: "truetype" },
+  { family: "tc-helvetica-oblique", url: u8, format: "truetype" },
+  { family: "tc-helvetica-bold", url: u9, format: "truetype" },
+  { family: "tc-helvetica-bold-oblique", url: u10, format: "truetype" },
+  { family: "tc-helvetica-compressed", url: u11, format: "opentype" },
+  { family: "tc-helvetica-rounded-bold", url: u12, format: "opentype" },
+  { family: "tc-kavorie-regular", url: u13, format: "opentype" },
+  { family: "tc-kuigaf-regular", url: u14, format: "opentype" },
+  { family: "tc-maison-celeste-regular", url: u15, format: "truetype" },
+  { family: "tc-maison-galliard-serif", url: u16, format: "opentype" },
+  { family: "tc-maison-galliard-sans", url: u17, format: "opentype" },
+  { family: "tc-maison-galliard-script", url: u18, format: "opentype" },
+  { family: "tc-maroes-regular", url: u19, format: "opentype" },
+  { family: "tc-mochi-pop-regular", url: u20, format: "opentype" },
+  { family: "tc-mofela-regular", url: u21, format: "truetype" },
+  { family: "tc-paperline-regular", url: u22, format: "opentype" },
+  { family: "tc-raventhorn-regular", url: u23, format: "opentype" },
+  { family: "tc-royal-fortune-serif", url: u24, format: "truetype" },
+  { family: "tc-royal-fortune-script", url: u25, format: "truetype" },
+  { family: "tc-royal-maison-serif", url: u26, format: "truetype" },
+  { family: "tc-royal-maison-script", url: u27, format: "truetype" },
 ];
 export function injectFontFaces() {
   if (document.getElementById("tc-fontfaces")) return;

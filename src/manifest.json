@@ -1,19 +1,29 @@
 {
-  "generatedAt": "2026-09-09T16:15:04.857Z",
+  "generatedAt": "2026-09-09T16:34:35.263Z",
   "families": [
     {
       "id": "annyra",
       "name": "Annyra",
       "cssFamily": "tc-annyra-regular",
       "primary": "annyra/regular",
-      "category": "sans",
-      "tags": [
+      "classification": "sans",
+      "kind": "single",
+      "moods": [
         "luxury",
+        "elegant",
         "geometric",
+        "fashion"
+      ],
+      "tags": [
         "wide",
         "caps"
       ],
-      "description": "A wide, geometric luxury sans with confident round bowls. Built for logotypes, fashion labels and anything that wants to whisper expensive.",
+      "bestFor": [
+        "logotypes",
+        "fashion labels",
+        "packaging"
+      ],
+      "description": "A wide, geometric luxury sans with confident round bowls. Built for logotypes, fashion labels and anything that wants to whisper expensive. Letters only in this cut.",
       "designer": "Flawless & Co",
       "source": null,
       "license": "Personal use (check vendor)",
@@ -58,12 +68,21 @@
       "name": "Bellique",
       "cssFamily": "tc-bellique-regular",
       "primary": "bellique/regular",
-      "category": "script",
-      "tags": [
-        "logo",
-        "script",
+      "classification": "script",
+      "kind": "single",
+      "moods": [
         "signature",
+        "bold",
+        "retro",
+        "confident"
+      ],
+      "tags": [
         "ligatures"
+      ],
+      "bestFor": [
+        "logos",
+        "signatures",
+        "packaging"
       ],
       "description": "A logo script with a steady hand. Full character set, digits and accents, plus discretionary ligatures for the letter pairs that tend to clash.",
       "designer": "Shanaf Studio",
@@ -112,12 +131,21 @@
       "name": "Bhelmora",
       "cssFamily": "tc-bhelmora-regular",
       "primary": "bhelmora/regular",
-      "category": "display",
-      "tags": [
-        "whimsical",
-        "display",
+      "classification": "display",
+      "kind": "single",
+      "moods": [
         "playful",
+        "whimsical",
+        "handmade",
+        "retro"
+      ],
+      "tags": [
         "full-charset"
+      ],
+      "bestFor": [
+        "posters",
+        "packaging",
+        "children's books"
       ],
       "description": "A whimsical display face with bouncing baselines and soft, hand-cut curves. Complete Latin set for posters, packaging and anything that should feel handmade.",
       "designer": "Figuree Studio",
@@ -160,18 +188,221 @@
       ]
     },
     {
+      "id": "classical-material",
+      "name": "Classical Material",
+      "cssFamily": "tc-classical-material-regular",
+      "primary": "classical-material/regular",
+      "classification": "serif",
+      "kind": "single",
+      "moods": [
+        "calligraphic",
+        "elegant",
+        "classic",
+        "editorial"
+      ],
+      "tags": [
+        "calligraphic",
+        "ligatures"
+      ],
+      "bestFor": [
+        "book titles",
+        "editorial",
+        "branding"
+      ],
+      "description": "A calligraphic serif that keeps the pen's angle in every stroke. Wide language support even in the demo, with standard ligatures.",
+      "designer": "177Studio",
+      "source": "https://177studio.com/product/classical-material-calligraphic-serif-font/",
+      "license": "Demo. Personal use only.",
+      "demo": true,
+      "sample": "Ink, nib and patience",
+      "faces": [
+        {
+          "id": "classical-material/regular",
+          "file": "fonts/classical-material/ClassicalMaterial-Demo-Regular.otf",
+          "format": "otf",
+          "bytes": 67288,
+          "postscriptName": "ClassicalMaterialDemo-Regular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "cssFamily": "tc-classical-material-regular",
+          "unitsPerEm": 1000,
+          "ascent": 1325,
+          "descent": -346,
+          "lineGap": 0,
+          "capHeight": 999,
+          "xHeight": 694,
+          "glyphs": 380,
+          "characters": 380,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĂăĄąĆćČčĎďĐđĘęĚěıĹĺĽľŁłŃńŇňŐőŒœŔŕŘřŚśŞşŠšŤťŮůŰűŸŹźŻżŽž",
+          "features": [
+            "liga"
+          ],
+          "copyright": "Copyright (c) 2026 by 177Studio.com. All rights reserved.",
+          "version": "Version 1.001"
+        }
+      ]
+    },
+    {
+      "id": "further",
+      "name": "Further",
+      "cssFamily": "tc-further-regular",
+      "primary": "further/regular",
+      "classification": "sans",
+      "kind": "single",
+      "moods": [
+        "tall",
+        "condensed",
+        "bold",
+        "modern"
+      ],
+      "tags": [
+        "display",
+        "condensed"
+      ],
+      "bestFor": [
+        "posters",
+        "event branding",
+        "headlines"
+      ],
+      "description": "A tall, condensed display sans that stacks well and shouts politely. Good at filling a poster edge to edge.",
+      "designer": "Pian45 Studio",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Seven nights of new music",
+      "faces": [
+        {
+          "id": "further/regular",
+          "file": "fonts/further/Further-Regular.otf",
+          "format": "otf",
+          "bytes": 16152,
+          "postscriptName": "Further-Regular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "cssFamily": "tc-further-regular",
+          "unitsPerEm": 1000,
+          "ascent": 750,
+          "descent": -250,
+          "lineGap": 0,
+          "capHeight": 680,
+          "xHeight": 450,
+          "glyphs": 182,
+          "characters": 184,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¨©­®´¸ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝàáâãäåæçèéêëìíîïñòóôõö÷øùúûüýÿı",
+          "features": [
+            "liga"
+          ],
+          "copyright": "Copyright © 2026 by Pian45 Studio",
+          "version": "Version 1.000;August 26, 2026;FontCreator 15.0.0.3014 64-bit"
+        }
+      ]
+    },
+    {
+      "id": "gondhe",
+      "name": "Gondhe",
+      "cssFamily": "tc-gondhe-regular",
+      "primary": "gondhe/regular",
+      "classification": "serif",
+      "kind": "single",
+      "moods": [
+        "elegant",
+        "romantic",
+        "swash",
+        "fashion"
+      ],
+      "tags": [
+        "swashes",
+        "ligatures"
+      ],
+      "bestFor": [
+        "names",
+        "titles",
+        "invitations"
+      ],
+      "description": "An elegant serif with swashed capitals and long, curling tails. Letters and most digits only in this cut, so keep it to names and titles.",
+      "designer": "Burntilldead",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Grace in every tail",
+      "faces": [
+        {
+          "id": "gondhe/regular",
+          "file": "fonts/gondhe/Gondhe-Regular.otf",
+          "format": "otf",
+          "bytes": 16548,
+          "postscriptName": "Gondhe-Regular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "cssFamily": "tc-gondhe-regular",
+          "unitsPerEm": 1000,
+          "ascent": 750,
+          "descent": -250,
+          "lineGap": 100,
+          "capHeight": 700,
+          "xHeight": 500,
+          "glyphs": 67,
+          "characters": 67,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 0.7,
+            "punct": 0.1111111111111111,
+            "accents": 0
+          },
+          "latin": " ,.0123456ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+          "features": [
+            "liga",
+            "ordn"
+          ],
+          "copyright": "©2026, Burntilldead - Illustrator and Typefoundry, All rights reserved\n",
+          "version": "Version 1.000"
+        }
+      ]
+    },
+    {
       "id": "helvetica",
       "name": "Helvetica",
       "cssFamily": "tc-helvetica-regular",
       "primary": "helvetica/regular",
-      "category": "sans",
-      "tags": [
-        "grotesk",
+      "classification": "sans",
+      "kind": "duo",
+      "moods": [
         "neutral",
         "swiss",
+        "modern",
         "workhorse"
       ],
-      "description": "The neutral. Swiss modernism's most famous grotesk, here in seven cuts from a compressed display face to the rounded bold.",
+      "tags": [
+        "grotesk"
+      ],
+      "bestFor": [
+        "body text",
+        "interfaces",
+        "captions",
+        "pairing with anything"
+      ],
+      "description": "The neutral. Swiss modernism's most famous grotesk, here in seven cuts from a compressed display face to the rounded bold. The body face the rest of the library leans on.",
       "designer": "Max Miedinger, Eduard Hoffmann (Haas, 1957)",
       "source": null,
       "license": "Proprietary (Linotype). Not redistributable.",
@@ -408,12 +639,22 @@
       "name": "Kavorie",
       "cssFamily": "tc-kavorie-regular",
       "primary": "kavorie/regular",
-      "category": "serif",
+      "classification": "serif",
+      "kind": "single",
+      "moods": [
+        "editorial",
+        "elegant",
+        "high-contrast",
+        "fashion"
+      ],
       "tags": [
         "display",
-        "high-contrast",
-        "editorial",
         "ligatures"
+      ],
+      "bestFor": [
+        "magazine headlines",
+        "covers",
+        "campaigns"
       ],
       "description": "A sharp editorial display serif with discretionary ligatures. Letters only in this demo cut.",
       "designer": "Ragamkata Studio",
@@ -458,17 +699,90 @@
       ]
     },
     {
+      "id": "kuigaf",
+      "name": "Kuigaf",
+      "cssFamily": "tc-kuigaf-regular",
+      "primary": "kuigaf/regular",
+      "classification": "serif",
+      "kind": "single",
+      "moods": [
+        "editorial",
+        "modern",
+        "elegant",
+        "sharp"
+      ],
+      "tags": [
+        "display"
+      ],
+      "bestFor": [
+        "headlines",
+        "branding",
+        "editorial"
+      ],
+      "description": "A serif display face with wedge serifs and a slightly narrow stance. Full Latin set with accents, so it can carry a whole headline system.",
+      "designer": "Yumnacreative, Dhabee Studio",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Sharp edges, soft voice",
+      "faces": [
+        {
+          "id": "kuigaf/regular",
+          "file": "fonts/kuigaf/Kuigaf-Regular.otf",
+          "format": "otf",
+          "bytes": 206708,
+          "postscriptName": "KuigafRegular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "cssFamily": "tc-kuigaf-regular",
+          "unitsPerEm": 1000,
+          "ascent": 750,
+          "descent": -120,
+          "lineGap": 0,
+          "capHeight": 700,
+          "xHeight": 474,
+          "glyphs": 224,
+          "characters": 228,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~¡¢£¤¥©«®°±»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝàáâãäåæçèéêëìíîïñòóôõö÷øùúûüýÿĂĆćČčĎĚěıŁłŃńŇňŒœŚśŠšŸŹźž",
+          "features": [
+            "liga"
+          ],
+          "copyright": "Yumnacreative_Dhabee Studio©2026.",
+          "version": "Version 1.001;Fontself Maker 3.5.13"
+        }
+      ]
+    },
+    {
       "id": "maison-celeste",
       "name": "Maison Celeste",
       "cssFamily": "tc-maison-celeste-regular",
       "primary": "maison-celeste/regular",
-      "category": "serif",
-      "tags": [
+      "classification": "serif",
+      "kind": "single",
+      "moods": [
         "elegant",
+        "luxury",
         "fashion",
         "high-contrast"
       ],
-      "description": "Refined fashion serif with hairline joins and long, elegant extenders. Digits and accents included in the demo.",
+      "tags": [
+        "hairline"
+      ],
+      "bestFor": [
+        "perfume",
+        "fashion",
+        "wordmarks"
+      ],
+      "description": "Refined fashion serif with hairline joins and long, elegant extenders. Digits and accents included in the demo, punctuation is not.",
       "designer": "Sixtype Foundry",
       "source": null,
       "license": "Demo. Personal use only, limited character set.",
@@ -513,12 +827,22 @@
       "name": "Maison Galliard",
       "cssFamily": "tc-maison-galliard-serif",
       "primary": "maison-galliard/serif",
-      "category": "trio",
-      "tags": [
+      "classification": "serif",
+      "kind": "trio",
+      "moods": [
         "luxury",
+        "elegant",
+        "hotel",
+        "branding"
+      ],
+      "tags": [
         "serif + sans + script",
-        "branding",
         "stylistic alternates"
+      ],
+      "bestFor": [
+        "brand systems",
+        "hospitality",
+        "packaging"
       ],
       "description": "A three-part brand system: a high-contrast serif, a matching sans and a script that shares their proportions. The serif and sans carry stylistic alternates and ligatures.",
       "designer": "Creacy Studio Co.",
@@ -639,14 +963,24 @@
       "name": "Maroes",
       "cssFamily": "tc-maroes-regular",
       "primary": "maroes/regular",
-      "category": "serif",
-      "tags": [
-        "modern",
+      "classification": "serif",
+      "kind": "single",
+      "moods": [
         "editorial",
+        "modern",
+        "elegant",
+        "text"
+      ],
+      "tags": [
         "full-charset",
         "opentype"
       ],
-      "description": "A modern serif with a complete Latin character set, case-sensitive forms, ordinals and standard ligatures. The most complete text face in the library.",
+      "bestFor": [
+        "body text",
+        "decks",
+        "long titles"
+      ],
+      "description": "A modern serif with a complete Latin character set, case-sensitive forms, ordinals and standard ligatures. The most complete text serif in the library, though its digits are placeholders.",
       "designer": "Aiqui Type",
       "source": null,
       "license": "Personal use (check vendor)",
@@ -693,15 +1027,90 @@
       ]
     },
     {
+      "id": "mochi-pop",
+      "name": "Mochi Pop",
+      "cssFamily": "tc-mochi-pop-regular",
+      "primary": "mochi-pop/regular",
+      "classification": "display",
+      "kind": "single",
+      "moods": [
+        "cute",
+        "playful",
+        "bubbly",
+        "sweet"
+      ],
+      "tags": [
+        "bubble",
+        "rounded"
+      ],
+      "bestFor": [
+        "food packaging",
+        "stickers",
+        "kids"
+      ],
+      "description": "A cute bubble face with inflated counters and a soft edge. Letters, digits and basic punctuation, no accents.",
+      "designer": "Unknown",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Soft chewy and a bit silly",
+      "faces": [
+        {
+          "id": "mochi-pop/regular",
+          "file": "fonts/mochi-pop/MochiPop-Regular.otf",
+          "format": "otf",
+          "bytes": 22684,
+          "postscriptName": "MochiPopRegular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "cssFamily": "tc-mochi-pop-regular",
+          "unitsPerEm": 1000,
+          "ascent": 750,
+          "descent": -250,
+          "lineGap": 0,
+          "capHeight": 700,
+          "xHeight": 500,
+          "glyphs": 108,
+          "characters": 108,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 0.8888888888888888,
+            "accents": 0
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}©®×÷",
+          "features": [
+            "liga"
+          ],
+          "copyright": " ",
+          "version": "Version 1.000"
+        }
+      ]
+    },
+    {
       "id": "mofela",
       "name": "Mofela",
       "cssFamily": "tc-mofela-regular",
       "primary": "mofela/regular",
-      "category": "serif",
+      "classification": "serif",
+      "kind": "single",
+      "moods": [
+        "elegant",
+        "flared",
+        "decorative",
+        "editorial"
+      ],
       "tags": [
         "ligatures",
-        "display",
-        "flared"
+        "display"
+      ],
+      "bestFor": [
+        "wordmarks",
+        "titles",
+        "monograms"
       ],
       "description": "A ligature-led display serif. Its pairs and flourishes are the whole point. Letters only in this demo cut.",
       "designer": "Font Liner",
@@ -746,16 +1155,90 @@
       ]
     },
     {
+      "id": "paperline",
+      "name": "Paperline",
+      "cssFamily": "tc-paperline-regular",
+      "primary": "paperline/regular",
+      "classification": "script",
+      "kind": "single",
+      "moods": [
+        "handmade",
+        "casual",
+        "warm",
+        "stationery"
+      ],
+      "tags": [
+        "hand lettering",
+        "ligatures"
+      ],
+      "bestFor": [
+        "cards",
+        "captions",
+        "labels"
+      ],
+      "description": "A hand-lettered script with a felt-tip feel and a low x-height. Full Latin set with accents, so it works for real sentences, not just names.",
+      "designer": "Unknown",
+      "source": null,
+      "license": "Personal use (check vendor)",
+      "demo": false,
+      "sample": "Written on the back of a postcard",
+      "faces": [
+        {
+          "id": "paperline/regular",
+          "file": "fonts/paperline/Paperline-Regular.otf",
+          "format": "otf",
+          "bytes": 134384,
+          "postscriptName": "PaperlineRegular",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "variant": false,
+          "cssFamily": "tc-paperline-regular",
+          "unitsPerEm": 1000,
+          "ascent": 790,
+          "descent": -400,
+          "lineGap": 0,
+          "capHeight": 787,
+          "xHeight": 420,
+          "glyphs": 191,
+          "characters": 194,
+          "coverage": {
+            "upper": 1,
+            "lower": 1,
+            "digits": 1,
+            "punct": 1,
+            "accents": 1
+          },
+          "latin": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}¡¢£¤¥§©«®°µ¶·»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÕÖ×ØÙÚÛÜÝßàáâãäåæçèéêëìíîïñòóôõö÷øùúûüýÿŒœŠšŸŹž",
+          "features": [
+            "liga"
+          ],
+          "copyright": null,
+          "version": "Version 1.002;Fontself Maker 3.5.9"
+        }
+      ]
+    },
+    {
       "id": "raventhorn",
       "name": "Raventhorn",
       "cssFamily": "tc-raventhorn-regular",
       "primary": "raventhorn/regular",
-      "category": "serif",
-      "tags": [
+      "classification": "serif",
+      "kind": "single",
+      "moods": [
         "vintage",
         "decorative",
         "victorian",
-        "stylistic set"
+        "bold"
+      ],
+      "tags": [
+        "stylistic set",
+        "ornamental"
+      ],
+      "bestFor": [
+        "labels",
+        "signage",
+        "packaging"
       ],
       "description": "A decorative vintage serif with spurred terminals and a Victorian shopfront air. Ships a stylistic set and alternates for the ornamental capitals.",
       "designer": "Cikareotype Studio",
@@ -805,11 +1288,20 @@
       "name": "Royal Fortune",
       "cssFamily": "tc-royal-fortune-serif",
       "primary": "royal-fortune/serif",
-      "category": "duo",
-      "tags": [
+      "classification": "serif",
+      "kind": "duo",
+      "moods": [
         "luxury",
-        "serif + script",
+        "romantic",
         "wedding",
+        "elegant"
+      ],
+      "tags": [
+        "serif + script"
+      ],
+      "bestFor": [
+        "invitations",
+        "weddings",
         "branding"
       ],
       "description": "A luxury duo. A high-contrast serif and a matching script designed to sit on the same line.",
@@ -888,10 +1380,20 @@
       "name": "Royal Maison",
       "cssFamily": "tc-royal-maison-serif",
       "primary": "royal-maison/serif",
-      "category": "duo",
-      "tags": [
+      "classification": "serif",
+      "kind": "duo",
+      "moods": [
         "luxury",
-        "serif + script",
+        "hotel",
+        "classic",
+        "elegant"
+      ],
+      "tags": [
+        "serif + script"
+      ],
+      "bestFor": [
+        "hospitality",
+        "menus",
         "branding"
       ],
       "description": "Serif and script companions with an old-world hotel feel. Made to pair with itself.",

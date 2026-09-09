@@ -1,0 +1,75 @@
+// Journal articles. Blocks: p (paragraph), h (section heading), pull (pull quote),
+// rule (numbered principle), look (render a look by id), specimen (live type).
+import { site } from '../site.js';
+
+export const articles = [
+  {
+    slug: 'pairing-a-display-serif',
+    title: 'Pairing a display serif with a text face',
+    deck: 'Two serifs on one page is not a mistake. It is a question of contrast, and contrast has more than one axis.',
+    date: '2026-09-09',
+    author: site.owner,
+    face: 'kavorie/regular',
+    faces: ['kavorie/regular', 'maroes/regular'],
+    blocks: [
+      { t: 'p', text: 'The old rule says pair a serif with a sans. It is a fine rule for beginners because it guarantees contrast. It is a limiting rule for everyone else, because the contrast it guarantees is the least interesting kind.' },
+      { t: 'look', id: 'letters-before-sounds' },
+      { t: 'h', text: 'Three axes of contrast' },
+      { t: 'rule', n: '01', title: 'Stroke contrast', text: 'Kavorie is a high-contrast face: hairlines against heavy verticals. Maroes is moderate. Put them side by side and the eye reads the difference before it reads a single word.' },
+      { t: 'rule', n: '02', title: 'Size', text: 'A display face needs to be displayed. Under forty pixels Kavorie loses its hairlines and starts to look like a bad copy of the text face. Give it size or leave it out.' },
+      { t: 'rule', n: '03', title: 'Role', text: 'One face speaks, one face explains. If both try to speak, the page argues with itself. The deck and body belong to Maroes. Kavorie gets the headline and nothing else.' },
+      { t: 'specimen', face: 'kavorie/regular', text: 'Hairlines against heavy verticals', size: 72 },
+      { t: 'specimen', face: 'maroes/regular', text: 'Moderate contrast, built for the sentence after the headline.', size: 28 },
+      { t: 'h', text: 'Where it fails' },
+      { t: 'p', text: 'It fails when the sizes creep together. A 36 pixel Kavorie subhead over 24 pixel Maroes body is two serifs of similar weight fighting for the same job. Either push the subhead up to headline size or set it in Maroes and let the size step carry the hierarchy.' },
+      { t: 'pull', text: 'One face speaks, one face explains.' },
+      { t: 'p', text: 'This demo cut of Kavorie has letters only, which is a useful constraint. Headlines with no digits and no punctuation are usually better headlines.' },
+    ],
+  },
+  {
+    slug: 'duos-and-trios',
+    title: 'When the pairing comes in the box',
+    deck: 'Royal Fortune, Royal Maison and Maison Galliard ship as families of companions. What a designed set gives you, and what it still leaves to you.',
+    date: '2026-09-09',
+    author: site.owner,
+    face: 'maison-galliard/serif',
+    faces: ['royal-fortune/serif', 'royal-fortune/script', 'royal-maison/serif', 'royal-maison/script', 'maison-galliard/serif', 'maison-galliard/sans', 'maison-galliard/script'],
+    blocks: [
+      { t: 'p', text: 'Three families in the library arrive as sets. Two are serif and script duos, one is a serif, sans and script trio. Their designers have already solved the hardest part of pairing: the companions share x-height, stroke rhythm and a point of view.' },
+      { t: 'look', id: 'galliard-house' },
+      { t: 'h', text: 'What the set solves' },
+      { t: 'p', text: 'Proportion. A script drawn to sit beside a specific serif will align at the baseline and match the serif in colour, meaning the overall darkness of a line. Pairing a script from one foundry with a serif from another, you spend an afternoon adjusting sizes to fake that. Here it is free.' },
+      { t: 'look', id: 'fortune-and-grace' },
+      { t: 'h', text: 'What it still leaves to you' },
+      { t: 'rule', n: '01', title: 'Ratio', text: 'The script is almost always set smaller than it looks like it should be. In the invitation above, the script is two thirds of the serif size. Any larger and it stops being a whisper.' },
+      { t: 'rule', n: '02', title: 'Quantity', text: 'One line of script per piece. The duo works because the script is rare. Two script lines and it becomes wallpaper.' },
+      { t: 'rule', n: '03', title: 'The third voice', text: 'Duos have no body face. Royal Maison serif can carry a short menu, but for a paragraph you still need a text face from elsewhere. The trio solves this with its sans.' },
+      { t: 'look', id: 'aperitivo' },
+      { t: 'p', text: 'Maison Galliard is the most complete system here. Its sans is quiet enough for captions, its serif has real alternates, and the script matches both. If the brief is hospitality, it is the first thing to try.' },
+    ],
+  },
+  {
+    slug: 'playful-without-childish',
+    title: 'Playful without childish',
+    deck: 'Bhelmora and Mochi Pop are fun faces. The pairing decides whether the result is charming or a birthday card.',
+    date: '2026-09-09',
+    author: site.owner,
+    face: 'bhelmora/regular',
+    faces: ['bhelmora/regular', 'mochi-pop/regular', 'helvetica/rounded-bold', 'paperline/regular'],
+    blocks: [
+      { t: 'p', text: 'A playful display face is a strong flavour. The mistake is adding a second strong flavour. Playful headline plus handwritten body plus three colours is how packaging ends up looking like a school fete.' },
+      { t: 'look', id: 'marmalade' },
+      { t: 'rule', n: '01', title: 'One character, one straight man', text: 'Bhelmora bounces. Helvetica Rounded Bold does not. It is soft enough to belong and plain enough to let the display face be the joke.' },
+      { t: 'rule', n: '02', title: 'Colour carries the mood', text: 'Mustard and brick red make the marmalade look edible before anyone reads a word. The type can afford to be simpler because the palette is doing the smiling.' },
+      { t: 'look', id: 'mochi' },
+      { t: 'rule', n: '03', title: 'Match the roundness', text: 'Mochi Pop is inflated. Pair it with a rounded sans, not a sharp one, or the body text looks like it wandered in from a different box.' },
+      { t: 'h', text: 'The handwritten exception' },
+      { t: 'p', text: 'Paperline is casual rather than playful. It works as a body voice for a card because it reads as a person, not a brand. But keep it away from Bhelmora and Mochi Pop. Two informal faces cancel each other out.' },
+      { t: 'look', id: 'paperline' },
+      { t: 'pull', text: 'Playful headline, plain body, one accent colour. That is the whole recipe.' },
+    ],
+  },
+];
+
+export const bySlug = Object.fromEntries(articles.map(a => [a.slug, a]));
+export const articlesUsingFamily = famId => articles.filter(a => a.faces.some(f => f.startsWith(famId + '/')));

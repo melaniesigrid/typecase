@@ -2,10 +2,13 @@ import { useEffect, useState } from 'react';
 import { useRoute, href, navigate } from './lib/router.js';
 import { usePrefs, useTheme } from './lib/prefs.js';
 import { families, primaryFace, ff, generatedAt } from './lib/fonts.js';
+import { site } from './site.js';
 import Index from './views/Index.jsx';
 import Specimen from './views/Specimen.jsx';
 import Compare from './views/Compare.jsx';
 import Play from './views/Play.jsx';
+import Lookbook from './views/Lookbook.jsx';
+import { JournalIndex, Article } from './views/Journal.jsx';
 
 // The wordmark is set in a different library face every few seconds.
 function Wordmark() {
@@ -17,12 +20,18 @@ function Wordmark() {
   const face = primaryFace(families[i]);
   return (
     <a href={href('/')} className="wordmark" title={`Set in ${families[i].name}`}>
-      <span key={face.id} className="wordmark-text" style={{ fontFamily: ff(face) }}>Typecase</span>
+      <span key={face.id} className="wordmark-text" style={{ fontFamily: ff(face) }}>{site.name}</span>
     </a>
   );
 }
 
-const NAV = [['index', '/', 'Index', '1'], ['compare', '/compare', 'Compare', '2'], ['play', '/play', 'Play', '3']];
+const NAV = [
+  ['index', '/', 'Library', '1'],
+  ['looks', '/looks', 'Lookbook', '2'],
+  ['journal', '/journal', 'Journal', '3'],
+  ['compare', '/compare', 'Compare', '4'],
+  ['play', '/play', 'Play', '5'],
+];
 
 export default function App() {
   const route = useRoute();
@@ -32,6 +41,7 @@ export default function App() {
 
   useEffect(() => {
     const on = e => {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
       if (e.target.closest('input, textarea, select, [contenteditable]')) return;
       const hit = NAV.find(n => n[3] === e.key);
       if (hit) navigate(hit[1]);
@@ -43,6 +53,9 @@ export default function App() {
 
   let view;
   if (route.view === 'f') view = <Specimen key={route.id} id={route.id} prefs={prefs} set={set} />;
+  else if (route.view === 'looks') view = <Lookbook prefs={prefs} set={set} />;
+  else if (route.view === 'journal' && route.id) view = <Article key={route.id} slug={route.id} />;
+  else if (route.view === 'journal') view = <JournalIndex />;
   else if (route.view === 'compare') view = <Compare prefs={prefs} set={set} />;
   else if (route.view === 'play') view = <Play prefs={prefs} set={set} />;
   else view = <Index prefs={prefs} set={set} />;
@@ -50,7 +63,10 @@ export default function App() {
   return (
     <div className="app">
       <header className="top">
-        <Wordmark />
+        <div className="top-left">
+          <Wordmark />
+          <a className="owner mono" href={site.ownerUrl}>← {site.ownerLabel}</a>
+        </div>
         <nav className="nav">
           {NAV.map(([k, to, label, key]) => (
             <a key={k} href={href(to)} className={active === k ? 'on' : ''}>
@@ -69,9 +85,9 @@ export default function App() {
       <main key={route.view + (route.id || '')} className="view">{view}</main>
 
       <footer className="foot mono">
-        <span>Typecase · a private type library</span>
-        <span>Manifest built {new Date(generatedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
-        <span>Melanie Arellano</span>
+        <span>{site.name} · {site.tagline}</span>
+        <span>Manifest built {new Date(generatedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })} · <a href={site.repo}>source</a></span>
+        <span><a href={site.ownerUrl}>{site.owner}</a></span>
       </footer>
     </div>
   );

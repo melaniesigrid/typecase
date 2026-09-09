@@ -109,8 +109,11 @@ for (const dir of fs.readdirSync(FONTS, { withFileTypes: true }).filter(d => d.i
     name: m.name || primary.postscriptName,
     cssFamily: primary.cssFamily,
     primary: primary.id,
-    category: m.category || 'display',
+    classification: m.classification || 'display', // sans | serif | script | display
+    kind: m.kind || (faces.filter(x => x.variant).length >= 3 ? 'trio' : faces.some(x => x.variant) ? 'duo' : 'single'),
+    moods: m.moods || [],
     tags: m.tags || [],
+    bestFor: m.bestFor || [],
     description: m.description || '',
     designer: m.designer || null,
     source: m.source || null,

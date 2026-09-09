@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { injectFontFaces } from './fontfaces.js';
 import App from './App.jsx';
 import './styles.css';
+import './styles-lookbook.css';
 
 injectFontFaces();
 createRoot(document.getElementById('root')).render(

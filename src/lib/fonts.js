@@ -9,7 +9,11 @@ export const byFace = Object.fromEntries(faces.map(x => [x.id, x]));
 export const primaryFace = fam => byFace[fam.primary];
 export const ff = face => `"${face.cssFamily}"`;
 
-export const categories = ['all', ...new Set(families.map(f => f.category))];
+export const classifications = ['all', 'sans', 'serif', 'script', 'display'].filter(c => c === 'all' || families.some(f => f.classification === c));
+// Moods ordered by how many families carry them, so the useful chips come first.
+export const moods = [...families.flatMap(f => f.moods).reduce((m, t) => m.set(t, (m.get(t) || 0) + 1), new Map())]
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+  .map(([t]) => t);
 
 // Split text into runs the face can and cannot render (Latin block only).
 export function segments(face, text) {

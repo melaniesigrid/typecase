@@ -5,7 +5,9 @@ const KEY = 'tc.prefs.v1';
 const DEFAULTS = {
   text: '',
   size: 84,
-  filter: 'all',
+  query: '',
+  cls: 'all',
+  mood: null,
   caps: 'mixed',
   compare: ['maroes/regular', 'kavorie/regular', 'annyra/regular'],
   cmpText: 'Rhythm & Contrast',

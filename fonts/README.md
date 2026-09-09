@@ -14,6 +14,12 @@ and must not be reused from this repository.
 | Annyra          | Flawless & Co      | Personal use. Check vendor before commercial use.        |
 | Bellique        | Shanaf Studio      | Personal use. Check vendor before commercial use.        |
 | Bhelmora        | Figuree Studio     | Personal use. Check vendor before commercial use.        |
+| Classical Material | 177Studio       | Demo. Personal use only.                                 |
+| Further         | Pian45 Studio      | Personal use. Check vendor before commercial use.        |
+| Gondhe          | Burntilldead       | Personal use. Check vendor before commercial use.        |
+| Kuigaf          | Yumnacreative      | Personal use. Check vendor before commercial use.        |
+| Mochi Pop       | Unknown            | Personal use. Check vendor before commercial use.        |
+| Paperline       | Unknown            | Personal use. Check vendor before commercial use.        |
 | Helvetica       | Linotype / Apple   | Proprietary. Not redistributable. Kept for reference.    |
 | Kavorie         | Ragamkata Studio   | Demo. Personal use only. Letters only.                   |
 | Maison Celeste  | Sixtype Foundry    | Demo. Personal use only.                                 |
