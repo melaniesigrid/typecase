@@ -18,7 +18,7 @@ the right section. Dates are absolute.
 
 - [x] 2026-09-10 Companion sets previewed together (Lookbook Sets, Specimen Together, Library rows).
 
-- [ ] Link the lookbook from melaniesigrid.com (decide: nav item, or a "Type" page that embeds a few looks).
+- [x] 2026-09-10 Typecase is Plate 10 in The Workshop on melaniesigrid.com (EditorialPortfolio PR #7).
 - [ ] Open Graph image per look so shared links preview the composition.
 - [ ] Export a look as PNG from the browser (canvas render of the composed piece).
 - [x] 2026-09-10 Shareable URLs for Compare and Play (Copy link buttons).
