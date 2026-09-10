@@ -7,6 +7,9 @@ import { Sample, Seg, Badge, Kv } from '../components/ui.jsx';
 import MetricGlyph from '../components/MetricGlyph.jsx';
 import Look from '../components/Look.jsx';
 import SetPreview from '../components/SetPreview.jsx';
+import { faces as bundled } from '../fontfaces.js';
+
+const urlOf = face => bundled.find(b => b.family === face.cssFamily)?.url;
 
 const WATERFALL = [120, 96, 72, 56, 44, 32, 24, 18, 14];
 
@@ -159,6 +162,9 @@ export default function Specimen({ id, prefs, set }) {
       <h2 className="sec-title"><span className="mono">{num()}</span> Details</h2>
       <dl className="kvs kvs-wide">
         <Kv k="file" v={face.file} />
+        <Kv k="download" mono={false} v={fam.licenseKind === 'proprietary'
+          ? <span className="muted">Not offered. Proprietary license.</span>
+          : <a href={urlOf(face)} download={face.file.split('/').pop()}>{face.file.split('/').pop()} · {fmtBytes(face.bytes)} · {LICENSE_LABEL[fam.licenseKind] || fam.licenseKind}</a>} />
         <Kv k="format" v={`${face.format} · ${fmtBytes(face.bytes)}`} />
         <Kv k="postscript" v={face.postscriptName} />
         <Kv k="version" v={face.version || '–'} />

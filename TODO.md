@@ -24,7 +24,7 @@ the right section. Dates are absolute.
 - [x] 2026-09-10 Shareable URLs for Compare and Play (Copy link buttons).
 - [ ] Article authoring in Markdown with front matter, compiled to the block format at build time.
 - [ ] Variable font support in the manifest (axes already read, no UI yet).
-- [ ] Per-face download buttons, gated by license kind.
+- [x] 2026-09-10 Per-face download link on the Specimen details, withheld for proprietary faces. Print stylesheet for specimens and articles.
 - [x] 2026-09-10 Copy CSS on looks and in Play: @font-face, fallback stacks, CSS variables for roles and palette.
 - [x] 2026-09-10 WCAG contrast badge and swatches on each open look.
 - [x] 2026-09-10 Keyboard navigation through library rows (j/k, enter, f). Mobile header fixed.

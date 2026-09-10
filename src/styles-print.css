@@ -1,0 +1,16 @@
+/* Print: a specimen page or an article becomes a clean sheet. Chrome, controls and
+   grain are dropped; type keeps its size. */
+@media print {
+  :root { --paper: #fff; --ink: #000; --rule: #ccc; --rule-2: #999; --accent: #000; }
+  body::before { display: none; }
+  .top, .foot, .toolbar, .rail, .spec-actions, .cuts, .btn, .seg, .range, .theme, .start, .lk-tag, .fav { display: none !important; }
+  .view { padding: 0; animation: none; }
+  .view, .article, .specimen { max-width: none; }
+  .row, .look-cell, .stack-row, .article-row { animation: none !important; break-inside: avoid; }
+  .look, .setp, .art-look, .art-spec, .spec-hero, .metric { break-inside: avoid; }
+  .look { box-shadow: none; border: 1px solid #ccc; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .charset { grid-template-columns: repeat(16, 1fr); }
+  .char { aspect-ratio: auto; padding: 6px 0; }
+  a { color: inherit; text-decoration: none; }
+  .crumbs::after { content: "  ·  melaniesigrid.github.io/typecase"; color: #999; }
+}

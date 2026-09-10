@@ -6,6 +6,7 @@ import './styles.css';
 import './styles-lookbook.css';
 import './styles-library.css';
 import './styles-sets.css';
+import './styles-print.css';
 
 injectFontFaces();
 createRoot(document.getElementById('root')).render(
