@@ -37,8 +37,7 @@ the right section. Dates are absolute.
 - [x] 2026-09-10 Article: signature scripts and what to put under them.
 - [x] 2026-09-10 Article: posters and the condensed face.
 - [x] 2026-09-10 Article: the neutral body face. Article: merch and the heavy faces.
-- [ ] Article: colour and type. How each look's palette was chosen.
-- [ ] Article: what a demo cut can and cannot do (coverage, watermarks, ligature traps).
+- [x] 2026-09-10 Articles: colour and type; what a demo cut can and cannot do.
 
 ## Housekeeping
 

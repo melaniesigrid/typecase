@@ -253,5 +253,63 @@ articles.push(
   },
 );
 
+articles.push(
+  {
+    slug: 'colour-and-type',
+    title: 'Colour and type',
+    deck: 'Every look in the lookbook has three colours: paper, ink and one accent. How each palette was chosen, and why three is the number.',
+    date: '2026-09-10',
+    author: site.owner,
+    face: 'bhelmora/regular',
+    faces: ['bhelmora/regular', 'further/regular', 'maison-celeste/regular', 'royal-maison/serif', 'mochi-pop/regular', 'raquens/regular'],
+    blocks: [
+      { t: 'p', text: 'A palette in this library is three values. Paper is the ground, ink is what the type is set in, and the accent is allowed on one line, one rule or one kicker. There is no fourth colour because a fourth colour is a second design.' },
+      { t: 'h', text: 'Paper first' },
+      { t: 'rule', n: '01', title: 'Warm paper for serifs, cool paper for hairlines', text: 'Maroes, Kavorie and the wedding suites sit on warm off-whites. Maison Celeste, whose hairlines vanish on cream, sits on a cool grey-blue and reads as engraved.' },
+      { t: 'look', id: 'celeste' },
+      { t: 'rule', n: '02', title: 'Black ground for condensed and spiky faces', text: 'Further, Haveron and Silver Shard are drawn to be seen at distance. On black they gain edge. On paper they look like they are waiting for something.' },
+      { t: 'look', id: 'further' },
+      { t: 'h', text: 'Ink is not always black' },
+      { t: 'rule', n: '03', title: 'Dark green with gold', text: 'Royal Maison on deep green with a gold accent is a hotel bar before a word is read. The ink is the paper colour, the paper is the ink colour, and the accent is metal.' },
+      { t: 'look', id: 'aperitivo' },
+      { t: 'h', text: 'The accent does the smiling' },
+      { t: 'rule', n: '04', title: 'Saturated accent for playful faces', text: 'Mustard and brick, pink on pink, green and mango. The display face is already loud, so the accent is the same family of colour turned up, not a new colour.' },
+      { t: 'look', id: 'marmalade' },
+      { t: 'look', id: 'mochi' },
+      { t: 'rule', n: '05', title: 'No accent at all', text: 'Raquens on off-white with black ink and black accent. The blackletter is the colour. Anything else on the shirt would be decoration.' },
+      { t: 'look', id: 'raquens-merch' },
+      { t: 'h', text: 'Contrast is checked' },
+      { t: 'p', text: 'Every open look in the lookbook shows the WCAG ratio between ink and paper. Most are above seven to one. The playful ones sit lower on purpose, since a bubble face at poster size does not need body-text contrast, but none of them fail.' },
+      { t: 'pull', text: 'Paper, ink, one accent. A fourth colour is a second design.' },
+    ],
+  },
+  {
+    slug: 'what-a-demo-cut-can-do',
+    title: 'What a demo cut can and cannot do',
+    deck: 'Half the library is demo cuts. Letters only, watermarked vowels, ligatures that hide a logo. How the library detects it, and how to design around it.',
+    date: '2026-09-10',
+    author: site.owner,
+    face: 'kavorie/regular',
+    faces: ['kavorie/regular', 'annyra/regular', 'mofela/regular', 'maroes/regular', 'raquens/regular', 'evo-rinnox/regular', 'degolan/regular', 'gondhe/regular'],
+    blocks: [
+      { t: 'p', text: 'A demo cut is a foundry saying try it, but not for real. The restriction is different every time, and the font file does not always tell the truth about it. The manifest builder in this library looks at every glyph before it believes the character map.' },
+      { t: 'h', text: 'Letters only' },
+      { t: 'specimen', face: 'kavorie/regular', text: 'Chic bold shape', size: 72 },
+      { t: 'rule', n: '01', title: 'The honest kind', text: 'Kavorie, Annyra and Mofela ship with the alphabet and nothing else. No digits, no punctuation. The Specimen page shows the coverage, and the Library marks any character a cut cannot draw instead of rendering a box.' },
+      { t: 'rule', n: '02', title: 'Design around it', text: 'Letters-only faces are headline faces. Give them one word, and give every number, comma and sentence to a partner with a full set. That is why Helvetica Light and Evo Rinnox appear under so many demo cuts.' },
+      { t: 'h', text: 'Placeholder glyphs' },
+      { t: 'specimen', face: 'maroes/regular', text: 'Modern serifs, quietly confident', size: 48 },
+      { t: 'rule', n: '03', title: 'The map says yes, the glyph says no', text: 'Maroes lists ten digits in its character map. Nine of them are rectangles. The builder compares each outline with the font\'s missing-glyph box and treats copies as absent, so the character grid shows one digit, which is the truth.' },
+      { t: 'h', text: 'Watermarks' },
+      { t: 'rule', n: '04', title: 'Vowels that carry a logo', text: 'Degolan\'s demo draws the foundry mark inside every vowel. The builder flags glyphs that are far wider or more complex than their neighbours, and the Library marks them as missing. Degolan has no look for that reason.' },
+      { t: 'rule', n: '05', title: 'Ligatures that carry a logo', text: 'Raquens and Evo Rinnox hide a watermark in a ligature, so a normal word suddenly shows a logo. Those families are flagged noLiga in the metadata and every sample turns ligatures off.' },
+      { t: 'specimen', face: 'evo-rinnox/regular', text: 'Soft, often, first, coffee', size: 48 },
+      { t: 'h', text: 'What to buy' },
+      { t: 'p', text: 'A demo cut is a good way to test a pairing and a bad way to ship one. The Specimen page links to the vendor where one is known. If a look in the lookbook goes into a real project, the licensed version replaces the demo in the fonts folder and the manifest picks it up on the next build.' },
+      { t: 'pull', text: 'Trust the outline, not the character map.' },
+    ],
+  },
+);
+
 export const bySlug = Object.fromEntries(articles.map(a => [a.slug, a]));
 export const articlesUsingFamily = famId => articles.filter(a => a.faces.some(f => f.startsWith(famId + '/')));
